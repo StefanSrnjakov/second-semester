@@ -1,0 +1,25 @@
+{
+  "name": "text-segmentation",
+  "version": "1.0.0",
+  "description": "A simple text segmentation console application",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npx ts-node src/index.ts"
+  },
+  "keywords": [
+    "text",
+    "segmentation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.17.23",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.3"
+  }
+}
