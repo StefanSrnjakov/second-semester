@@ -1,0 +1,220 @@
+{
+  "root": "node_0",
+  "nodes": {
+    "node_0": {
+      "start": 0,
+      "stop": 200,
+      "split": 100,
+      "delim": 2009.5797119141,
+      "dimension": "x",
+      "left": "node_1",
+      "right": "node_2"
+    },
+    "node_1": {
+      "start": 0,
+      "stop": 100,
+      "split": 50,
+      "delim": 1627.1354980469,
+      "dimension": "y",
+      "left": "node_3",
+      "right": "node_4"
+    },
+    "node_10": {
+      "start": 75,
+      "stop": 100,
+      "split": 87,
+      "delim": 1638.3155517578,
+      "dimension": "y",
+      "left": "node_21",
+      "right": "node_22"
+    },
+    "node_11": {
+      "start": 100,
+      "stop": 125,
+      "split": 112,
+      "delim": 1610.8554687500,
+      "dimension": "y",
+      "left": "node_23",
+      "right": "node_24"
+    },
+    "node_12": {
+      "start": 125,
+      "stop": 150,
+      "split": 137,
+      "delim": 1607.4913330078,
+      "dimension": "y",
+      "left": "node_25",
+      "right": "node_26"
+    },
+    "node_13": {
+      "start": 150,
+      "stop": 175,
+      "split": 162,
+      "delim": 1637.2215576172,
+      "dimension": "y",
+      "left": "node_27",
+      "right": "node_28"
+    },
+    "node_14": {
+      "start": 175,
+      "stop": 200,
+      "split": 187,
+      "delim": 1639.1585693359,
+      "dimension": "y",
+      "left": "node_29",
+      "right": "node_30"
+    },
+    "node_15": {
+      "start": 0,
+      "stop": 12,
+      "leaf": true
+    },
+    "node_16": {
+      "start": 12,
+      "stop": 25,
+      "leaf": true
+    },
+    "node_17": {
+      "start": 25,
+      "stop": 37,
+      "leaf": true
+    },
+    "node_18": {
+      "start": 37,
+      "stop": 50,
+      "leaf": true
+    },
+    "node_19": {
+      "start": 50,
+      "stop": 62,
+      "leaf": true
+    },
+    "node_2": {
+      "start": 100,
+      "stop": 200,
+      "split": 150,
+      "delim": 1622.3056640625,
+      "dimension": "y",
+      "left": "node_5",
+      "right": "node_6"
+    },
+    "node_20": {
+      "start": 62,
+      "stop": 75,
+      "leaf": true
+    },
+    "node_21": {
+      "start": 75,
+      "stop": 87,
+      "leaf": true
+    },
+    "node_22": {
+      "start": 87,
+      "stop": 100,
+      "leaf": true
+    },
+    "node_23": {
+      "start": 100,
+      "stop": 112,
+      "leaf": true
+    },
+    "node_24": {
+      "start": 112,
+      "stop": 125,
+      "leaf": true
+    },
+    "node_25": {
+      "start": 125,
+      "stop": 137,
+      "leaf": true
+    },
+    "node_26": {
+      "start": 137,
+      "stop": 150,
+      "leaf": true
+    },
+    "node_27": {
+      "start": 150,
+      "stop": 162,
+      "leaf": true
+    },
+    "node_28": {
+      "start": 162,
+      "stop": 175,
+      "leaf": true
+    },
+    "node_29": {
+      "start": 175,
+      "stop": 187,
+      "leaf": true
+    },
+    "node_3": {
+      "start": 0,
+      "stop": 50,
+      "split": 25,
+      "delim": 2005.6083984375,
+      "dimension": "x",
+      "left": "node_7",
+      "right": "node_8"
+    },
+    "node_30": {
+      "start": 187,
+      "stop": 200,
+      "leaf": true
+    },
+    "node_4": {
+      "start": 50,
+      "stop": 100,
+      "split": 75,
+      "delim": 2004.3171386719,
+      "dimension": "x",
+      "left": "node_9",
+      "right": "node_10"
+    },
+    "node_5": {
+      "start": 100,
+      "stop": 150,
+      "split": 125,
+      "delim": 2014.8995361328,
+      "dimension": "x",
+      "left": "node_11",
+      "right": "node_12"
+    },
+    "node_6": {
+      "start": 150,
+      "stop": 200,
+      "split": 175,
+      "delim": 2014.1767578125,
+      "dimension": "x",
+      "left": "node_13",
+      "right": "node_14"
+    },
+    "node_7": {
+      "start": 0,
+      "stop": 25,
+      "split": 12,
+      "delim": 1616.8056640625,
+      "dimension": "y",
+      "left": "node_15",
+      "right": "node_16"
+    },
+    "node_8": {
+      "start": 25,
+      "stop": 50,
+      "split": 37,
+      "delim": 1616.4309082031,
+      "dimension": "y",
+      "left": "node_17",
+      "right": "node_18"
+    },
+    "node_9": {
+      "start": 50,
+      "stop": 75,
+      "split": 62,
+      "delim": 1633.4508056641,
+      "dimension": "y",
+      "left": "node_19",
+      "right": "node_20"
+    }
+  }
+}

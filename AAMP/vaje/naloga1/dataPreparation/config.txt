@@ -1,5 +1,5 @@
-chunk_size_b = 50000000
+chunk_size_b = 20971520
 input_file_path = ../data/file.csv
 output_tree_path = ../data/tree.txt
 temp_directory = temp/
-buffer_size_b = 25000000
+buffer_size_b = 5242880

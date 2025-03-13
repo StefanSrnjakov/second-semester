@@ -64,6 +64,7 @@
         "stack": "cpp",
         "chrono": "cpp",
         "compare": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "filesystem": "cpp"
     }
 }

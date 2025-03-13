@@ -6,7 +6,7 @@ INCLUDES = -I./include
 TARGET = geo_point_sorter
 
 # Source files
-SRCS = main.cpp geo_point_sorter.cpp file_handler.cpp
+SRCS = main.cpp geo_point_sorter.cpp file_handler.cpp tree_node.cpp
 
 # Object files
 OBJS = $(SRCS:.cpp=.o)

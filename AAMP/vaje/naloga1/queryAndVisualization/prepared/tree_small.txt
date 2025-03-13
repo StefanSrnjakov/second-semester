@@ -1,0 +1,444 @@
+{
+  "root": "node_0",
+  "nodes": {
+    "node_0": {
+      "start": 0,
+      "stop": 846506,
+      "split": 423253,
+      "delim": 2185.9694824219,
+      "dimension": "x",
+      "left": "node_1",
+      "right": "node_2"
+    },
+    "node_1": {
+      "start": 0,
+      "stop": 423253,
+      "split": 211626,
+      "delim": 1839.5627441406,
+      "dimension": "y",
+      "left": "node_3",
+      "right": "node_4"
+    },
+    "node_10": {
+      "start": 317439,
+      "stop": 423253,
+      "split": 370346,
+      "delim": 1945.4688720703,
+      "dimension": "y",
+      "left": "node_21",
+      "right": "node_22"
+    },
+    "node_11": {
+      "start": 423253,
+      "stop": 529066,
+      "split": 476159,
+      "delim": 1765.8520507812,
+      "dimension": "y",
+      "left": "node_23",
+      "right": "node_24"
+    },
+    "node_12": {
+      "start": 529066,
+      "stop": 634879,
+      "split": 581972,
+      "delim": 1837.8682861328,
+      "dimension": "y",
+      "left": "node_25",
+      "right": "node_26"
+    },
+    "node_13": {
+      "start": 634879,
+      "stop": 740692,
+      "split": 687785,
+      "delim": 1973.8516845703,
+      "dimension": "y",
+      "left": "node_27",
+      "right": "node_28"
+    },
+    "node_14": {
+      "start": 740692,
+      "stop": 846506,
+      "split": 793599,
+      "delim": 1973.8516845703,
+      "dimension": "y",
+      "left": "node_29",
+      "right": "node_30"
+    },
+    "node_15": {
+      "start": 0,
+      "stop": 52906,
+      "split": 26453,
+      "delim": 2051.2568359375,
+      "dimension": "x",
+      "left": "node_31",
+      "right": "node_32"
+    },
+    "node_16": {
+      "start": 52906,
+      "stop": 105813,
+      "split": 79359,
+      "delim": 2051.2568359375,
+      "dimension": "x",
+      "left": "node_33",
+      "right": "node_34"
+    },
+    "node_17": {
+      "start": 105813,
+      "stop": 158719,
+      "split": 132266,
+      "delim": 2141.0654296875,
+      "dimension": "x",
+      "left": "node_35",
+      "right": "node_36"
+    },
+    "node_18": {
+      "start": 158719,
+      "stop": 211626,
+      "split": 185172,
+      "delim": 2141.0654296875,
+      "dimension": "x",
+      "left": "node_37",
+      "right": "node_38"
+    },
+    "node_19": {
+      "start": 211626,
+      "stop": 264532,
+      "split": 238079,
+      "delim": 2051.2568359375,
+      "dimension": "x",
+      "left": "node_39",
+      "right": "node_40"
+    },
+    "node_2": {
+      "start": 423253,
+      "stop": 846506,
+      "split": 634879,
+      "delim": 1896.3284912109,
+      "dimension": "y",
+      "left": "node_5",
+      "right": "node_6"
+    },
+    "node_20": {
+      "start": 264532,
+      "stop": 317439,
+      "split": 290985,
+      "delim": 2051.2568359375,
+      "dimension": "x",
+      "left": "node_41",
+      "right": "node_42"
+    },
+    "node_21": {
+      "start": 317439,
+      "stop": 370346,
+      "split": 343892,
+      "delim": 2141.0654296875,
+      "dimension": "x",
+      "left": "node_43",
+      "right": "node_44"
+    },
+    "node_22": {
+      "start": 370346,
+      "stop": 423253,
+      "split": 396799,
+      "delim": 2141.0654296875,
+      "dimension": "x",
+      "left": "node_45",
+      "right": "node_46"
+    },
+    "node_23": {
+      "start": 423253,
+      "stop": 476159,
+      "split": 449706,
+      "delim": 2220.7067871094,
+      "dimension": "x",
+      "left": "node_47",
+      "right": "node_48"
+    },
+    "node_24": {
+      "start": 476159,
+      "stop": 529066,
+      "split": 502612,
+      "delim": 2221.9775390625,
+      "dimension": "x",
+      "left": "node_49",
+      "right": "node_50"
+    },
+    "node_25": {
+      "start": 529066,
+      "stop": 581972,
+      "split": 555519,
+      "delim": 2389.3093261719,
+      "dimension": "x",
+      "left": "node_51",
+      "right": "node_52"
+    },
+    "node_26": {
+      "start": 581972,
+      "stop": 634879,
+      "split": 608425,
+      "delim": 2348.6413574219,
+      "dimension": "x",
+      "left": "node_53",
+      "right": "node_54"
+    },
+    "node_27": {
+      "start": 634879,
+      "stop": 687785,
+      "split": 661332,
+      "delim": 2246.9714355469,
+      "dimension": "x",
+      "left": "node_55",
+      "right": "node_56"
+    },
+    "node_28": {
+      "start": 687785,
+      "stop": 740692,
+      "split": 714238,
+      "delim": 2246.9714355469,
+      "dimension": "x",
+      "left": "node_57",
+      "right": "node_58"
+    },
+    "node_29": {
+      "start": 740692,
+      "stop": 793599,
+      "split": 767145,
+      "delim": 2368.9753417969,
+      "dimension": "x",
+      "left": "node_59",
+      "right": "node_60"
+    },
+    "node_3": {
+      "start": 0,
+      "stop": 211626,
+      "split": 105813,
+      "delim": 2096.1611328125,
+      "dimension": "x",
+      "left": "node_7",
+      "right": "node_8"
+    },
+    "node_30": {
+      "start": 793599,
+      "stop": 846506,
+      "split": 820052,
+      "delim": 2368.9753417969,
+      "dimension": "x",
+      "left": "node_61",
+      "right": "node_62"
+    },
+    "node_31": {
+      "start": 0,
+      "stop": 26453,
+      "leaf": true
+    },
+    "node_32": {
+      "start": 26453,
+      "stop": 52906,
+      "leaf": true
+    },
+    "node_33": {
+      "start": 52906,
+      "stop": 79359,
+      "leaf": true
+    },
+    "node_34": {
+      "start": 79359,
+      "stop": 105813,
+      "leaf": true
+    },
+    "node_35": {
+      "start": 105813,
+      "stop": 132266,
+      "leaf": true
+    },
+    "node_36": {
+      "start": 132266,
+      "stop": 158719,
+      "leaf": true
+    },
+    "node_37": {
+      "start": 158719,
+      "stop": 185172,
+      "leaf": true
+    },
+    "node_38": {
+      "start": 185172,
+      "stop": 211626,
+      "leaf": true
+    },
+    "node_39": {
+      "start": 211626,
+      "stop": 238079,
+      "leaf": true
+    },
+    "node_4": {
+      "start": 211626,
+      "stop": 423253,
+      "split": 317439,
+      "delim": 2096.1611328125,
+      "dimension": "x",
+      "left": "node_9",
+      "right": "node_10"
+    },
+    "node_40": {
+      "start": 238079,
+      "stop": 264532,
+      "leaf": true
+    },
+    "node_41": {
+      "start": 264532,
+      "stop": 290985,
+      "leaf": true
+    },
+    "node_42": {
+      "start": 290985,
+      "stop": 317439,
+      "leaf": true
+    },
+    "node_43": {
+      "start": 317439,
+      "stop": 343892,
+      "leaf": true
+    },
+    "node_44": {
+      "start": 343892,
+      "stop": 370346,
+      "leaf": true
+    },
+    "node_45": {
+      "start": 370346,
+      "stop": 396799,
+      "leaf": true
+    },
+    "node_46": {
+      "start": 396799,
+      "stop": 423253,
+      "leaf": true
+    },
+    "node_47": {
+      "start": 423253,
+      "stop": 449706,
+      "leaf": true
+    },
+    "node_48": {
+      "start": 449706,
+      "stop": 476159,
+      "leaf": true
+    },
+    "node_49": {
+      "start": 476159,
+      "stop": 502612,
+      "leaf": true
+    },
+    "node_5": {
+      "start": 423253,
+      "stop": 634879,
+      "split": 529066,
+      "delim": 2259.6801757812,
+      "dimension": "x",
+      "left": "node_11",
+      "right": "node_12"
+    },
+    "node_50": {
+      "start": 502612,
+      "stop": 529066,
+      "leaf": true
+    },
+    "node_51": {
+      "start": 529066,
+      "stop": 555519,
+      "leaf": true
+    },
+    "node_52": {
+      "start": 555519,
+      "stop": 581972,
+      "leaf": true
+    },
+    "node_53": {
+      "start": 581972,
+      "stop": 608425,
+      "leaf": true
+    },
+    "node_54": {
+      "start": 608425,
+      "stop": 634879,
+      "leaf": true
+    },
+    "node_55": {
+      "start": 634879,
+      "stop": 661332,
+      "leaf": true
+    },
+    "node_56": {
+      "start": 661332,
+      "stop": 687785,
+      "leaf": true
+    },
+    "node_57": {
+      "start": 687785,
+      "stop": 714238,
+      "leaf": true
+    },
+    "node_58": {
+      "start": 714238,
+      "stop": 740692,
+      "leaf": true
+    },
+    "node_59": {
+      "start": 740692,
+      "stop": 767145,
+      "leaf": true
+    },
+    "node_6": {
+      "start": 634879,
+      "stop": 846506,
+      "split": 740692,
+      "delim": 2307.9733886719,
+      "dimension": "x",
+      "left": "node_13",
+      "right": "node_14"
+    },
+    "node_60": {
+      "start": 767145,
+      "stop": 793599,
+      "leaf": true
+    },
+    "node_61": {
+      "start": 793599,
+      "stop": 820052,
+      "leaf": true
+    },
+    "node_62": {
+      "start": 820052,
+      "stop": 846506,
+      "leaf": true
+    },
+    "node_7": {
+      "start": 0,
+      "stop": 105813,
+      "split": 52906,
+      "delim": 1733.6566162109,
+      "dimension": "y",
+      "left": "node_15",
+      "right": "node_16"
+    },
+    "node_8": {
+      "start": 105813,
+      "stop": 211626,
+      "split": 158719,
+      "delim": 1733.6566162109,
+      "dimension": "y",
+      "left": "node_17",
+      "right": "node_18"
+    },
+    "node_9": {
+      "start": 211626,
+      "stop": 317439,
+      "split": 264532,
+      "delim": 1945.4688720703,
+      "dimension": "y",
+      "left": "node_19",
+      "right": "node_20"
+    }
+  }
+}

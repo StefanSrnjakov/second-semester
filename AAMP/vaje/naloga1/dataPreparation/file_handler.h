@@ -75,19 +75,8 @@ public:
                              ProgressCallback progress_callback = nullptr);
     
     // Binary file operations
-    std::vector<Point> readBinaryChunk(size_t start_point, size_t count);
-    void writeBinaryChunk(const std::vector<Point>& points, size_t offset);
     
-    // Temp file operations
-    void writeTempFile(const std::vector<Point>& points, const std::string& filename);
-    std::vector<Point> readTempFile(const std::string& filename, size_t buffer_size);
-    void mergeTempFiles(const std::string& file1, const std::string& file2, 
-                       const std::string& output, size_t buffer_size);
-    
-    // File management
-    void removeTempFile(const std::string& filename);
-    void renameTempFile(const std::string& old_name, const std::string& new_name);
-    
+
     // Add a method to get the total points in the binary file
     size_t getTotalPoints() const;
 
@@ -95,6 +84,9 @@ public:
     const std::string& getBinaryFilePath() const {
         return binary_file_path_;
     }
+
+    // Add this to the FileHandler class declaration
+    void convertBinaryToCSV(const std::string& output_csv_path, ProgressCallback progress_callback = nullptr);
 
 private:
     void initializeBuffers();

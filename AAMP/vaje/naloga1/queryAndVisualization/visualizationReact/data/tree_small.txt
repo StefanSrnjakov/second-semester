@@ -1,0 +1,108 @@
+{
+  "root": "node_0",
+  "nodes": {
+    "node_0": {
+      "start": 0,
+      "stop": 846506,
+      "split": 423253,
+      "delim": 2185.9694824219,
+      "dimension": "x",
+      "left": "node_1",
+      "right": "node_2"
+    },
+    "node_1": {
+      "start": 0,
+      "stop": 423253,
+      "split": 211626,
+      "delim": 1839.5627441406,
+      "dimension": "y",
+      "left": "node_3",
+      "right": "node_4"
+    },
+    "node_10": {
+      "start": 317439,
+      "stop": 423253,
+      "leaf": true
+    },
+    "node_11": {
+      "start": 423253,
+      "stop": 529066,
+      "leaf": true
+    },
+    "node_12": {
+      "start": 529066,
+      "stop": 634879,
+      "leaf": true
+    },
+    "node_13": {
+      "start": 634879,
+      "stop": 740692,
+      "leaf": true
+    },
+    "node_14": {
+      "start": 740692,
+      "stop": 846506,
+      "leaf": true
+    },
+    "node_2": {
+      "start": 423253,
+      "stop": 846506,
+      "split": 634879,
+      "delim": 1896.3284912109,
+      "dimension": "y",
+      "left": "node_5",
+      "right": "node_6"
+    },
+    "node_3": {
+      "start": 0,
+      "stop": 211626,
+      "split": 105813,
+      "delim": 2096.1611328125,
+      "dimension": "x",
+      "left": "node_7",
+      "right": "node_8"
+    },
+    "node_4": {
+      "start": 211626,
+      "stop": 423253,
+      "split": 317439,
+      "delim": 2096.1611328125,
+      "dimension": "x",
+      "left": "node_9",
+      "right": "node_10"
+    },
+    "node_5": {
+      "start": 423253,
+      "stop": 634879,
+      "split": 529066,
+      "delim": 2259.6801757812,
+      "dimension": "x",
+      "left": "node_11",
+      "right": "node_12"
+    },
+    "node_6": {
+      "start": 634879,
+      "stop": 846506,
+      "split": 740692,
+      "delim": 2307.9733886719,
+      "dimension": "x",
+      "left": "node_13",
+      "right": "node_14"
+    },
+    "node_7": {
+      "start": 0,
+      "stop": 105813,
+      "leaf": true
+    },
+    "node_8": {
+      "start": 105813,
+      "stop": 211626,
+      "leaf": true
+    },
+    "node_9": {
+      "start": 211626,
+      "stop": 317439,
+      "leaf": true
+    }
+  }
+}

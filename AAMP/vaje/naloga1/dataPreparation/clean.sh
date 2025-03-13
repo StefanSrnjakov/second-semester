@@ -6,7 +6,7 @@ rm -f geo_point_sorter
 
 # Clean temp directory
 rm -rf temp/*
-
+rm -rf tempCsv/*
 # Remove any backup files that editors might create
 rm -f *~
 rm -f *.bak

@@ -36,8 +36,8 @@ GeoPointSorter::GeoPointSorter(const std::string& config_path) {
         std::cout << "Using existing binary file with " << total_points_ << " points" << std::endl;
         
         // After initializing file_handler_ and getting total_points_
-        // Add this line to store the binary file path
         binary_file_path_ = file_handler_->getBinaryFilePath();
+        // file_handler_->convertBinaryToCSV("sorted/sorted_points.csv");
     } 
     else {
         std::cout << "Initializing file handler with binary file: " << binary_file_path << std::endl;
@@ -127,7 +127,7 @@ std::vector<Point> GeoPointSorter::loadChunkFromBinary(size_t start, size_t coun
     binary_file.seekg(start * POINT_SIZE);
     
     // Read points
-    Point p;
+        Point p;
     for (size_t i = 0; i < count && binary_file.read(reinterpret_cast<char*>(&p), POINT_SIZE); ++i) {
         points.push_back(p);
     }
@@ -143,8 +143,17 @@ std::vector<Point> GeoPointSorter::loadChunkFromBinary(size_t start, size_t coun
 }
 
 void GeoPointSorter::sortOnDisk(bool xy_flag, size_t startPoint, size_t endPoint) {
-    std::cout << "\nStarting disk-based sorting..." << std::endl;
+    std::cout << "\nStarting in-place disk sorting..." << std::endl;
     std::cout << "Sorting on " << (xy_flag ? "X" : "Y") << " coordinate" << std::endl;
+    
+    // Create tempCSV directory if it doesn't exist
+    std::filesystem::create_directories("tempCSV");
+    
+    // Add I/O counters
+    size_t read_ops = 0;
+    size_t write_ops = 0;
+    size_t bytes_read = 0;
+    size_t bytes_written = 0;
     
     // Calculate the range to sort
     size_t range_size = endPoint - startPoint;
@@ -154,106 +163,51 @@ void GeoPointSorter::sortOnDisk(bool xy_flag, size_t startPoint, size_t endPoint
                                 std::to_string(endPoint));
     }
     
-    std::cout << "Sorting points from " << startPoint << " to " << endPoint 
-              << " (" << range_size << " points, " 
-              << (range_size * sizeof(Point) / (1024.0 * 1024.0)) << " MB)" << std::endl;
-    
-    // Calculate chunks for this range
-    size_t range_chunks = (range_size * sizeof(Point) + chunk_size_ - 1) / chunk_size_;
-    size_t points_per_range_chunk = range_size / range_chunks;
-    
-    if (points_per_range_chunk == 0) {
-        points_per_range_chunk = 1;
-        range_chunks = range_size;
+    // Read the entire range into memory
+    std::vector<Point> points(range_size);
+    {
+        std::ifstream binary_file(binary_file_path_, std::ios::binary);
+        if (!binary_file) {
+            throw std::runtime_error("Could not open binary file for reading: " + binary_file_path_);
+        }
+        
+        binary_file.seekg(startPoint * sizeof(Point));
+        binary_file.read(reinterpret_cast<char*>(points.data()), range_size * sizeof(Point));
+        
+        // Update I/O stats
+        read_ops++;
+        bytes_read += range_size * sizeof(Point);
     }
     
-    std::cout << "Total chunks to process: " << range_chunks << std::endl;
+    // Sort the points
+    std::sort(points.begin(), points.end(),
+        [xy_flag](const Point& a, const Point& b) {
+            return xy_flag ? a.x < b.x : a.y < b.y;
+        });
     
-    // Add timing variables
-    auto start_time = std::chrono::high_resolution_clock::now();
-    auto last_chunk_start_time = start_time;
-    auto last_log_time = start_time;
-    
-    // Define logging intervals
-    const double percentage_interval = 5.0; // Log every 5% progress
-    const int time_interval_seconds = 10;   // Also log every 10 seconds
-    double last_logged_percentage = 0.0;
-    
-    // Process each chunk in the range
-    for (size_t i = 0; i < range_chunks; ++i) {
-        // Start timing this chunk
-        last_chunk_start_time = std::chrono::high_resolution_clock::now();
-        
-        // Calculate the actual points for this chunk
-        size_t chunk_start = startPoint + i * points_per_range_chunk;
-        size_t chunk_size = std::min(points_per_range_chunk, endPoint - chunk_start);
-        
-        // Load the chunk from binary file
-        auto points = loadChunkFromBinary(chunk_start, chunk_size);
-        
-        // Sort the chunk based on the specified dimension
-        std::sort(points.begin(), points.end(),
-            [xy_flag](const Point& a, const Point& b) {
-                return xy_flag ? a.x < b.x : a.y < b.y;
-            });
-            
-        // Save the sorted chunk to a temporary file
-        std::string chunk_file = temp_dir_ + "chunk_" + std::to_string(i);
-        saveChunk(points, chunk_file);
-        
-        // Calculate time taken for this chunk
-        auto current_time = std::chrono::high_resolution_clock::now();
-        auto chunk_duration = std::chrono::duration_cast<std::chrono::seconds>(
-            current_time - last_chunk_start_time).count();
-        
-        // Calculate progress percentage
-        double percentage = (i + 1) * 100.0 / range_chunks;
-        
-        // Determine if we should log progress
-        bool should_log = false;
-        
-        // Log based on percentage intervals
-        if (percentage >= last_logged_percentage + percentage_interval) {
-            should_log = true;
-            last_logged_percentage = floor(percentage / percentage_interval) * percentage_interval;
+    // Write back the sorted points
+    {
+        std::fstream binary_file(binary_file_path_, std::ios::binary | std::ios::in | std::ios::out);
+        if (!binary_file) {
+            throw std::runtime_error("Could not open binary file for writing: " + binary_file_path_);
         }
         
-        // Also log based on time intervals
-        auto time_since_last_log = std::chrono::duration_cast<std::chrono::seconds>(
-            current_time - last_log_time).count();
-        if (time_since_last_log >= time_interval_seconds) {
-            should_log = true;
-        }
+        binary_file.seekp(startPoint * sizeof(Point));
+        binary_file.write(reinterpret_cast<const char*>(points.data()), range_size * sizeof(Point));
+        binary_file.flush();
         
-        // Always log the first and last chunk
-        if (i == 0 || i == range_chunks - 1) {
-            should_log = true;
-        }
-        
-        if (should_log) {
-            // Log progress
-            std::cout << "Processed chunk " << (i + 1) << "/" << range_chunks 
-                      << " (" << percentage << "%). " << std::endl;
-            last_log_time = current_time;
-        }
+        // Update I/O stats
+        write_ops++;
+        bytes_written += range_size * sizeof(Point);
     }
     
-    // Merge the sorted chunks
-    mergeSortedChunks(range_chunks);
-    
-    // Calculate total time
-    auto end_time = std::chrono::high_resolution_clock::now();
-    auto total_seconds = std::chrono::duration_cast<std::chrono::seconds>(
-        end_time - start_time).count();
-    
-    int hours = total_seconds / 3600;
-    int minutes = (total_seconds % 3600) / 60;
-    int seconds = total_seconds % 60;
-    
-    std::cout << "Sorting completed in ";
-    if (hours > 0) std::cout << hours << "h ";
-    if (minutes > 0 || hours > 0) std::cout << minutes << "m ";
-    std::cout << seconds << "s" << std::endl;
+    // Log I/O statistics
+    std::cout << "\nI/O Statistics for sorting range [" << startPoint << ", " << endPoint << "]:" << std::endl;
+    std::cout << "  Read operations: " << read_ops << std::endl;
+    std::cout << "  Write operations: " << write_ops << std::endl;
+    std::cout << "  Total bytes read: " << bytes_read / (1024.0 * 1024.0) << " MB" << std::endl;
+    std::cout << "  Total bytes written: " << bytes_written / (1024.0 * 1024.0) << " MB" << std::endl;
+    std::cout << "  Total I/O: " << (bytes_read + bytes_written) / (1024.0 * 1024.0) << " MB" << std::endl;
 }
 
 void GeoPointSorter::mergeSortedChunks(size_t num_chunks) {
@@ -426,235 +380,123 @@ void GeoPointSorter::saveChunk(const std::vector<Point>& points, const std::stri
 void GeoPointSorter::buildTree() {
     std::cout << "Building KD-tree from binary data..." << std::endl;
     
-    // Initialize tree building parameters
-    initializeTreeBuilding();
-    
-    // Build the tree structure
-    std::map<std::string, TreeNode> tree_nodes = buildTreeStructure();
-    
-    // Write the tree to file
-    writeTreeToFile(tree_nodes);
-    
-    std::cout << "Tree building complete. Output saved to: " << config_.output_tree_path << std::endl;
-    std::cout << "Created " << tree_nodes.size() << " nodes" << std::endl;
-}
-
-// Initialize parameters for tree building
-void GeoPointSorter::initializeTreeBuilding() {
-    // Create the output file for the tree
-    std::ofstream tree_file(config_.output_tree_path);
-    if (!tree_file) {
-        throw std::runtime_error("Could not create tree output file: " + config_.output_tree_path);
-    }
-    
-    // Define the minimum partition size (5MB)
-    const size_t MIN_PARTITION_SIZE_BYTES = 5 * 1024 * 1024;
+    // Initialize parameters
+    const size_t MIN_PARTITION_SIZE_BYTES = config_.chunk_size_b;
     min_partition_points_ = MIN_PARTITION_SIZE_BYTES / sizeof(Point);
     
     std::cout << "Total points: " << total_points_ << std::endl;
     std::cout << "Minimum partition size: " << min_partition_points_ << " points ("
               << (MIN_PARTITION_SIZE_BYTES / (1024.0 * 1024.0)) << " MB)" << std::endl;
-}
-
-// Build the tree structure using breadth-first traversal
-std::map<std::string, TreeNode> GeoPointSorter::buildTreeStructure() {
-    // Create the root node
-    TreeNode root;
-    root.start = 0;
-    root.stop = total_points_;
-    root.xy_flag = true; // Start with X dimension
     
-    // Queue for breadth-first tree construction
-    std::queue<TreeNode> node_queue;
-    node_queue.push(root);
-    
-    // Map to store all nodes
+    // Create and process nodes using breadth-first traversal
+    std::queue<std::pair<TreeNode, std::string>> node_queue;
     std::map<std::string, TreeNode> tree_nodes;
-    size_t node_counter = 0;
+    size_t next_node_id = 0;
     
-    // Process nodes in breadth-first order
+    // Start with root node
+    TreeNode root(0, total_points_, true);
+    node_queue.push({root, "node_0"});
+    
+    // Process all nodes
     while (!node_queue.empty()) {
-        TreeNode current_node = node_queue.front();
+        auto [current_node, node_id] = node_queue.front();
         node_queue.pop();
         
-        std::string node_id = "node_" + std::to_string(node_counter++);
-        processTreeNode(current_node, node_id, node_counter, tree_nodes, node_queue);
-    }
-    
-    return tree_nodes;
-}
-
-// Process a single tree node
-void GeoPointSorter::processTreeNode(
-    TreeNode& current_node, 
-    const std::string& node_id, 
-    size_t& node_counter,
-    std::map<std::string, TreeNode>& tree_nodes, 
-    std::queue<TreeNode>& node_queue) {
-    
-    size_t node_points = current_node.stop - current_node.start;
-    
-    std::cout << "Processing " << node_id << ": points " 
-              << current_node.start << " to " << current_node.stop
-              << " (" << node_points << " points, "
-              << (node_points * sizeof(Point) / (1024.0 * 1024.0)) << " MB)" << std::endl;
-    
-    // If partition is small enough, make it a leaf node
-    if (node_points <= min_partition_points_) {
-        std::cout << "  Leaf node created (below minimum size)" << std::endl;
+        size_t node_points = current_node.getStop() - current_node.getStart();
+        std::cout << "Processing " << node_id << ": points " 
+                  << current_node.getStart() << " to " << current_node.getStop()
+                  << " (" << node_points << " points, "
+                  << (node_points * sizeof(Point) / (1024.0 * 1024.0)) << " MB)" << std::endl;
+        
+        // If partition is small enough, make it a leaf node
+        if (node_points <= min_partition_points_) {
+            std::cout << "  Leaf node created (below minimum size)" << std::endl;
+            tree_nodes[node_id] = current_node;
+            continue;
+        }
+        
+        // Sort partition by current dimension
+        std::cout << "  Sorting partition by " << (current_node.getXyFlag() ? "X" : "Y") << std::endl;
+        sortOnDisk(current_node.getXyFlag(), current_node.getStart(), current_node.getStop());
+        
+        // Find median point
+        Point median_point;
+        size_t median_idx = current_node.getStart() + (node_points / 2);
+        
+        // Read median point from file
+        std::ifstream binary_file(binary_file_path_, std::ios::binary);
+        if (!binary_file) {
+            throw std::runtime_error("Could not open binary file: " + binary_file_path_);
+        }
+        
+        binary_file.seekg(median_idx * sizeof(Point));
+        if (!binary_file.read(reinterpret_cast<char*>(&median_point), sizeof(Point))) {
+            throw std::runtime_error("Failed to read median point at index " + 
+                                   std::to_string(median_idx));
+        }
+        
+        // Set node properties
+        double delimiter = current_node.getXyFlag() ? median_point.x : median_point.y;
+        std::string left_id = "node_" + std::to_string(++next_node_id);
+        std::string right_id = "node_" + std::to_string(++next_node_id);
+        
+        current_node.setSplit(median_idx);
+        current_node.setDelim(delimiter);
+        current_node.setLeftChild(left_id);
+        current_node.setRightChild(right_id);
         tree_nodes[node_id] = current_node;
-        return;
+        
+        // Create and queue child nodes
+        TreeNode left_child(current_node.getStart(), median_idx, !current_node.getXyFlag());
+        TreeNode right_child(median_idx, current_node.getStop(), !current_node.getXyFlag());
+        
+        // Set parent for child nodes
+        left_child.setParent(node_id);
+        right_child.setParent(node_id);
+        
+        node_queue.push({left_child, left_id});
+        node_queue.push({right_child, right_id});
     }
     
-    // Sort and split the node
-    splitTreeNode(current_node, node_id, node_counter, tree_nodes, node_queue);
+    // Write tree to file
+    writeTreeToJSON(tree_nodes);
+    
+    std::cout << "Tree building complete. Output saved to: " << config_.output_tree_path << std::endl;
+    std::cout << "Created " << tree_nodes.size() << " nodes" << std::endl;
 }
 
-// Sort and split a tree node
-void GeoPointSorter::splitTreeNode(
-    TreeNode& current_node, 
-    const std::string& node_id, 
-    size_t& node_counter,
-    std::map<std::string, TreeNode>& tree_nodes, 
-    std::queue<TreeNode>& node_queue) {
-    
-    size_t node_points = current_node.stop - current_node.start;
-    
-    // Sort this partition by the current dimension
-    std::cout << "  Sorting partition by " << (current_node.xy_flag ? "X" : "Y") << std::endl;
-    sortOnDisk(current_node.xy_flag, current_node.start, current_node.stop);
-    
-    // Find the median point
-    Point median_point;
-    size_t median_idx = findMedianPoint(current_node, median_point);
-    
-    // Get the delimiter value based on the current dimension
-    double delimiter = current_node.xy_flag ? median_point.x : median_point.y;
-    std::cout << "  Median at index " << median_idx << ", value: " << delimiter << std::endl;
-    
-    // Create child nodes
-    createChildNodes(current_node, node_id, median_idx, delimiter, node_counter, tree_nodes, node_queue);
-}
-
-// Find the median point in a sorted partition
-size_t GeoPointSorter::findMedianPoint(const TreeNode& node, Point& median_point) {
-    size_t node_points = node.stop - node.start;
-    size_t median_idx = node.start + (node_points / 2);
-    
-    // Create a temporary buffer to read a small section around the median
-    const size_t BUFFER_SIZE = 3; // Read 3 points: median-1, median, median+1
-    size_t buffer_start = median_idx > 0 ? median_idx - 1 : median_idx;
-    size_t buffer_size = std::min(BUFFER_SIZE, node.stop - buffer_start);
-    
-    std::cout << "  Reading median area: points " << buffer_start << " to " 
-              << (buffer_start + buffer_size) << std::endl;
-    
-    // Open the sorted output file
-    std::ifstream sorted_file(sorted_output_path_, std::ios::binary);
-    if (!sorted_file) {
-        throw std::runtime_error("Could not open sorted file: " + sorted_output_path_);
-    }
-    
-    // Read a small buffer around the median
-    std::vector<Point> median_buffer(buffer_size);
-    sorted_file.seekg(0); // Start from the beginning of the file
-    
-    // Read the entire buffer
-    if (!sorted_file.read(reinterpret_cast<char*>(median_buffer.data()), 
-                         buffer_size * sizeof(Point))) {
-        throw std::runtime_error("Failed to read median area from sorted file");
-    }
-    
-    // Get the median point (middle of the buffer)
-    size_t median_buffer_idx = median_idx - buffer_start;
-    if (median_buffer_idx >= median_buffer.size()) {
-        throw std::runtime_error("Median index calculation error");
-    }
-    
-    median_point = median_buffer[median_buffer_idx];
-    return median_idx;
-}
-
-// Create child nodes for a split node
-void GeoPointSorter::createChildNodes(
-    TreeNode& current_node, 
-    const std::string& node_id, 
-    size_t median_idx, 
-    double delimiter,
-    size_t& node_counter,
-    std::map<std::string, TreeNode>& tree_nodes, 
-    std::queue<TreeNode>& node_queue) {
-    
-    // Create left child node
-    TreeNode left_child;
-    left_child.start = current_node.start;
-    left_child.stop = median_idx;
-    left_child.xy_flag = !current_node.xy_flag; // Alternate dimension
-    
-    // Create right child node
-    TreeNode right_child;
-    right_child.start = median_idx;
-    right_child.stop = current_node.stop;
-    right_child.xy_flag = !current_node.xy_flag; // Alternate dimension
-    
-    // Generate child node IDs
-    std::string left_id = "node_" + std::to_string(node_counter++);
-    std::string right_id = "node_" + std::to_string(node_counter++);
-    
-    // Update current node with split information
-    current_node.split = median_idx;
-    current_node.delim = delimiter;
-    current_node.left_child = left_id;
-    current_node.right_child = right_id;
-    
-    // Store the current node
-    tree_nodes[node_id] = current_node;
-    
-    // Add child nodes to the queue
-    node_queue.push(left_child);
-    node_queue.push(right_child);
-}
-
-// Write the tree structure to a file in JSON format
-void GeoPointSorter::writeTreeToFile(const std::map<std::string, TreeNode>& tree_nodes) {
+void GeoPointSorter::writeTreeToJSON(const std::map<std::string, TreeNode>& tree_nodes) {
     std::ofstream tree_file(config_.output_tree_path);
     if (!tree_file) {
         throw std::runtime_error("Could not open tree output file for writing: " + config_.output_tree_path);
     }
     
-    // Write the tree to the output file in JSON format
-    tree_file << "{\n";
-    tree_file << "  \"root\": \"node_0\",\n";
-    tree_file << "  \"nodes\": {\n";
+    // Set precision for floating-point numbers
+    tree_file.precision(10);  // Increase precision
+    tree_file << std::fixed;  // Use fixed notation
+    
+    tree_file << "{\n  \"root\": \"node_0\",\n  \"nodes\": {\n";
     
     size_t node_index = 0;
     for (const auto& [id, node] : tree_nodes) {
-        tree_file << "    \"" << id << "\": {\n";
-        tree_file << "      \"start\": " << node.start << ",\n";
-        tree_file << "      \"stop\": " << node.stop << ",\n";
+        tree_file << "    \"" << id << "\": {\n"
+                 << "      \"start\": " << node.getStart() << ",\n"
+                 << "      \"stop\": " << node.getStop() << ",\n";
         
-        // Only internal nodes have these properties
-        if (!node.left_child.empty()) {
-            tree_file << "      \"split\": " << node.split << ",\n";
-            tree_file << "      \"delim\": " << node.delim << ",\n";
-            tree_file << "      \"dimension\": \"" << (node.xy_flag ? "x" : "y") << "\",\n";
-            tree_file << "      \"left\": \"" << node.left_child << "\",\n";
-            tree_file << "      \"right\": \"" << node.right_child << "\"\n";
+        if (!node.getLeftChild().empty()) {
+            tree_file << "      \"split\": " << node.getSplit() << ",\n"
+                     << "      \"delim\": " << node.getDelim() << ",\n"
+                     << "      \"dimension\": \"" << (node.getXyFlag() ? "x" : "y") << "\",\n"
+                     << "      \"left\": \"" << node.getLeftChild() << "\",\n"
+                     << "      \"right\": \"" << node.getRightChild() << "\"\n";
         } else {
             tree_file << "      \"leaf\": true\n";
         }
         
-        // Add comma if not the last node
-        if (node_index < tree_nodes.size() - 1) {
-            tree_file << "    },\n";
-        } else {
-            tree_file << "    }\n";
-        }
-        node_index++;
+        tree_file << "    }" << (node_index++ < tree_nodes.size() - 1 ? "," : "") << "\n";
     }
     
-    tree_file << "  }\n";
-    tree_file << "}\n";
+    tree_file << "  }\n}\n";
 }
 
-GeoPointSorter::~GeoPointSorter() = default; 
+GeoPointSorter::~GeoPointSorter() = default;

@@ -240,3 +240,125 @@ size_t FileHandler::getTotalPoints() const {
     size_t file_size = file.tellg();
     return file_size / sizeof(Point);
 }
+
+void FileHandler::convertBinaryToCSV(const std::string& output_csv_path, 
+                                   ProgressCallback progress_callback) {
+    std::cout << "Opening binary file: " << binary_file_path_ << std::endl;
+    std::ifstream binary_file(binary_file_path_, std::ios::binary);
+    binary_file.rdbuf()->pubsetbuf(read_buffer_, buffer_size_);
+    
+    if (!binary_file) {
+        throw std::runtime_error("Could not open binary file: " + binary_file_path_);
+    }
+    
+    // Create the sorted directory if it doesn't exist
+    std::filesystem::create_directories("sorted");
+    
+    std::cout << "Creating CSV file: " << output_csv_path << std::endl;
+    std::ofstream csv_file(output_csv_path);
+    csv_file.rdbuf()->pubsetbuf(write_buffer_, FileConstants::WRITE_BUFFER_SIZE);
+    
+    if (!csv_file) {
+        throw std::runtime_error("Could not create CSV file: " + output_csv_path);
+    }
+    
+    // Get file size for progress tracking
+    binary_file.seekg(0, std::ios::end);
+    const size_t file_size = binary_file.tellg();
+    binary_file.seekg(0);
+    
+    std::cout << "Binary file size: " << (file_size / (1024.0 * 1024.0)) << " MB" << std::endl;
+    
+    size_t bytes_processed = 0;
+    size_t last_progress_mb = 0;
+    const size_t BUFFER_SIZE = chunk_size_ / sizeof(Point);
+    std::vector<Point> points_buffer(BUFFER_SIZE);
+    
+    auto start_time = std::chrono::high_resolution_clock::now();
+    auto last_progress_time = start_time;
+    
+    std::cout << "Starting conversion process..." << std::endl;
+    
+    // Use stringstream for efficient string operations
+    std::stringstream line_buffer;
+    line_buffer.precision(10);  // Increase precision
+    line_buffer << std::fixed;  // Use fixed notation
+    
+    while (binary_file) {
+        // Read chunk of points
+        binary_file.read(reinterpret_cast<char*>(points_buffer.data()), 
+                        BUFFER_SIZE * sizeof(Point));
+        size_t points_read = binary_file.gcount() / sizeof(Point);
+        if (points_read == 0) break;
+        
+        bytes_processed += points_read * sizeof(Point);
+        
+        // Convert points to CSV format
+        for (size_t i = 0; i < points_read; ++i) {
+            const Point& p = points_buffer[i];
+            line_buffer << p.x << "," << p.y << "," << p.z << "\n";
+            
+            // Flush the buffer periodically to avoid memory buildup
+            if (i % 10000 == 0) {
+                csv_file << line_buffer.str();
+                line_buffer.str("");
+                line_buffer.clear();
+            }
+        }
+        
+        // Write any remaining data
+        csv_file << line_buffer.str();
+        line_buffer.str("");
+        line_buffer.clear();
+        
+        // Progress reporting
+        size_t mb_processed = bytes_processed / (1024 * 1024);
+        double percentage = bytes_processed * 100.0 / file_size;
+        
+        bool should_log = false;
+        if (mb_processed % FileConstants::PROGRESS_INTERVAL_MB == 0 && 
+            mb_processed != last_progress_mb) {
+            should_log = true;
+            last_progress_mb = mb_processed;
+        }
+        
+        static double last_percentage = 0.0;
+        if (percentage >= last_percentage + FileConstants::PROGRESS_PERCENTAGE_INTERVAL) {
+            should_log = true;
+            last_percentage = floor(percentage / FileConstants::PROGRESS_PERCENTAGE_INTERVAL) * 
+                            FileConstants::PROGRESS_PERCENTAGE_INTERVAL;
+        }
+        
+        if (progress_callback && should_log) {
+            auto current_time = std::chrono::high_resolution_clock::now();
+            auto time_elapsed = std::chrono::duration_cast<std::chrono::seconds>(
+                current_time - last_progress_time).count();
+            
+            std::cout << "Processed " << mb_processed << " MB (" 
+                     << percentage << "%). "
+                     << "Time elapsed: " << time_elapsed << "s. " << std::endl;
+            
+            last_progress_time = current_time;
+            progress_callback(points_read, mb_processed);
+        }
+    }
+    
+    // Report final statistics
+    auto end_time = std::chrono::high_resolution_clock::now();
+    auto total_seconds = std::chrono::duration_cast<std::chrono::seconds>(
+        end_time - start_time).count();
+    
+    std::cout << "\nConversion completed:" << std::endl;
+    std::cout << "Total bytes processed: " << bytes_processed << std::endl;
+    std::cout << "CSV file size: " << (std::filesystem::file_size(output_csv_path) / 
+                                     (1024.0 * 1024.0)) << " MB" << std::endl;
+    
+    int hours = total_seconds / 3600;
+    int minutes = (total_seconds % 3600) / 60;
+    int seconds = total_seconds % 60;
+    
+    std::cout << "Total processing time: ";
+    if (hours > 0) std::cout << hours << "h ";
+    if (minutes > 0 || hours > 0) std::cout << minutes << "m ";
+    std::cout << seconds << "s" << std::endl;
+}
