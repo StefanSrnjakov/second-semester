@@ -2,16 +2,26 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { XMLParser } from 'fast-xml-parser';
 
+interface MarkerSet {
+  startMarkers: string[];
+  endMarkers?: string[];
+  contentMarkers?: string[];
+}
+
 interface Patterns {
-  front: { startMarkers: string[]; endMarkers: string[] };
-  body: { startMarkers: string[]; endMarkers: string[] };
-  back: { startMarkers: string[] };
-  toc: { markers: string[] };
-  toa: { markers: string[] };
-  abstractSlo: { markers: string[] };
-  abstractEn: { markers: string[] };
-  chapter: { pattern: string };
-  conclusion: { markers: string[] };
+  pageMarkers: {
+    front: MarkerSet;
+    body: MarkerSet;
+    back: MarkerSet;
+  };
+  lineMarkers: {
+    toc: MarkerSet;
+    toa: { startMarkers: string[] };
+    abstractSlo: { startMarkers: string[] };
+    abstractEn: { startMarkers: string[] };
+    chapter: { startMarkers: string[] };
+    conclusion: { startMarkers: string[] };
+  };
 }
 
 interface Page {
@@ -24,8 +34,14 @@ interface Page {
   }>;
 }
 
+interface ClassificationResult {
+  class: string;
+  title?: string;
+}
+
 class TextSegmenter {
   private patterns: Patterns;
+  private currentSection: string = 'unknown';
 
   constructor() {
     const patternsPath = path.join(__dirname, 'config', 'patterns.json');
@@ -36,59 +52,87 @@ class TextSegmenter {
     return patterns.some(pattern => new RegExp(pattern, 'i').test(text));
   }
 
-  private classifyPage(page: Page): string {
-    // Check if page contains any markers for different sections
-    const paragraphs = Array.isArray(page.p) ? page.p : [page.p];
-    const pageText = paragraphs.map(p => p['#text']).join(' ');
+  private classifyParagraph(text: string, lang: string): ClassificationResult {
+    const { lineMarkers } = this.patterns;
 
-    // Check for end markers first to avoid misclassification
-    if (this.matchesAnyPattern(pageText, this.patterns.front.endMarkers)) {
-      return 'body';
-    }
-    if (this.matchesAnyPattern(pageText, this.patterns.body.endMarkers)) {
-      return 'back';
+    // Check for TOC - special case with content markers
+    if (this.matchesAnyPattern(text, lineMarkers.toc.startMarkers) ||
+        (lineMarkers.toc.contentMarkers && this.matchesAnyPattern(text, lineMarkers.toc.contentMarkers))) {
+      return { class: 'toc' };
     }
 
-    // Then check for section start markers
-    if (this.matchesAnyPattern(pageText, this.patterns.front.startMarkers)) {
-      return 'front';
+    // Check other line markers
+    if (this.matchesAnyPattern(text, lineMarkers.toa.startMarkers)) {
+      return { class: 'toa' };
     }
-
-    // Check for back matter first (since it might contain some body markers)
-    if (this.matchesAnyPattern(pageText, this.patterns.back.startMarkers)) {
-      return 'back';
+    if (this.matchesAnyPattern(text, lineMarkers.abstractSlo.startMarkers)) {
+      return { class: 'abstractSlo' };
     }
-
-    // Check for body
-    if (this.matchesAnyPattern(pageText, this.patterns.body.startMarkers)) {
-      return 'body';
+    if (this.matchesAnyPattern(text, lineMarkers.abstractEn.startMarkers)) {
+      return { class: 'abstractEn' };
+    }
+    if (this.matchesAnyPattern(text, lineMarkers.conclusion.startMarkers)) {
+      return { class: 'conclusion' };
+    }
+    if (this.matchesAnyPattern(text, lineMarkers.chapter.startMarkers)) {
+      return { 
+        class: 'chapter',
+        title: text.trim()
+      };
     }
     
-    return 'unknown';
+    return { class: '' };
   }
 
-  private classifyParagraph(text: string, lang: string): string {
+  private findSectionBoundaries(pages: Page[]): { frontToBody: number; bodyToBack: number } {
+    let frontToBody = -1;
+    let bodyToBack = -1;
 
-    if (this.matchesAnyPattern(text, this.patterns.toc.markers)) {
-      return 'toc';
+    // First pass: find the start of body (UVOD/Introduction)
+    for (let i = 0; i < pages.length; i++) {
+      const page = pages[i];
+      const paragraphs = Array.isArray(page.p) ? page.p : [page.p];
+      
+      // Check each paragraph for body start markers
+      for (const para of paragraphs) {
+        // Skip if paragraph or text is undefined
+        if (!para || !para['#text']) continue;
+        
+        const text = para['#text'];
+        if (this.matchesAnyPattern(text, this.patterns.pageMarkers.body.startMarkers)) {
+          frontToBody = i;
+          break;
+        }
+      }
+      if (frontToBody !== -1) break;
     }
-    if (this.matchesAnyPattern(text, this.patterns.toa.markers)) {
-      return 'toa';
+
+    // Second pass: find the start of back matter
+    if (frontToBody !== -1) {
+      for (let i = frontToBody + 1; i < pages.length; i++) {
+        const page = pages[i];
+        const paragraphs = Array.isArray(page.p) ? page.p : [page.p];
+        
+        for (const para of paragraphs) {
+          // Skip if paragraph or text is undefined
+          if (!para || !para['#text']) continue;
+          
+          const text = para['#text'];
+          if (this.matchesAnyPattern(text, this.patterns.pageMarkers.back.startMarkers)) {
+            bodyToBack = i;
+            break;
+          }
+        }
+        if (bodyToBack !== -1) break;
+      }
     }
-    if (this.matchesAnyPattern(text, this.patterns.abstractSlo.markers)) {
-      return 'abstractSlo';
-    }
-    if (this.matchesAnyPattern(text, this.patterns.abstractEn.markers)) {
-      return 'abstractEn';
-    }
-    if (new RegExp(this.patterns.chapter.pattern).test(text)) {
-      return 'chapter';
-    }
-    if (this.matchesAnyPattern(text, this.patterns.conclusion.markers)) {
-      return 'conclusion';
-    }
-    
-    return '';
+
+    // If we didn't find the transitions, make some assumptions
+    if (frontToBody === -1) frontToBody = 4; // Assume first 4 pages are front matter
+    if (bodyToBack === -1) bodyToBack = pages.length - 2; // Assume last 2 pages are back matter
+
+    console.log(`Found boundaries: front->body at page ${frontToBody}, body->back at page ${bodyToBack}`);
+    return { frontToBody, bodyToBack };
   }
 
   public processXMLFile(xmlPath: string): void {
@@ -104,33 +148,45 @@ class TextSegmenter {
       result.document.page : 
       [result.document.page];
     
-    const output: string[] = [];
-    output.push('ID CLASS');
+    // Find section boundaries first
+    const { frontToBody, bodyToBack } = this.findSectionBoundaries(pages);
     
-    for (let i = 0; i < pages.length; i++) {
-      const page = pages[i];
-      const pageClass = this.classifyPage(page);
-      
+    const output: string[] = [];
+    output.push('ID,CLASS,TITLE');
+    
+    // Process all paragraphs for line markers
+    for (const page of pages) {
       const paragraphs = Array.isArray(page.p) ? page.p : [page.p];
-      for (let j = 0; j < paragraphs.length; j++) {
-        const paragraph = paragraphs[j];
-        const paraClass = this.classifyParagraph(paragraph['#text'], paragraph['@_xml:lang']);
-        if (paraClass) {
-          output.push(`${paragraph['@_xml:id']} ${paraClass}`);
+      for (const paragraph of paragraphs) {
+        // Skip if paragraph or text is undefined
+        if (!paragraph || !paragraph['#text']) continue;
+        
+        const classification = this.classifyParagraph(paragraph['#text'], paragraph['@_xml:lang']);
+        if (classification.class) {
+          const title = classification.class === 'chapter' ? `,"${classification.title}"` : ',';
+          output.push(`${paragraph['@_xml:id']},${classification.class}${title}`);
         }
       }
-      
-      // Add page classification at the end
-      output.push(`${page['@_xml:id']} ${pageClass}`);
     }
     
-    // Create output directory if it doesn't exist
+    // Classify pages based on their position relative to the boundaries
+    pages.forEach((page : Page, index : number) => {
+      let pageClass = 'unknown';
+      if (index < frontToBody) {
+        pageClass = 'front';
+      } else if (index >= frontToBody && index < bodyToBack) {
+        pageClass = 'body';
+      } else {
+        pageClass = 'back';
+      }
+      output.push(`${page['@_xml:id']},${pageClass},`);
+    });
+    
     const outputDir = path.join(__dirname, '..', 'output');
     if (!fs.existsSync(outputDir)) {
       fs.mkdirSync(outputDir);
     }
     
-    // Get just the filename without path and extension
     const baseName = path.basename(xmlPath).replace('.text.xml', '');
     const resPath = path.join(outputDir, `${baseName}.res`);
     
@@ -142,7 +198,12 @@ class TextSegmenter {
 // Usage
 const segmenter = new TextSegmenter();
 const files = [
-  'kas-4000.text.xml'
+  'kas-4000.text.xml',
+  'kas-5000.text.xml',
+  'kas-6000.text.xml',
+  'kas-7000.text.xml',
+  'kas-8000.text.xml',
+  'kas-9000.text.xml'
 ];
 
 files.forEach(file => {

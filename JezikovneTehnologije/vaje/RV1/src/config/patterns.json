@@ -1,77 +1,100 @@
 {
-  "front": {
-    "startMarkers": [
-      "UNIVERZA\\s+V\\s+(?:LJUBLJANI|MARIBORU|NOVI\\s+GORICI|KOPRU)",
-      "(?:FAKULTETA|VISOKA\\s+ŠOLA|AKADEMIJA)\\s+[A-ZČŠŽĐ]",
-      "DIPLOMSK(?:O|A)\\s+(?:DELO|NALOGA)",
-      "MAGISTRSK(?:O|A)\\s+(?:DELO|NALOGA)",
-      "DOKTORSKA\\s+DISERTACIJA",
-      "PREDGOVOR"
-    ],
-    "endMarkers": [
-      "^(?:UVOD|1\\s*UVOD|1\\.\\s*UVOD)$",
-      "^KAZALO$",
-      "^VSEBINA$"
-    ]
+  "pageMarkers": {
+    "front": {
+      "startMarkers": [
+        "UNIVERZA\\s+V\\s+(?:LJUBLJANI|MARIBORU|NOVI\\s+GORICI|KOPRU)",
+        "(?:FAKULTETA|VISOKA\\s+ŠOLA|AKADEMIJA)\\s+[A-ZČŠŽĐ]",
+        "DIPLOMSK(?:O|A)\\s+(?:DELO|NALOGA)",
+        "MAGISTRSK(?:O|A)\\s+(?:DELO|NALOGA)",
+        "DOKTORSKA\\s+DISERTACIJA",
+        "PREDGOVOR",
+        "ZAHVALA",
+        "KAZALO",
+        "VSEBINA",
+        "POVZETEK",
+        "ABSTRACT",
+        "KLJUČNE\\s+BESEDE",
+        "KEY\\s+WORDS"
+      ],
+      "endMarkers": [
+        "^1\\s*(?:\\.\\s*)?UVOD"
+      ]
+    },
+    "body": {
+      "startMarkers": [
+        "^1\\s*(?:\\.\\s*)?UVOD$",
+        "^1\\s*(?:\\.\\s*)?(?:[A-ZČŠŽĐ][A-ZČŠŽĐa-zčšžđ\\s]|[A-ZČŠŽĐ]+)$"
+      ],
+      "endMarkers": [
+        "^(?:\\d+\\s*(?:\\.\\s*)?)?(?:SKLEP|ZAKLJUČEK)$",
+        "^(?:LITERATURA|VIRI|BIBLIOGRAFIJA)$",
+        "^LITERATURA\\s+IN\\s+VIRI$"
+      ]
+    },
+    "back": {
+      "startMarkers": [
+        "^(?:\\d+\\s*(?:\\.\\s*)?)?(?:SKLEP|ZAKLJUČEK)$",
+        "^(?:\\d+\\s*(?:\\.\\s*)?)?POVZETEK$",
+        "^(?:LITERATURA|VIRI|BIBLIOGRAFIJA)$",
+        "^LITERATURA\\s+IN\\s+VIRI$",
+        "^SEZNAM\\s+(?:VIROV|LITERATURE|UPORABLJENE\\s+LITERATURE)$",
+        "^BIBLIOGRAFIJA$",
+        "^PRILOGE?$",
+        "^DODATKI?$",
+        "^SEZNAM\\s+(?:SLIK|TABEL|GRAFOV)$",
+        "^KAZALO\\s+(?:SLIK|TABEL|GRAFOV)$",
+        "^ABSTRACT$",
+        "^KLJUČNE\\s+BESEDE$",
+        "^KEY\\s+WORDS$",
+        "^KRATICE$"
+      ]
+    }
   },
-  "body": {
-    "startMarkers": [
-      "^(?:1\\s*(?:\\.\\s*)?UVOD|UVOD)$",
-      "^1\\s*(?:\\.\\s*)?(?:[A-ZČŠŽĐ][A-ZČŠŽĐa-zčšžđ\\s]|[A-ZČŠŽĐ]+)+"
-    ],
-    "endMarkers": [
-      "^(?:LITERATURA|VIRI|BIBLIOGRAFIJA|ZAKLJUČEK|SKLEP)$",
-      "^(?:\\d+\\s*(?:\\.\\s*)?)?(?:LITERATURA|VIRI|BIBLIOGRAFIJA)$"
-    ]
-  },
-  "back": {
-    "startMarkers": [
-      "^(?:\\d+\\s*(?:\\.\\s*)?)?(?:LITERATURA|VIRI|BIBLIOGRAFIJA)$",
-      "^SEZNAM\\s+(?:VIROV|LITERATURE|UPORABLJENE\\s+LITERATURE)$",
-      "^BIBLIOGRAFIJA$",
-      "^PRILOGE?$",
-      "^DODATKI?$",
-      "^SEZNAM\\s+(?:SLIK|TABEL|GRAFOV)$"
-    ]
-  },
-  "toc": {
-    "markers": [
-      "^(?:KAZALO|VSEBINA|KAZALO\\s+VSEBINE)$",
-      "^(?:\\d+(?:\\.\\d+)*\\s+)?[A-ZČŠŽĐ][A-ZČŠŽĐa-zčšžđ\\s]*\\s*\\.+\\s*\\d+$"
-    ]
-  },
-  "toa": {
-    "markers": [
-      "^(?:SEZNAM\\s+(?:UPORABLJENIH\\s+)?KRATIC)$",
-      "^KRATICE(?:\\s+IN\\s+OZNAKE)?$",
-      "^OKRAJŠAVE(?:\\s+IN\\s+SIMBOLI)?$",
-      "^SEZNAM\\s+(?:OKRAJŠAV|SIMBOLOV)$"
-    ]
-  },
-  "abstractSlo": {
-    "markers": [
-      "^POVZETEK$",
-      "^IZVLEČEK$",
-      "^(?:\\d+\\s*(?:\\.\\s*)?)?POVZETEK$"
-    ]
-  },
-  "abstractEn": {
-    "markers": [
-      "^ABSTRACT$",
-      "^SUMMARY$",
-      "^ZUSAMMENFASSUNG$",
-      "^(?:\\d+\\s*(?:\\.\\s*)?)?(?:ABSTRACT|SUMMARY|ZUSAMMENFASSUNG)$"
-    ]
-  },
-  "chapter": {
-    "pattern": "^\\d+(?:\\.\\d+)*\\s+[A-ZČŠŽĐ][A-ZČŠŽĐa-zčšžđ\\s,\\-()]*[A-ZČŠŽĐa-zčšžđ]$"
-  },
-  "conclusion": {
-    "markers": [
-      "^(?:\\d+\\s*(?:\\.\\s*)?)?ZAKLJUČEK$",
-      "^(?:\\d+\\s*(?:\\.\\s*)?)?SKLEP$",
-      "^(?:\\d+\\s*(?:\\.\\s*)?)?ZAKLJUČNE\\s+MISLI$",
-      "^(?:\\d+\\s*(?:\\.\\s*)?)?ZAKLJUČNE\\s+UGOTOVITVE$"
-    ]
+  "lineMarkers": {
+    "conclusion": {
+      "startMarkers": [
+        "^(?:\\d+\\s*(?:\\.\\s*)?)?ZAKLJUČEK$",
+        "^(?:\\d+\\s*(?:\\.\\s*)?)?SKLEP$",
+        "^(?:\\d+\\s*(?:\\.\\s*)?)?ZAKLJUČNE\\s+MISLI$",
+        "^(?:\\d+\\s*(?:\\.\\s*)?)?ZAKLJUČNE\\s+UGOTOVITVE$"
+      ]
+    },
+    "toc": {
+      "startMarkers": [
+        "^(?:KAZALO|VSEBINA|KAZALO\\s+VSEBINE)$"
+      ],
+      "contentMarkers": [
+        "(?:\\d+(?:\\.\\d+)*\\s+[A-ZČŠŽĐa-zčšžđ\\s]+?\\.+\\s*\\d+\\s*)+",
+        "^\\d+(?:\\.\\d+)*\\s+[A-ZČŠŽĐ][A-ZČŠŽĐa-zčšžđ\\s,\\-()]*\\.+\\s*\\d+$"
+      ]
+    },
+    "toa": {
+      "startMarkers": [
+        "^(?:SEZNAM\\s+(?:UPORABLJENIH\\s+)?KRATIC)$",
+        "^KRATICE(?:\\s+IN\\s+OZNAKE)?$",
+        "^OKRAJŠAVE(?:\\s+IN\\s+SIMBOLI)?$",
+        "^SEZNAM\\s+(?:OKRAJŠAV|SIMBOLOV)$"
+      ]
+    },
+    "abstractSlo": {
+      "startMarkers": [
+        "^POVZETEK$",
+        "^IZVLEČEK$",
+        "^(?:\\d+\\s*(?:\\.\\s*)?)?POVZETEK$"
+      ]
+    },
+    "abstractEn": {
+      "startMarkers": [
+        "^ABSTRACT$",
+        ".*SUMMARY$",
+        "^ZUSAMMENFASSUNG$",
+        "^(?:\\d+\\s*(?:\\.\\s*)?)?(?:ABSTRACT|SUMMARY|ZUSAMMENFASSUNG)$"
+      ]
+    },
+    "chapter": {
+      "startMarkers": [
+        "^\\d+(?:\\.\\d+)*\\.?\\s+[A-ZČŠŽĐ][A-ZČŠŽĐa-zčšžđ\\s,\\-()]*[A-ZČŠŽĐa-zčšžđ]$"
+      ]
+    }
   }
 } 
