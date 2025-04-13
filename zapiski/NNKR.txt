@@ -1,0 +1,52 @@
+NNKR - Priprava na kolokvij
+
+- 10 vprašanj, pišemo 45 minut
+
+SNOV
+- Kritika Turingovega stroja, v čem se arhitektura Turingovega stroja razlikuje od možganov
+- Pri možganih je osnovna enota nevron, ki skrbi za celotno delovanje
+- Pomembna je primerjava med Turingovim strojem in možgani
+- Na 1. kolokviju ne bo nič o kvantnem svetu
+
+- Možgani so taka fajn snov - Holobar 2024
+- Pomembne so različne informacije o možganih, anatomije pa ne bo
+- Funkcije sivine in beline možganov
+- Kaj so dendriti, kaj je akson, kaj so mielinske ovojnice -> snov Nevroni (Mozgani.pptx, str 15). Pomembno znat še dodatne informacije, ki niso zapisane v predstavitvi
+- Ni potrebno specifično znanje o plasteh
+- Nevrotransmiterji niso preveč pomembni, nismo podrobno obravnavali
+- Propagacija signala, akcijski potencial, črpanje signala. Ni potrebno poznat razlik med ioni, potreben pa opis delovanja
+- Večji kot je dražljaj, več senzorjev se aktivira. Dve modulacije informacije
+
+- Vmesniki človek/možgani stroja
+- Valovanje Alfa, Beta, Gamma (Delta, Theta) valovanje. Kdaj nastopi katero od valovanj? Kako so pomembna? Lestvica.
+- Potenciali
+- Osamelci
+- Prečna koleracija
+
+- Osnovni princip delovanja kodirnik in dekodirnik
+
+- Kolokvij 1. bo temeljil na PCA
+
+PRAŠANJA
+
+primerjava neuromorfnih s turingovo arhitekturo (bottleneck) 
+koliko nevronov v kortikolarnih stolpickih in koliko kortikolarnih v mozganih 
+asociativni spomin in kortikolarni - kako so kortikolarni povezani
+Katero valovanje možganov med pisanjem kolokvija
+Kdaj PCA ni primerna in podaj primer 
+Predpriprava podatkov za PCA
+
+
+slika! Kako predprocesirat ta primer 
+kako ohraniti dolocen odstotek energije pri PCA
+Najboljsi in najslabsi primer za PCA (z x1 in x2 osmi. Torej razpršene pike ali pike grejo v neko smer - not to be confused with graf s energijami)
+Kaj je pri gradientni optimizaciji problem lokalnih minimumov?
+kaj na pomaga da vemo ce so nadgaussove in podgaussove razporeditve?
+kaj je hebbova teorija in kaj to pomeni v smislu nevromorfnih arhitektur?
+(cells that fire together, wire togehter)
+zapisi stevila 1, 2, 4 in 8 v kvantni obliki. ali lahko to napisemo s tenzorskim produktom?
+haddamardova vrata. mores z njimi izracunat kvantni bit 1/sqrt(2)|0> in 1/2*(1 + i)|1>
+Ali sta ta dva kvantna bita prepeletena ali sta ločljiva? 1/sqrt(2)|10> in 1/sqrt(2)|11>
+Kaj naredimo če pri shorovem algoritmu celega števila ne moremo faktorizirati na posamezne faktorje?
+Na kaj moremo bit pozorni pri Grover-jevem algoritmu?
+napiši presdovkod algoritma BB84

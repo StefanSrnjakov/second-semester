@@ -1,0 +1,82 @@
+https://docs.google.com/document/u/0/d/1XEn7ky2sOriTszYmGsepTI6G6_R7VWnsRKqCFF1MjIQ/mobilebasic
+
+Predlansko B:
+1. zakaj moramo diskretno furierevo transformacijo izvajati s kompleksnimi sinusoidami oz. kompleksnimi eksponentnimi funkcijami?
+2. razložite razlike med barvo glasu in višino tona v frekvenčni domeni.
+3. Kdaj in zakaj nastopi frekvenčno prekrivanje
+4. Kdaj je signal stohastičen
+5. Ali sta sinusoidi s1=exp(i*pi*(2/N)*n) in s2=exp(i*pi*(7/N)*n) ortogonalni na intervali od 0... N-1? zakaj? pri tem je i enota imaginarne osi.
+6. Kolikšno frekvenčno ločljivost omogoča diskretna fourijeva trans. če je dolžina signala T = 2500ms in je frekvenca vzorčenja Fs = 40000 Hz?
+7. Napišite psevdokod programa za izračun skalarnega produkta med signaloma x in y s pomočjo zankje for
+8. zapoišite dif enačbo sistema, odmev pri 100ms in pri 300ms. Frekvenca vzorčlenja je 10000Hz. Prvi odmev ima polovixco, drugi odmev pa četrtino amplituda originalnega signala. Kateri zapis (MA,AR in ARMA) ste uporabili?
+9. Kaj so pri linearnih sistemih prednosti zapisa ARMA v primerjavi z MA?
+10. Kaj moramo paziti ko konvolucijo med 1Dsignalom v časovni domeni izvajamo preko preslikave v rekvenčno domeno?
+
+
+Se nekaj vprašanj:
+- kdaj in zakaj lahko fft namesto dft
+- slabost arma
+- podane številke, zapiši sistem v ma, ar, arma
+- napisi psevdokod za dft
+- podane številke, izracunaj freq locljivost
+- ali sta podani sinusoidi ortog
+- kdaj in zakaj freq prekrivanje
+- kaj je intenziteta, kaj je barva glasu
+- drugi Q na prvi strani se ne spomnim
+- analiticni vs neanaliticni
+- razlika arma in ma
+- razlika med tonom in jakostjo glasu
+- kdaj je signal determinističen
+- psedokoda za furierjevo transformacijo z uporabo zanke for
+- razlika med navadnim in hitrim furierjem in kdaj lahko uporabimo hitrega
+- razlika med analitični in neanaliticnim signalom
+
+
+
+```
+Predlansko B (odgovori):
+
+1. DFT moramo izvajati s kompleksnimi sinusoidami, ker za realne sinusoide lahko dobimo enake vrednosti za različne kombinacije faze in frekvence sinusoide. Z imaginarno komponento ustvarimo unikatne vrednosti za vsako sinusoido.
+2. Ugibam but here goes: Višina tona spremeni poglavitno frekvenco v domeni, medtem ko barva glasu spremeni višje harmonske frekvence v domeni.
+3. Frekvenčno prekrivanje nastopi kadar je vzorčna frekvenca manjša od dvakratnika najvišje frekvence v signalu. Nastopi pa zato ker se med vzorčenjem določene vrednosti zaradi prenizke frekvence vzorčenja ne zajamejo.
+4. Signal je stohastičen kadar so vrednosti v signalu naključne (niso deterministične).
+5. s1 = exp((iπ2/N)n) in s2 = exp((iπ7/N)n) --> formula za sinusoido je "exp(2π * 1/N * n)" torej sta frekvenci f(s1) = 1 Hz in f(s2) = 3,5 Hz --> ne, nista ortogonalni ker je razlika njunih frekvenc ni celo število
+6. Frekvenčna ločljivost je Δf = 1/T Hz, pri tem je T dolžina časovnega intervala, najprej pretvorimo 2500ms v 2,5s, torej je Δf = 1/2,5 = 0,4 Hz.
+7. 
+vsota = 0
+
+for each point in signals:
+  vsota = vsota + (signal1[point] * signal2[point])
+end for
+
+8. ???
+9. Prednosti ARMA zapisa so da deluje tudi z ničlami, ne samo poli kot pri MA modelu.
+10. No clue tbh, slidi so lackluster glede konvolucije, predavanja so pa blank in my head rn
+```
+my attempt at this, če ima kdo predlog za boljši/pravilen odgovor, welcome to add
+
+
+
+Vprašanja (tole je B test)
+1. Pretvorba iz analognega v digitalni signal, kaj naredi frekvenca vzorčenja (za obkrožit)
+2. Zakaj pri DFT potrebujemo imaginarne sinusoide in ne samo realne
+3. Biolog ki spremlja netopirja. Netopir oddaja frekvenco 107kHz. Biolog pa ne pozna Nyquistovega teorema in filtrov in spremlja na 25kHz. Katere frekvence zazna. Za en test je bilo potem vprašanje o bitni ločljivosti v praksi, za drugi test pa kakšno frekvenco zavzemanja bi potrebovali
+4. Frekvenčno prekrivanje (aliasing) pri DFT in zakaj se zgodi
+5. Kaj je po tvojem mnenju največja slabost/kritika DFT
+6. Imel si dve sinusoidni funkciji (s1 in s2) in si mogel povedat če sta ortogonalni in zakaj. Pa dal je še zraven i kot imaginarno komponentno, ampak ni pomembno za reševanje naloge. Pa še utemeljitev napisat.
+7. Izračunat si mogel frekvenčno ločljivost (delta f), podano si imel T = 12,5s in f vzorčenja ki je bil 40kHz.
+8.  Napiši časovno zahtevnost in pseudokodo za DFT (nad naborom frekvenc)
+9. ARMA v časovnem in frekvenčnem prostoru
+10. Izračunaj konvolucijo z x in h. `h = [-1, 1]; x = [1 0 2 0 1 0]` (I thinks). Zračunaj y, ki je `y = conv(h, x)`
+
+
+
+1. Imel si z transformaciji narisano, pa opisal kak bi naredo jo stabilno in ohrano lastnosti.
+2. Prevsni nalogo izbrisi tocke nestsbilnost, katere tovke najbolj ojacajo in katere najbolj zadušijo signal, nariši frekvencno amplitudno risbo.
+3. DFT vs Diskretni valcek.
+4. Detaili za 5. Nivo valjčka pri Fvz = 2^16 Hz
+5. Precetaj prečne clene
+6. S kakim orodhem/transformacijo bi analiziral frekvence. Zakaj?
+7. Orodje/transformacijo za analizo frekvenc petja pric in slonov. Zakaj?
+....
+10. Razmeje linerno med signalom in sumom za 0dB, 10dB 20dB 40dB 60dB

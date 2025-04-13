@@ -1,0 +1,79 @@
+1 Kolokvij par let star (še iz časov na daljavo)
+
+1)
+Podano imate učno množico, ki vsebuje 400 števk. Ta množica je sestavljena iz 200 ničel, 111 enic in 82 devetk ter 1 števko za vsako od preostalih števk 2-8.
+Za naslednjo sekvenco števk določite perpleksnost.
+1 2 0 9 0 1 0 9 0 2
+
+2)
+Z metodo Multinominal Naı̈ve Bayes in s pomočjo glajenja add-1 naučite model na podatkih prikazanih v tabeli.
+dok    “dobro”     “slabo”     “odlično”     (class)
+d1.      6             1             7           poz
+d2.     4             1             6           poz
+d3.     2             20             1           neg
+d4.     4             16             5           neg
+d5.     2             6             1           neg
+Dobljen model uporabite, da klasificirate naslednjo poved:
+Je dobra komedija s slabo zgodbo in odlično igralsko zasedbo.
+
+3)
+Podan imate naslednji učni korpus.
+<s> sreča je v glavi in ne v daljavi </s>
+<s> sreča ni pod palcem </s>
+<s> sreča je ko se delo opravi </s>
+<s> sreča je ko imaš nekoga rad </s>
+S pomočjo linearne interpolacijemed med bi-grami in uni-grami maksimalnega verjetja določite naslednjo verjetnost P(je|sreča). Pri tem upoštevajte naslednji konstanti λ1 = 1/3 in λ2 =2/3 za bi-grame in uni-grame.
+Pri izračunih obravnavajte <s> in </s> enako kot vse ostale leksikalne simbole.
+
+4)
+Ugotovite katera beseda steklo ali potek je bolj podobna besedi petek.
+Za izračun uporabite razdaljo urejanja Levenshtein.
+Pri oddani nalogi prikažite tabelo razdalj in operacije urejanja.
+Predlanski:
+Izračunaj razdaljo iz besede Beseda v besedo Beda. Napiši tudi korake in tabelo.
+
+za korpus izracunaj pojavitev P(hopsasa|bereji) lambda za bigram λ=1/2 za unigram λ=2/3
+korpus:
+<s> Čuk sedi na veji, tralala</s>
+<s> sova na vereji, hopsasa,</s>
+<s> sova na vereji, hopsasa.</s>
+
+kako izracunamo vejitveni faktor besednega modela?
+
+kdaj uporabimo makro in mikro za povprečnje klasifikacija?
+
+kako se generirajo kadidatke? kako obravnavamo besedne napake?
+ka slovenskih predavanj nima gor al sm samo js slep?
+
+
+
+
+Vprašanja (skupaj 100t, 20, 20, 30, 30)
+1. Razdalja urejanja med HRAST in MAST. Časovna zahtevnost, prostorska zahtevnost pa časovna za ureditev operacij. Pa še nekaj razložit uporabo teh operacij.
+2. Podana enačba za Naive Bayes. Potrebna razlaga.
+3. Napiši enačbo za šum za narobno besedo in enačbo za izračun verjetnosti napak. Spet je zahteval razlago.
+4. Napiši perpleksnost in verjetnost povedi za 2 primera.
+a) 3-gram + interpolacija
+b) 4-gram + simple backoff + add-1 
+
+
+Predlansko:
+1. PMI enačba za razložit pa za kaj se uporablja
+2. Enačba za značilke za razložit
+3. Kaj je statistično strojno prevajanje
+4. stavka en v angleščini, drug v slovenščini pa si mogu napisat obe poravnani
+5. Sekvenčno kodiranje satvka z uporabo IO in IOB.
+
+
+1. Razlaga PMI enačbe in kje se uporablja
+2. Napiši poravnavo za poved in njen prevod: I passed the coloquioum; Opravil sem kolokvij
+3. Razloži enačbo za računanje najverjetnejše poravnave in napiši kateri model ga uporablja (IBM 1)
+4. Razloži enačbo za verjetnost pojavitve besede v okolici trenutne besede bt. Formula za tisti J(theta) pri word vectorc je bila iirc
+
+
+bash skripta 20t
+sunday v saturda razdalja 25t
+bi-gram + Add-1 za verjetnost stavka "v gorovju bo snežilo/deželo" 25t
+poenostavitev za slovnične napake? 10t
+lematizacija in krmljenje (prunning) 10t
+mikro in makro povprečenje 10t
