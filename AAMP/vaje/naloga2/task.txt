@@ -1,0 +1,25 @@
+Pri nalogi morate implementirati linearno regresijo, kjer iz podatkov pridobite koeficiente funkcije.
+
+Vaša aplikacija mora biti sestavljena iz treh delov. Prvi del je predobdelava podatkov, drugi del je linearna regresija in tretji del je napovedovanje vrednosti ciljne spremenljivke na podlagi najdene funkcije.
+
+V podatkih imamo zapisane razlagalne spremenljivke (X) ter ciljno spremenljivko, ki jo napovedujemo (Y).
+
+Vhodni podatki so organizirani na sledeč način:
+
+X Y
+1 3.1
+4 4.7
+7 6
+2 3.4
+6 5.3
+Vhodni podatki nam lahko predstavljajo linearno, polinomsko ali pa funkcijo z več neodvisnimi spremenljivkami.
+
+Vhodni podatki funkcije z več neodvisnimi spremenljivkami:
+
+X1	X2	X3	X4	Y
+1	7	-2	1	311
+Ko se odločite za obiko funkcije (linearna, polinomska, multilinearna), morate vhodne podatke prilagoditi linearni regresiji, kar pomeni, da morate zgraditi pravilno matriko X.
+
+V naslednjem koraku pričnete z linearno regresijo nad matriko X in Y. Glej priložen dokument s postopkom.
+
+Pri implementaciji linearne regresije (metode najmanjših kvadratov) morate vse funkcije za delo z matrikami implementirati sami! Samo za računanje inverzne matrike lahko uporabite knjižnico.

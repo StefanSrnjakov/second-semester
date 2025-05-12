@@ -1,0 +1,36 @@
+Predobdelava podatkov
+Linearna funkcija
+Vhodni podatki so v obliki X (x1) in Y, napovedujemo pa funkcijo y = b0 + b1x1. Predobdelava podatkov X v
+tem primeru ni potrebna.
+Polinomska funkcija
+Vhodni podatki so v obliki X (x1) in Y, napovedujemo pa funkcijo y = b0 + b1x1 + b2x2 + … bnxn.
+Predobdelava podatkov X je potrebna. Sami matriki X moramo dodati stolpce za vsako stopnjo do
+stopnje n ter jim moramo izračunati vrednosti.
+Primer: predvidevamo, da imamo polinom 4 stopnje.
+Vhodni podatki:
+X1
+4
+X po obdelavi:
+X1
+1
+x1
+2
+x1
+3
+x1
+4
+4 16 64 256
+Funkcija z več neodvisnimi spremenljivkami
+Vhodni podatki so v obliki X (x1, x2, x3, …, xn ) in Y, napovedujemo pa funkcijo y = b0 + b1x1 + b2x2 + … + bnxn.
+Predobdelava podatkov X v tem primeru ni potrebna.
+Linearna regresija (Metoda najmanjših kvadratov)
+Najprej izvedete centriranje podatkov, kar pomeni, da za vsak stolpec X ter Y izračunate povprečje ter
+vsaki vrednosti v matrikah X in Y odštejete povprečje stolpca kateremu pripada.
+Pridobljene matrike uporabite v naslednjem izračunu:
+Matrika b nam predstavlja koeficiente, matrika X razlagalne spremenljivke in y ciljno.
+Izvedete matrično množenje transponirane X matrike z originalno ter zatem naredite inverz rezultata. Za
+računanje inverzne matrike lahko uporabite poljubno knjižnico! Zatem izvedete še preostala množenja
+matrik iz te enačbe.
+Kot rešitev pridobite koeficiente b1, b2, … ,bn, Izračunati pa morate še koeficient b0. Izračunate ga tako, v
+enačbo vstavite za vsak vzorec podatkov x1, x2, .., xn vrednosti ter Y in tako pridobite b0 za vsak vzorec. Le
+tem vrednostim potem samo poiščete povprečje in tako dobite b0 enačbe.

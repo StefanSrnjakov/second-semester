@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{siunitx}
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{table}[h]
+\centering
+\caption{Comparison of Classification Results}
+\begin{tabular}{l*{3}{S[table-format=1.4]}*{3}{S[table-format=1.4]}*{3}{S[table-format=1.4]}}
+\toprule
+\multirow{2}{*}{Category} & \multicolumn{3}{c}{LS-SVM} & \multicolumn{3}{c}{TWSVM} & \multicolumn{3}{c}{LS-TWSVM} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7} \cmidrule(lr){8-10}
+& {Precision} & {Recall} & {F1} & {Precision} & {Recall} & {F1} & {Precision} & {Recall} & {F1} \\
+\midrule
+ARTS & 0.3300 & 0.3700 & 0.3400 & 0.9356 & 0.7224 & 0.8153 & 0.9897 & 0.9614 & 0.9754 \\
+ARTS \& CULTURE & 0.3700 & 0.3200 & 0.3400 & 0.9667 & 0.9544 & 0.9605 & 0.9811 & 0.9909 & 0.9860 \\
+BLACK VOICES & 0.4300 & 0.4400 & 0.4300 & 0.6287 & 1.0000 & 0.7720 & 0.9707 & 1.0000 & 0.9851 \\
+BUSINESS & 0.4000 & 0.4800 & 0.4300 & 0.2979 & 1.0000 & 0.4590 & 0.9817 & 1.0000 & 0.9907 \\
+COLLEGE & 0.4600 & 0.3700 & 0.4100 & 0.9541 & 0.9455 & 0.9498 & 0.9808 & 0.9881 & 0.9843 \\
+\midrule
+Average & 0.3980 & 0.3960 & 0.3900 & 0.7566 & 0.9245 & 0.7913 & 0.9808 & 0.9881 & 0.9843 \\
+\bottomrule
+\end{tabular}
+\label{tab:comparison}
+\end{table}
+
+\end{document} 
