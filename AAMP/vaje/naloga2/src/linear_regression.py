@@ -2,8 +2,8 @@
 Main linear regression implementation.
 """
 import numpy as np
-from matrix_operations import matrix_multiply, matrix_transpose, solve_linear_system
-from data_preprocessing import sort_data, center_data, create_polynomial_features
+from .matrix_operations import matrix_multiply, matrix_transpose, solve_linear_system
+from .data_preprocessing import sort_data, center_data, create_polynomial_features
 
 class LinearRegression:
     """
