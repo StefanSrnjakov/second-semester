@@ -39,15 +39,6 @@ def matrix_transpose(A):
     return np.array(A).T
 
 def matrix_inverse(A):
-    """
-    Calculate the inverse of a matrix using regularization to handle singular matrices.
-    
-    Args:
-        A (numpy.ndarray): Input matrix
-        
-    Returns:
-        numpy.ndarray: Inverse matrix
-    """
     # Add small regularization term to diagonal
     n = A.shape[0]
     lambda_reg = 1e-10  # Small regularization parameter
@@ -60,16 +51,6 @@ def matrix_inverse(A):
         return np.linalg.pinv(A_reg)
 
 def solve_linear_system(A, b):
-    """
-    Solve the linear system Ax = b by finding A^(-1) and multiplying with b.
-    
-    Args:
-        A (numpy.ndarray): Coefficient matrix
-        b (numpy.ndarray): Right-hand side vector
-        
-    Returns:
-        numpy.ndarray: Solution vector
-    """
     # Step 1: Find the inverse of A
     A_inv = matrix_inverse(A)
     

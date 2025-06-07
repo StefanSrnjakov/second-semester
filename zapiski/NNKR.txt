@@ -42,11 +42,47 @@ kako ohraniti dolocen odstotek energije pri PCA
 Najboljsi in najslabsi primer za PCA (z x1 in x2 osmi. Torej razpršene pike ali pike grejo v neko smer - not to be confused with graf s energijami)
 Kaj je pri gradientni optimizaciji problem lokalnih minimumov?
 kaj na pomaga da vemo ce so nadgaussove in podgaussove razporeditve?
-kaj je hebbova teorija in kaj to pomeni v smislu nevromorfnih arhitektur?
-(cells that fire together, wire togehter)
-zapisi stevila 1, 2, 4 in 8 v kvantni obliki. ali lahko to napisemo s tenzorskim produktom?
-haddamardova vrata. mores z njimi izracunat kvantni bit 1/sqrt(2)|0> in 1/2*(1 + i)|1>
-Ali sta ta dva kvantna bita prepeletena ali sta ločljiva? 1/sqrt(2)|10> in 1/sqrt(2)|11>
-Kaj naredimo če pri shorovem algoritmu celega števila ne moremo faktorizirati na posamezne faktorje?
-Na kaj moremo bit pozorni pri Grover-jevem algoritmu?
-napiši presdovkod algoritma BB84
+
+--------- KOLOKVIJ 2. ---------
+
+
+1. kaj je hebbova teorija in kaj to pomeni v smislu nevromorfnih arhitektur?
+   - (cells that fire together, wire togehter)
+2. zapisi stevila 1, 2, 4 in 8 v kvantni obliki. ali lahko to napisemo s tenzorskim produktom? -> vecer
+3. haddamardova vrata. mores z njimi izracunat kvantni bit 1/sqrt(2)|0> in 1/2*(1 + i)|1>
+4. Ali sta ta dva kvantna bita prepeletena ali sta ločljiva? 1/sqrt(2)|10> in 1/sqrt(2)|11>
+5. Kaj naredimo če pri shorovem algoritmu celega števila ne moremo faktorizirati na posamezne faktorje?
+6. Na kaj moremo bit pozorni pri Grover-jevem algoritmu?
+7. napiši presdovkod algoritma BB84
+
+1. BB84 (z svojim besadami)
+   - ka je varno in kaj ni varno
+2. DiVincenzova merila
+3. Kaj je Dekonherenca
+4. Kaj je najveca bolecina prenosa programskih nevronskih mrez. (skalabilnost, multitasking)
+5. Enonamensko vezje mi zelimo splosnonamensko vezje. Kako to naredimo?
+6. Nadzorovano in ne nadzorovano ucenje 
+7. NM (learning rule) (kaj smo se ucili)
+8. Skupni vektorski prostor (perceptron)
+9. SOM (posodabljana utezi, kaj se spremeni)
+10. Hebbova teorija (kaj pravi kaj pomeni dejansko)
+11. Pravilo ucenja, delitev stroska (vzratno ucenje) - problem izginijajocih gradientov, strosek izginijajocih gradientov.
+12. Zakaj je treba nevronske mreze veckrat uciti, kako nastavimo utezi, random nastavimo utezi - zakaj kaj je treba pazit?
+13. Zakaj se uproablja aktivacijske funkcije? (za obvladanje osamelcev-outliers, sigmoidna aktivacijska func)
+14. Schrödingerjeva enacba, macka (lahko splosno)
+15. Kaj je nedeterministicnost, lokalnost... itd.
+16. Kaj omogoca superpozicija, prepletanje, matricni produkt...
+17. Kvantna mehanika - pretvorba, notacija, izracun, matricna prezentacija.
+18. Tenzorski produkt (razumljivost, primeri).
+19. Kvantna vrata (lahko).
+20. ( ---- ? -----) Blokova sfera (lahko, moras znati brat). ( ---- ? -----)
+21. Kontrolirana ne-vrata (c).
+22. Pripravi, razvij in izmeri (razumevanje, S svojimi besedami).
+23. ( ---- ? -----) Matrike razumevanje (Douchev algoritem), racunanje. ( ---- ? -----)
+24. Shorov algoritem (funkcijo razlozi).
+25. Zaporedje vrat (pravi vrstni red), posamezni koraki (zakaj rabim tega, zakaj tega... itd.). V kakem zaporedju kir korak in zakaj. Lahko slika in poves v katerem koraku smo.
+26. Primer superpozicije (konstruktivna ali destruktivna, prepoznaj iz slike).
+27. Kaj vpliva na amplitude verjetnosti.
+28. Katere lastnosti pripisemo Shorovem algoritmu katere ne, kaj je stohasticnost
+29. Casovne zahtevnosti.
+30. Kaj se zgodi ce kiksnemo st interacij pri Groverju (more biti tocno st. interacij), ne uci se korakov.

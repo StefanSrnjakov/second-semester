@@ -11,11 +11,7 @@
 
 primerjava med AR pa MA model
 Box-Jenkins neko vprašanje
-izračun funkcije preživetja in časovno porazdelitev dogodkov
-kaka je tradicionalna funkcija nevarnosti prejsnje naloge (al konstanta, staranje, utrjevanje, življenje)
-naive bayes razpredelnica (500 rib, 500 pesov, 500 pticov) in pol je razpredelnica bla kolko rib, pesov, pticov je letelo, plavalo, zelena barva, zobje
-Jaccardova in kotna podobnost priporočilni sistem
-metrike kompleksnih mrež mnda
+
 
 Izpitne naloge (1. Rok):
 1. Napiši pomen izrazov (6 izrazov iz uvodnih slidov)
@@ -38,6 +34,29 @@ Izpitne naloge (1. Rok):
 
 7. Kako dosežemo stacionarnost pri modelu MA in kako pri modelu ARIMA
 
+
+
+
+.... Im pretty sure da je bilo 10 nalog in da sem eno pozabil remembered... aja pa max št točk je bilo 50, naloge pa niso bile enakovredne
+DAM za izracunat
+apriori za zaračunati 
+funkcija preživetja za izračunati 
+razlika MA ARIMA
+kdaj je šibko stacionarna
+katere podatke potrebujemo za histogram
+keywordi z prvih slidov (ciljna spremenljivka, razlagalna, obogatitev podatkov ipd. )
+pomen b X y v enačbi
+cosinusna in Jaccardova podobnost za uporabnike
+
+
+
+
+
+
+// kolok 2
+
+
+
 8. Zračunaj preživetje in razporeditev dogodkov za podatke
     - t | osebe | cenzura | dogodki
       1 | 24    | 0       | 2
@@ -50,13 +69,8 @@ Izpitne naloge (1. Rok):
 
 10. Zračunaj Jaccardovo dolžino in oceni kosinusno dolžino med tremi uporabniki
 
-.... Im pretty sure da je bilo 10 nalog in da sem eno pozabil remembered... aja pa max št točk je bilo 50, naloge pa niso bile enakovredne
-DAM za izracunat
-apriori za zaračunati 
-funkcija preživetja za izračunati 
-razlika MA ARIMA
-kdaj je šibko stacionarna
-katere podatke potrebujemo za histogram
-keywordi z prvih slidov (ciljna spremenljivka, razlagalna, obogatitev podatkov ipd. )
-pomen b X y v enačbi
-cosinusna in Jaccardova podobnost za uporabnike
+izračun funkcije preživetja in časovno porazdelitev dogodkov
+kaka je tradicionalna funkcija nevarnosti prejsnje naloge (al konstanta, staranje, utrjevanje, življenje)
+naive bayes razpredelnica (500 rib, 500 pesov, 500 pticov) in pol je razpredelnica bla kolko rib, pesov, pticov je letelo, plavalo, zelena barva, zobje
+Jaccardova in kotna podobnost priporočilni sistem
+metrike kompleksnih mrež mnda

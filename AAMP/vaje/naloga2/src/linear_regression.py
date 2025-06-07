@@ -6,13 +6,6 @@ from .matrix_operations import matrix_multiply, matrix_transpose, solve_linear_s
 from .data_preprocessing import sort_data, center_data, create_polynomial_features
 
 class LinearRegression:
-    """
-    Linear Regression implementation with support for:
-    - Simple linear regression
-    - Polynomial regression
-    - Multilinear regression
-    """
-    
     def __init__(self):
         """Initialize the LinearRegression model."""
         self.coefficients = None
@@ -24,15 +17,6 @@ class LinearRegression:
         self.feature_names = None
     
     def fit(self, X, y, regression_type='linear', degree=1):
-        """
-        Fit the linear regression model.
-        
-        Args:
-            X (numpy.ndarray): Feature matrix
-            y (numpy.ndarray): Target vector
-            regression_type (str): Type of regression ('linear', 'polynomial', 'multilinear')
-            degree (int): Polynomial degree (for polynomial regression)
-        """
         self.regression_type = regression_type
         self.degree = degree
         
@@ -75,15 +59,6 @@ class LinearRegression:
         self.b0 = np.mean(b0_values)
     
     def predict(self, X):
-        """
-        Make predictions using the fitted model.
-        
-        Args:
-            X (numpy.ndarray): Feature matrix for prediction
-            
-        Returns:
-            numpy.ndarray: Predicted values
-        """
         if self.coefficients is None:
             raise ValueError("Model not fitted yet!")
         
@@ -102,12 +77,6 @@ class LinearRegression:
         return y_pred.flatten()
     
     def get_equation(self):
-        """
-        Get the regression equation as a string.
-        
-        Returns:
-            str: Regression equation
-        """
         if self.coefficients is None:
             return "Model not fitted yet!"
         
@@ -128,12 +97,6 @@ class LinearRegression:
         return equation
     
     def get_feature_importance(self):
-        """
-        Calculate feature importance for multilinear regression.
-        
-        Returns:
-            dict: Feature names and their importance scores
-        """
         if self.regression_type != 'multilinear' or self.coefficients is None:
             return None
         

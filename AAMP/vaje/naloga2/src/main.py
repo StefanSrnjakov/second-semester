@@ -10,10 +10,6 @@ from .gui import RegressionGUI
 from .data_loader import load_data
 
 def run_analysis():
-    """
-    Run the regression analysis and print results.
-    This function is used for command-line analysis.
-    """
     # Load data for each type of function
     linear_data = load_data('data/Linearna funkcija/Podatki.txt')
     polynomial_data = load_data('data/Polinomska funkcija/Podatki.txt')
@@ -49,11 +45,6 @@ def run_analysis():
                 print(f"{feature}: {imp*100:.1f}%")
 
 def main():
-    """
-    Main function to run the application.
-    If run directly, launches the GUI.
-    If imported, provides access to analysis functions.
-    """
     # Create QApplication instance
     app = QApplication(sys.argv)
     
