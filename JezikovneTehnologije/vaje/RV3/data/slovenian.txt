@@ -1,0 +1,1655 @@
+
+
+Wikipedijaprosta enciklopedija
+Iskanje v Wikipediji
+Išči
+Denarni prispevki
+Ustvari račun
+Prijava
+
+Vsebina skrij
+Uvod
+Zgodovina
+Elementi igre
+
+Zgodba
+Liki
+Izjeme
+Sklici
+Bibliografija
+Enoigralska videoigra
+
+Stran
+Pogovor
+Preberi
+Uredi stran
+Uredi kodo
+Zgodovina
+
+Orodja
+Videz skrij
+Besedilo
+
+Majhna
+
+Standard
+
+Velika
+Širina
+
+Standardno
+
+Široko
+Barva (beta)
+
+Samodejno
+
+Svetlo
+
+Temno
+Iz Wikipedije, proste enciklopedije
+Enoigralska videoigra je videoigra, pri kateri se med igranjem pričakuje vnos samo enega igralca. Enoigralska igra je običajno igra, ki jo lahko igra samo ena oseba, medtem ko je »način za enega igralca« običajno igralski način, namenjen igranju z enim igralcem, čeprav igra vsebuje tudi večigralske načine.[1]
+
+Večina sodobnih konzolnih in arkadnih iger je zasnovana tako, da jih lahko igra en sam igralec; čeprav imajo številne od teh iger načine, ki omogočajo igranje dveh ali več igralcev (ne nujno hkrati), le redke dejansko zahtevajo več kot enega igralca za igranje igre. Tak primer je serija Unreal Tournament.[2]
+
+Zgodovina
+Prve videoigre, kot so Tennis for Two (1958), Spacewar! (1962) in Pong (1972), so bile simetrične igre, namenjene dvema igralcema. Enoigralske igre so postale priljubljene šele pozneje, in sicer z igrami, kot sta Speed Race (1974)[3] in Space Invaders (1978).
+
+Raph Koster meni, da je razlog za to kombinacija več dejavnikov: vse bolj izpopolnjeni računalniki in vmesniki, ki omogočajo asimetrično igranje, sodelovalno igranje in podajanje zgodbe v okviru igre, ter dejstvo, da je bila večina igralcev zgodnjih iger introvertiranih osebnostnih tipov (po Myers-Briggsovem indikatorju osebnostnih tipov).[4]
+
+Čeprav večina sodobnih iger vključuje element za enega igralca, ki je bodisi osrednji element bodisi eden od več igralnih načinov, industrija videoiger trenutno meni, da je enoigralsko igranje postransko za prihodnost igranja, pri čemer je podpredsednik družbe Electronic Arts Frank Gibeau leta 2012 izjavil, da ni odobril nobene igre, ki bi bila razvita kot izkušnja za enega igralca.[5]
+
+Po zaprtju razvijalca videoiger Visceral Games s strani družbe Electronic Arts (EA) oktobra 2017 se je odprlo vprašanje finančne uspešnosti enoigralskih AAA iger. Studio Visceral se je uveljavil z močnim pripovednim enoigralskim poudarkom v igri Dead Space, v času zaprtja pa je delal na enoigralski, linearno pripovedni igri Star Wars; EA je po tem napovedala, da bo igro usmerila v drugo smer, zlasti v »širšo izkušnjo, ki omogoča večjo raznolikost in igralčevo delovanje«.[6] Številni komentatorji so menili, da je družba EA naredila spremembe, ker ni verjela, da bi lahko studio s proračunom v obsegu AAA ustvaril uspešno enoigralsko igro na podlagi priljubljene franšize Vojna zvezd. Poleg tega je bila razmeroma slaba prodaja iger v preteklem letu, ki so bile predvsem enoigralske AAA igre (Resident Evil 7, Prey, Dishonored 2 in Deus Ex: Mankind Divided), v primerjavi s finančno uspešnimi igrami za več igralcev in igrami, ki ponujajo model igre kot storitve (Overwatch, Destiny 2 in Star Wars Battlefront 2), za mnoge pokazatelj, da je model enoigralskih iger AAA oslabel.[7][8][9][10] Manveer Heir, ki je družbo EA zapustil po končanem oblikovanju igre Mass Effect Andromeda, je priznal, da je bila kultura v družbi EA proti razvoju enoigralskih iger in da je z zaprtjem razvijalca videoiger Visceral »linearna enoigralska AAA igra v družbi EA zaenkrat mrtva«.[11] Družba Bethesda se je 7. decembra 2017 odločila sodelovati z Lyndo Carter in objavila obvestilo o javni varnosti za rešitev enoigralskih videoiger.[12]
+
+Nekaj let pozneje, leta 2021, naj bi EA po uspešni izdaji igre Star Wars Jedi: Fallen Order leta 2020 ponovno obudila zanimanje za enoigralske igre. Podjetje je še vedno načrtovalo izdajanje iger s storitvami v živo z večigralskimi komponentami, vendar je začelo ocenjevati svoj katalog intelektualne lastnine, da bi oživilo več enoigralskih iger, na primer naredilo predelavo franšize Dead Space.[13] Vodja studia Xbox Game Studios Phil Spencer je približno v istem času dejal, da še vedno vidijo prostor za pripovedno naravnane enoigralske igre, čeprav so finančne gonilne sile trga običajno igre v živo. Spencer je dejal, da je razvoj takšnih iger s proračunom v velikosti AAA lahko tvegan, vendar lahko z razpoložljivostjo storitev, kot so igranje v oblaku in naročniške storitve, že na začetku ocenijo odziv občinstva na te igre in zmanjšajo tveganje pred izdajo.[14]
+
+Elementi igre
+Ker pripoved in konflikte v enoigralskih igrah ustvarja računalnik in ne človeški nasprotnik, lahko enoigralske igre zagotavljajo določene igralne izkušnje, ki jih v večigralskih igrah običajno ni – ali pa so manj poudarjene.[15]
+
+Zgodba
+Enoigralske igre se bolj zanašajo na prepričljive zgodbe, ki igralca pritegnejo v izkušnjo in v njem vzbudijo občutek vpliva na zgodbo. Ljudje so nepredvidljivi, zato se na igralce – zaveznike ali sovražnike – ni mogoče zanesti, da bodo pripoved vodili v določeno smer, zato se večigralske igre običajno ne osredotočajo na linearno pripoved. Nasprotno pa so številne enoigralske igre zgrajene na podlagi privlačne zgodbe.[16]
+
+Liki
+Medtem ko se večigralska igra zanaša na interakcijo med ljudmi za konflikte in pogosto za občutek tovarištva, mora enoigralska igra te stvari ustvariti umetno. Enoigralske igre zato zahtevajo poglobljeno karakterizacijo neigralskih likov (NPC), da bi ustvarili povezavo med igralcem in simpatičnimi liki ter razvili večjo antipatijo do antagonistov v igri. To običajno velja za igre vlog (RPG), kot sta Dragon Quest in Final Fantasy, ki temeljita predvsem na liku.
+
+Izjeme
+Ti elementi igre niso trdna, fiksna pravila; v enoigralskih ugankarskih igrah, kot je Tetris, ali dirkalnih igrah je v ospredju igranje.
+
+Sklici
+ Oosterhu; Feireiss, Lukas (Marec 2006). The Architecture Co-laboratory: Game Set and Match II : on Computer Games, Advanced Geometries, and Digital Technologies. Delft: Delft University of Technology. str. 180. ISBN 9789059730366.
+ "Unreal Tournament 3 Single-player Campaign Preview." Unreal Tournament 3 Single-player Campaign Pr. N.p., n.d. Web. 18. april 2013.
+ "Speed Race." (Game). N.p., n.d. Web. 18. april 2013.
+ Koster, Raph (10. februar 2006). »Are single-player games doomed?«. Arhivirano iz prvotnega spletišča dne 8. februarja 2013. Pridobljeno 25. februarja 2013.
+ »Is single-player gaming under-threat?«. Computer and Video Games. Future plc. 28. oktober 2012. Pridobljeno 25. februarja 2013.
+ Wales, Matt (17. oktober 2017). »EA has shut down Visceral Games«. Eurogamer. Pridobljeno 17. oktobra 2017.
+ Sarkar, Samit (18. oktober 2017). »EA's Star Wars 'pivot' is a vote of no confidence in single-player games«. Polygon. Pridobljeno 20. oktobra 2017.
+ Staff (19. oktober 2017). »Does Visceral's closure prove AAA single-player games are dying?«. Gamasutra. Pridobljeno 20. oktobra 2017.
+ Klepek, Patrick (17. oktober 2017). »Today's Star Wars News Makes the Future of Single-Player Look Very Messy«. Vice. Arhivirano iz prvotnega spletišča dne 19. oktobra 2017. Pridobljeno 20. oktobra 2017.
+ McCarthy, Caty (19. oktober 2017). »The Rise and Fall of Visceral Games«. US Gamer. Arhivirano iz prvotnega spletišča dne 21. oktobra 2017. Pridobljeno 20. oktobra 2017.
+ Purchase, Robert (23. oktober 2017). »I've seen people literally spend $15,000 on Mass Effect multiplayer cards«. Eurogamer. Pridobljeno 23. oktobra 2017.
+ Chalk, Andy (7. december 2017). »Bethesda kicks off a 'Save Player 1' sale for its single-player games«. PC Gamer. Pridobljeno 14. decembra 2017.
+ Grubb, Jeff (1. julij 2021). »Dead Space remake is in the works at Motive«. Venture Beat. Pridobljeno 1. julija 2021.
+ Stuart, Keith (13. julij 2021). »Phil Spencer on the future of Xbox: we still want to take risks with games«. The Guardian. Pridobljeno 13. julija 2021.
+ "ThomasDaPsycho." : Video Game Story Elements. N.p., n.d. Web. 18. april 2013.
+ "Tales of the Rampant Coyote: What Makes a Great RPG - Mechanics." Tales of the Rampant Coyote. N.p., n.d. Web. 18. april 2013.
+Bibliografija
+Fullerton, Tracy (2014). Game Design Workshop: A Playcentric Approach to Creating Innovative Games (3 izd.). CRC Press. ISBN 978-1498785877. Pridobljeno 30. januarja 2018.
+Mitra, Ananda (2010). Digital Games: Computers at Play. Infobase Publishing. str. 24–39. ISBN 978-0816067862. Pridobljeno 30. januarja 2018.
+Perron, Bernard; Wolf, Mark J.P. (2014). The Routledge Companion to Video Game Studies. Routledge. str. 253–256. ISBN 978-1136290503. Pridobljeno 30. januarja 2018.
+Kategorija: Terminologija videoiger
+Čas zadnje spremembe strani: 01:07, 2. april 2025.
+Besedilo se sme prosto uporabljati v skladu z dovoljenjem Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0; uveljavljajo se lahko dodatni pogoji. Za podrobnosti glej Pogoje uporabe.
+Wikipedia® je tržna znamka neprofitne organizacije Wikimedia Foundation Inc.
+Pravilnik o zasebnostiO WikipedijiZavrnitve odgovornostiKodeks ravnanjaRazvijalciStatistikaO piškotkihMobilni prikaz
+Wikimedia Foundation
+Powered by MediaWiki
+
+Enoigralska videoigra
+
+50 jezikov
+Dodaj temo
+
+
+Wikipedijaprosta enciklopedija
+Iskanje v Wikipediji
+Išči
+Denarni prispevki
+Ustvari račun
+Prijava
+
+Vsebina skrij
+Uvod
+Sklici
+Glej tudi
+Antagonist
+
+Stran
+Pogovor
+Preberi
+Uredi stran
+Uredi kodo
+Zgodovina
+
+Orodja
+Videz skrij
+Besedilo
+
+Majhna
+
+Standard
+
+Velika
+Širina
+
+Standardno
+
+Široko
+Barva (beta)
+
+Samodejno
+
+Svetlo
+
+Temno
+Iz Wikipedije, proste enciklopedije
+Za druge pomene glej Antagonist (razločitev).
+
+Pavle Kovič v vlogi Kantorja, antagonista Cankarjeve drame Kralj na Betajnovi
+Antagonist je literarni lik, ki je predstavljen kot glavni sovražnik protagonista.[1][2]
+
+Ni nujno, da ima vsaka zgodba antagonista, kot tudi ni nujno, da ima antagonist zlobno naravo. Antagonist se uporablja kot sredstvo za zapletanje, da se protagonistu postavljajo konflikti, ovire ali izzivi. Čeprav antagonist ni potreben v vsaki zgodbi, se v igrah pogosto uporablja za povečevanje dramatičnosti.[3][4] V tragedijah so antagonisti pogosto vzrok protagonistovega glavnega problema ali pa ti vodijo skupino likov proti protagonistu, v komedijah pa so običajno odgovorni za vključitev protagonista v komične situacije.[4]
+
+Sklici
+ »Glossary of Literary Terms«. Arhivirano iz prvotnega spletišča dne 26. marca 2015.
+ »Glossary of Drama Terms«. Online Learning Center.
+ Bulman, Colin (2007). Creative Writing: A Guide and/or Glossary to Fiction Writing. Polity Press. str. 17. ISBN 9780745636870 – prek Google Books.
+ Smiley, Sam (2005) [First published 1971 by Prentice-Hall]. Playwriting: The Structure of Action. Yale University Press. str. 133–134. ISBN 0300107242 – prek Google Books.
+Glej tudi
+Antijunak
+Kategorija: Književnost
+Čas zadnje spremembe strani: 01:28, 9. januar 2025.
+Besedilo se sme prosto uporabljati v skladu z dovoljenjem Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0; uveljavljajo se lahko dodatni pogoji. Za podrobnosti glej Pogoje uporabe.
+Wikipedia® je tržna znamka neprofitne organizacije Wikimedia Foundation Inc.
+Pravilnik o zasebnostiO WikipedijiZavrnitve odgovornostiKodeks ravnanjaRazvijalciStatistikaO piškotkihMobilni prikaz
+Wikimedia Foundation
+Powered by MediaWiki
+
+Antagonist
+
+47 jezikov
+Dodaj temo
+
+
+Wikipedijaprosta enciklopedija
+Iskanje v Wikipediji
+Išči
+Denarni prispevki
+Ustvari račun
+Prijava
+
+Vsebina skrij
+Uvod
+Literarna oseba v pripovednih delih
+
+Mimetične teorije
+Semantična teorija
+Kognitivna teorija
+Komunikacijska teorija
+Nemimetične teorije
+Združitev teorij
+Viri
+Literarna oseba
+
+Stran
+Pogovor
+Preberi
+Uredi stran
+Uredi kodo
+Zgodovina
+
+Orodja
+Videz skrij
+Besedilo
+
+Majhna
+
+Standard
+
+Velika
+Širina
+
+Standardno
+
+Široko
+Barva (beta)
+
+Samodejno
+
+Svetlo
+
+Temno
+Iz Wikipedije, proste enciklopedije
+(Preusmerjeno s strani Literarni lik)
+Literarna oseba (tudi literarni lik, literarna figura ali zastarelo junak) je književna in pripovedna oseba, ki je ena izmed temeljnih sestavin v literarnem delu upodobljenega sveta. Literarne osebe so pomembne zlasti v epiki in dramatiki, medtem ko v liriki navadno niso konstituirane. Glede na to, kako so prikazane in kakšno vlogo imajo v dogajanju, se delijo na glavne in stranske ali epizodne. Zaradi svojega osrednjega pomena v dogajanju postanejo nosilci določene snovi in z njo vred doživijo različne upodobitve.
+
+Literarna oseba v pripovednih delih
+V ožjem pomenu je omejena na udeleženca pripovedi, izključuje pa pripovedovalca (narrator) in narratee. Teoretični modeli literarne osebe se delijo na dve skupini:
+
+mimetične ali reprezentacijske teorije
+nemimetične teorije
+Mimetične teorije
+V mimetičnih teorijah literarna oseba predstavlja človeka ali človeku podobno bitje. Prvič je bil tak pogled izražen pri Aristotelu. Pomembnejše teoretične paradigme znotraj mimetičnih teorij so:
+
+semantična teorija (teorija možnih svetov)
+kognitivna teorija (mentalni modeli bralca)
+komunikacijska teorija (proces narativnega posredovanja)
+Te tri teorije imajo različna izhodišča, a se lahko pomembno dopolnjujejo in skupaj tvorijo celovitejšo teorijo literarne osebe.
+
+Semantična teorija
+Semantična teorija v ospredje postavlja razmerje med realnimi in možnimi svetovi. Literarne osebe nastopajo v možnih svetovih in so drugačne od oseb iz realnega življenja. So poustvarjene, saj jih ustvarjajo semiotični pomeni in reference. Znotraj možnega sveta je literarna oseba postavljena v prostor in čas ter ima človeške lastnosti, in sicer fizične ali zunanje, družbene in mentalne ali notranje. Pripisana so ji nagnjenja, vedenja, prepričanje, namere, želje, drža, hrepenenje in akcija. Literarna oseba mora biti aktivna oz. dejavna oseba (postmodernistične literarne osebe so v nasprotju s tem). V nasprotju z realnimi osebami so informacije o literarni osebi omejene na tekst, ki jih prikliče v obstoj. Informacije lahko podrobno opišejo lastnosti literarne osebe, tudi njen mentalni svet, lahko pa so nepopolne, protislovne in nezdružljive.
+
+Literarne osebe imajo lahko različne modalne vloge: lahko obstajajo v možnem svetu, lahko pa so le mentalni konstrukt. To pomeni, da obstajajo le v mišljenju, želji, nameri ali domišljiji druge literarne osebe. Včasih je to težko prepoznati. Karakterizacija (fizična, mentalna, vedenjska) literarnih oseb je univerzalna, vendar sta narava in število lastnosti literarne osebe raznolika. Odvisna sta od vloge literarne osebe v pripovedi, tipa možnega sveta, in sicer kaj je v njem nujno, možno ali verjetno, in od estetike avtorjeve literarne šole.
+
+Skozi zgodovino se pojavljajo literarne osebe, ki jih označuje lastno ime, in se pojavijo v možnih svetovih različnih avtorjev – tako se v več literarnih delih na primer pojavita Don Kihot in Don Juan, v slovenski literaturi pa Smoletova Antigona po vzoru Sofoklejeve. Mnenja o tem, ali gre za isto literarno osebo, različne verzije ali različne literarne osebe, so deljena. Prevladuje pa prepričanje, da gre za ločene literarne osebe. Podoben problem je pri literarnih osebah v možnih svetovih, ki nosijo imena zgodovinskih oseb, denimo Napoleon. Ali je nekdanji vladar, imenovan Napoleon, ki živi v izgnanstvu v New Orleansu, verzija orginalne osebe?
+
+Razmerja med literarno in resnično osebo so treh vrst:
+
+Fiktivni posameznik je lahko le semiotično motiviran glede na prej obstoječe literarne kode in stereotipe.
+Literarna oseba je lahko poleg tega razumljena kot verjetna, če so njene lastnosti takšne, kot bi jih lahko imela v realnem svetu.
+Literarna oseba je realistična, če je verjetna glede na prevladujoč svetovni model zahodne kulture 19. stoletja, tj. realizem.
+Kognitivna teorija
+Kognitivna teorija se osredotoča na mentalne modele. Literarna oseba ima lahko dve vrsti značaja, in sicer ploski ali zaokroženi značaj. Za ploske značaje velja, da ne morejo presenetiti, medtem ko zaokroženi lahko. Literarne osebe s ploskim značajem se ne spreminjajo in so zato statične. Na drugi stani so literarne osebe z zaokroženim značajem podvržene mentalnim spremembam, kot sta razvoj ali padec, in so zato dinamične.
+
+V kognitivni teoriji je literarna oseba dojeta kot mentalni model pripovednih svetov, ki ga konstruira bralec, medtem ko bere. Konstrukcija modela poteka na osnovi medsebojnega delovanja specifičnih tekstovnih podatkov in splošnega spoznavanja struktur, ki jih bralec prepoznava, ker so hranjene v njegovem dolgoročnem spominu. Razločujoče elemente, ki jih ne prepoznava, pa uvaja v svoj mentalni zemljevid. Ta tako vključuje značilnosti osnovnih tekstnih podatkov, okrog katerih je konstruiran minimalni situacijski okvir, sestavljen iz literarne osebe, časa, prostora, stanja in dogodka.
+
+Mentalni model se začne oblikovati kot reakcija na tekstovne ključe – mentalne in nementalne, denimo dejanja literarne osebe. Bralec te ključe nezavedno razpoznava in zbira, nato pa se aktivirajo njegove izkušnje in predstave, ki jih skladišči v dolgoročnem spominu. Te vključujejo scenarije, sheme in stereotipe, psihološke, družbene, komunikacijske in fizične dimenzije, znanje o literarnih žanrih in konvencijah. Tak postopek se imenuje personalizacija. Poleg tega bralec začne posploševati lastnosti literarne osebe v tekstu, ki ga bere. Pri prilagajanju izkušenj, predstav in posplošitev, bralec začne kategorizirati, in sicer tako, da strne vse dosegljive informacije, izpolni mentalni model literarne osebe, formulira pričakovanja o nadaljnjih tekstovnih informacijah o literarni osebi in pojasni prejšnje informacije.
+
+Avtor postavi le ogrodje, ki ga zapolni bralec s svojimi izkušnjami in predstavami. Hkrati potekata oba postopka, personalizacija in kategorizacija. Zaradi vedno novih podatkov lahko prihaja do modifikacije mentalne podobe literarne osebe; gre za osvežitev sheme. Če so spremembe pri neposrednem definiranju literarne osebe, se začne dekategorizacija literarne osebe, prejšnji sklepi se razveljavijo in shema se razkroji. Percepcija se deavtomatizira, na novo pa se začenja kategorizacija .
+
+Komunikacijska teorija
+Zanima jo komunikacija med avtorjem, pripovedovalcem in literarno osebo. Karakterizacijo lahko opazujemo iz različnih gledišč:
+
+avtorja
+persprektive
+pripovedovalca
+literarne osebe (narratee)
+Ključno vprašanje je, iz katerega od teh gledišč dobimo informacije o posamezniku in ali so te informacije resnične oz. zanesljive.
+
+Največ informacij o fizičnih, mentalnih in družbenih značilnostih literarne osebe dobimo iz navedb, ki neposredno pripisujejo lastnosti določeni osebi. Literarno osebo vedno karakterizira pripovedovalec ali pa jo je mogoče ugotoviti s pripovedovalčevo samokarakterizacijo. Poleg pripovedovalca je samokarakterizacije sposoben tudi avtor. Na drugi strani pa tega perspektiva ne omogoča. Pri njej je mentalno dimenzijo mogoče razbrati iz narave informacij in njihovega obdelovanja.
+
+Informacije vsevednega pripovedovalca so po pripovedovalski konvenciji resnične in na njihovi osnovi lahko določamo veljavnost informacij iz drugih virov. Le pripovedovalčeva ironija je stvar interpretacije. Nasprotno pa bralci sami odločijo, ali bodo informacije o lastnostih literarnih oseb, ki jih prinašajo avtor, literarne osebe same ali personalni pripovedovalec, sprejeli ali jih zavrnili. Pri tem je zanesljivost avtorja odvisna od njegovih splošnih lastnosti (inteligence, znanja, poštenosti) in specifičnih, vezanih na kontekst (kdo karakterizira koga, za koga, v kakšni situaciji, s kakšnim namenom).
+
+Viri informacij, predvsem za mentalni svet, so:
+
+dinamični elementi - (fizična) dejanja in govor lit. oseb, njihovo obnašanje, vsebina in kontekst
+statični elementi - zunanjost lit. oseb, naravno (in umetno) okolje
+formalni obrazci - kako lit. oseba funkcionira v nekem okolju
+Pripovedovalec lahko karakterne lastnosti literarne osebe poda naenkrat ali postopoma.
+
+Nemimetične teorije
+Literarno osebo reducirajo na tekstovno gramatično, leksikalno in tematsko enoto. Tekstualnih in semiotičnih vidikov pripovednega diskurza ne presežejo. Literarno osebo dojemajo kot predmet povezanega diskurza, kot tvarino, na katero so vezani:
+
+razločujoče leksikalne značilnosti glede na slovenične določilnice (vršilec, predmet)
+sredstva za doseganje estetskega učinka (smeh, groza)
+formalni elementi v zasnovi, razpletu, zapletu, zgodbi
+Na tematski ravni literarna oseba pomeni ideološko pozicijo prepletanja motivov ali tem ter ponazoritev problemov, vedenj, vrednosti in idej.
+
+K nemimetičnim teorijam sodi denimo model Rolanda Barthesa.
+
+Združitev teorij
+James Phelan je predlagal dopolnjevalni model literarne osebe, ki vključuje mimetične in nemimetične teorije. Loči tri osnovne komponente tega modela:
+
+mimetično (literarna oseba kot oseba)
+tematsko (literarna oseba kot ideja)
+sintetično (literarna oseba kot umetni konstrukt)
+Vse te komponente obstajajo ob vsakem nastopu literarne osebe, povezave med njimi (katera je v ospredju, katera ni poudarjena) pa se razlikuje od pripovedi do pripovedi
+
+Viri
+Encyclopedia of contemporary literary theory: approaches, scholars, terms. Ur. Irena Rima Makaryk. Toronto, Buffalo, London: University of Toronto Press, 1994. Str. 52–57. (COBISS)
+Janko Kos et al.: Literatura: leksikon. Ljubljana: Cankarjeva založba, 2009. Str. 208–209.(COBISS)
+Normativna kontrola: Narodne knjižnice Uredite to na Wikipodatkih	
+NemčijaLatvijaČeška republika
+Kategorija: Literarna teorija
+Čas zadnje spremembe strani: 09:43, 11. maj 2017.
+Besedilo se sme prosto uporabljati v skladu z dovoljenjem Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0; uveljavljajo se lahko dodatni pogoji. Za podrobnosti glej Pogoje uporabe.
+Wikipedia® je tržna znamka neprofitne organizacije Wikimedia Foundation Inc.
+Pravilnik o zasebnostiO WikipedijiZavrnitve odgovornostiKodeks ravnanjaRazvijalciStatistikaO piškotkihMobilni prikaz
+Wikimedia Foundation
+Powered by MediaWiki
+
+Literarna oseba
+
+10 jezikov
+Dodaj temo
+
+
+
+Wikipedijaprosta enciklopedija
+Iskanje v Wikipediji
+Išči
+Denarni prispevki
+Ustvari račun
+Prijava
+
+Vsebina skrij
+Uvod
+Nekatere teorije
+Teorija
+
+Stran
+Pogovor
+Preberi
+Uredi stran
+Uredi kodo
+Zgodovina
+
+Orodja
+Videz skrij
+Besedilo
+
+Majhna
+
+Standard
+
+Velika
+Širina
+
+Standardno
+
+Široko
+Barva (beta)
+
+Samodejno
+
+Svetlo
+
+Temno
+Iz Wikipedije, proste enciklopedije
+Teoríja (starogrško starogrško θεωρηιν: theorein - gledati, opazovati) je zamisel ali spoznanje o nekem pojavu, ki največkrat temelji na opazovanju. V nasprotju z odkritjem ali razodetjem je teorija spoznanje, kar ni dokončno ali je celo dvomljivo. V pogovornem jeziku bi sopomenke za teorijo lahko bile: ugibanje, nepraktično razmišljanje; nasprotje resničnosti ali prakse.
+
+V naravoslovnih, tehničnih in družboslovnih vedah je prizvok nedokončnosti dobrodošel. Prav možnost, da teorijo z novimi opazovanji ovržemo, je ključna značilnost znanosti; v nasprotju z verskim pojmovanjem, ki predpostavlja vero v razodetje in učenje, brez možnosti preverjanja.
+
+Teorijo lahko v znanosti tolmačimo tudi kot neki (miselni, računski, logični ...) model opazovanega pojava. V filozofiji znanosti gorvorimo tudi o ovrgljivosti teorije, kar pomeni, da teorijo ovržemo, ker smo opazovali dogodke, ki jih teorija ne dopušča. Zahtevo, da je »znanstveno le tisto, kar lahko ovržemo« je jasno postavil Karl Popper.
+
+Nižjo stopnjo zaupanja kot teorija ima v znanosti hipoteza. Hipoteza je lahko povsem nepreverjena in plod intuicije. Ko je postavljena hipoteza preverjena z mnogimi razpoložljivimi podatki, pridobi status teorije. Postavitev in ovrženje hipoteze je lahko metodološki postopek, s katerim postopoma izločimo različne konkurenčne hipoteze.
+
+Nekatere teorije
+Biologija: Evolucijska teorija
+Kemija: Teorija atoma — Kinetična teorija plinov
+Meteorologija: Teorija o klimatskih spremembah
+Geologija: Tektonika plošč
+Literatura: Literarna teorija
+Matematika: Teorija grafov — Teorija števil — Teorija verjetnosti
+Glasba: Teorija glasbe
+Filozofija:
+Fizika: Teorija relativnosti
+Astrofizika:
+Drugo: Ovržene znanstvene teorije: Teorija flogistona
+
+
+Stub icon	
+Ta članek o filozofiji je škrbina. Pomagajte Wikipediji in ga razširite.
+
+Normativna kontrola: Narodne knjižnice Uredite to na Wikipodatkih	
+NemčijaČeška republika
+Kategorije: TeorijeZnanstvena metodaFilozofijaTehnično izrazje
+Čas zadnje spremembe strani: 19:01, 3. september 2023.
+Besedilo se sme prosto uporabljati v skladu z dovoljenjem Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0; uveljavljajo se lahko dodatni pogoji. Za podrobnosti glej Pogoje uporabe.
+Wikipedia® je tržna znamka neprofitne organizacije Wikimedia Foundation Inc.
+Pravilnik o zasebnostiO WikipedijiZavrnitve odgovornostiKodeks ravnanjaRazvijalciStatistikaO piškotkihMobilni prikaz
+Wikimedia Foundation
+Powered by MediaWiki
+
+Teorija
+
+94 jezikov
+Dodaj temo
+
+
+
+Wikipedijaprosta enciklopedija
+Iskanje v Wikipediji
+Išči
+Denarni prispevki
+Ustvari račun
+Prijava
+
+Vsebina skrij
+Uvod
+Izvor grškega jezika in njegovega narečja
+Zgodovina
+
+Obdobja
+Diglosija
+Zgodovinska enotnost
+Slovenjenje grških imen
+Glej tudi
+Sklici
+Zunanje povezave
+
+Splošno ozadje
+Grščina
+
+Stran
+Pogovor
+Preberi
+Uredi stran
+Uredi kodo
+Zgodovina
+
+Orodja
+Videz skrij
+Besedilo
+
+Majhna
+
+Standard
+
+Velika
+Širina
+
+Standardno
+
+Široko
+Barva (beta)
+
+Samodejno
+
+Svetlo
+
+Temno
+Iz Wikipedije, proste enciklopedije
+(Preusmerjeno s strani Stara grščina)
+Grščina
+ελληνικά elliniká
+ἑλληνική hellēnikḕ
+Izgovarjava	eliniˈka
+Materni jezik	Grčija, Ciper, Albanija, Italija, Turčija, Egipt, Gruzija, Bolgarija, Romunija, Francija, Ukrajina, Rusija in grška diaspora
+Št. maternih
+govorcev
+12 milijonov[1][2]
+Jezikovna družina
+indoevropski
+helenski
+grščina
+Standardne oblike
+standardna moderna grščina
+Narečja	
+starogrški dialekti (izumrli)
+moderni dialekti
+Pisava	grška pisava
+grška Braillova pisava
+Uradni status
+Uradni jezik
+Zastava Grčije Grčija
+Zastava Cipra Ciper
+Zastava Evrope Evropska unija
+Priznani manjšinski
+jezik
+ Albanija[3][4]
+Zastava Armenije Armenija[5]
+Zastava Madžarske Madžarska[6]
+Zastava Italije Italija[7]
+Zastava Romunije Romunija[5]
+Zastava Turčije Turčija[8]
+Zastava Ukrajine Ukrajina[5]
+Jezikovne oznake
+ISO 639-1	el
+ISO 639-2	gre (B)
+ell (T)
+ISO 639-3	Različno:
+grc – stara grščina
+ell – moderna grščina
+pnt – pontska grščina
+gmy – mikenska grščina
+cpg – kapadokijska grščina
+yej – judovsko-grški jezik
+tsd – cakonski jezik
+Glottolog	gree1276
+Linguasphere	56-AAA-a (variacije: 56-AAA-aa to -am)
+Ta članek vsebuje zapis glasov v črkovni obliki po IPA. Brez ustrezne podpore za interpretacijo, lahko vidite vprašaje, okvirje ali druge simbole namesto Unicode znakov.
+Gŕščina (grško Ελληνικά, latinizirano: Elliniká, starogrško Ἑλληνική, latinizirano: Hellēnikḕ) je indoevropski jezik, ki ga govorijo predvsem v Grčiji. V Grčijo so ga prinesli indoevropski naseljenci (pozneje imenovani Ahajci) okoli leta 2000 pr. n. št. V 1. tisočletju pr. n. št. je bilo več različnih narečij, ki so se delila na te narečne skupine: jonsko-atiška (jonsko, atiško), dorska, ajolska in arkadsko-kiprska. Od 3. stoletja pr. n. št. naprej je nekdanja narečja postopoma izpodrinila t. i. skupna grščina (koiné), ki je prednica srednjeveške in današnje nove grščine.
+
+Najstarejša ohranjena grška besedila so glinaste tablice, najdene na Kreti (Knosos; nastale okoli 1400 pr. n. št.) in v celinski Grčiji (Mikene, Pilos, Tebe, Tirint; nastale okoli 1200 pr. n. št.). To so inventarni popisi ter seznami prejetega in izdanega blaga, zapisani v zlogovni pisavi, imenovani linearna pisava B.
+
+Izvor grškega jezika in njegovega narečja
+Grški jezik spada v indoevropsko družino jezikov. Tej jezikovni družini so pripadala ljudstva, ki so v 3. tisočletju pr. n. št. živela na območju južne Rusije, predniki Grkov pa natančneje na zahodni obali Črnega morja[navedi vir]. Ta ljudstva so se v 2. tisočletju pr. n. št. začela seliti po Evropi, na Balkan in v Azijo. Priseljenci s severa so se postopoma naselili na celotno območje današnje Grčije in Male Azije. Ob tem niso naleteli na prazen prostor, ampak so tam živeli staroselci. V medsebojnem vplivu se je razvila nova civilizacija. Sicer ni jasno, kolikšen je bil dejanski vpliv staroselcev na jezik priseljencev, dejstvo pa je, da se je grški jezik razvil do srede 2. tisočletja pr. n. št.
+
+Grki so bili razdeljeni na več plemen. Najpomembnejši med njimi so bili Jonci, Dorci in Ajolci. Ta plemena niso imela skupnega knjižnega jezika, ampak je vsako uporabljalo svoje narečje. Eno najpomembnejših narečij je bil klasični atiški jezik, torej narečje, ki se je govorilo in pisalo na območju Atike v klasični dobi. V tem narečju so pisali najpomembnejši avtorji grške antike, mesto pa je na kulturnem področju uživalo velik ugled. Ko je po smrti Aleksandra Velikega, ki je prvič v zgodovini Grke združil v eno državo, prišlo do zlitja narečij v en skupen jezik (κοινὴ διάλεκτος), je bila njegova osnova ravno atiško narečje. Ta skupni jezik se je uporabljal kot sporazumevalni jezik v državah, ki so nastale na območju velikega Aleksandrovega imperija.
+
+Zgodovina
+Glavni članek: Zgodovina grščine.
+Grščina se je na Balkanu govorila od konca tretjega tisočletja pr. n. št. Najstarejši dokaz za to je v Meseniji najdena glinasta tablica (linearna pisava B) iz let med 1450 in 1350 pr. n. št.[9], tako da je grščina najstarejši še živeči jezik. Med indoevropskimi jeziki, katerih starost potrjujejo pisani viri, se lahko z njo meri samo izumrla anatolščina.
+
+Obdobja
+
+Območje, na katerem naj bi se govorila protogrščina – Vladimir I. Georgiev
+Grščina se običajno deli na ta obdobja:
+
+protogrščina: jezik brez prič v pisni obliki, verjetno zadnji skupni prednik vse znanih zvrsti grščine. Indoevropski govorci so verjetno prišli na grški polotok konec 3. tisočletja pr. n. št. Od takrat se v Grčiji brez prekinitev govori grško;
+mikenska grščina: jezik mikenske civilizacije. Zapisan je v linearni pisavi B na tablicah od 15. stoletja pr. n. št. dalje;
+stara grščina: s svojimi raznimi narečji je jezik arhaičnega in klasičnega obdobja antične grške civilizacije. Jezik je bil na splošno znan po vsem rimskem imperiju. Stara grščina je bila v zahodni Evropi v srednjem veku pozabljena, vendar je ostala uradni jezik bizantinskega sveta; preostala Evropa jo je spoznala ob padcu Konstantinopla in selitvi Grkov na zahod;
+grščina koiné: zlitje jonske grščine z atiško, to je z narečjem Aten, je bilo začetek nastajanja prvega skupnega grškega narečja, ki je postala lingua franca v vzhodnem Sredozemlju in na Bližnjem vzhodu. Koiné lahko najprej zasledimo v vojskah in na osvojenih ozemljih Aleksandra Velikega; po helenistični kolonizaciji znanega sveta in po rimljanski osvojitvi Grčije, je Rim postal dejansko dvojezičen in koiné je postal latinščini enakovreden jezik rimskega imperija. Izvor krščanstva lahko zasledimo tudi prek grščine koiné, saj so apostoli uporabljali ta jezik v Grčiji in drugod po grško govorečem svetu (oikumene). Koiné je znan tudi kot helenistična grščina, grščina Nove zaveze in včasih biblična grščina, saj je jezik Septuaginte, to je skupnega prevoda nove in stare zaveze;
+srednjeveška grščina, znana tudi kot bizantinska grščina: nadaljevanje jezika koiné med bizantinskim imperijem do njegovega propada v 15. stoletju. Srednjeveška grščina je ime za številne govorne in pisne sloge, vse od potomcev govorjenega koiné (ki je v marsikaterem pogledu že blizu moderni grščini) do akademsko dvignjenih oblik, ki oponašajo atiško grščino. Večina pisane grščine, ki je bila uradni jezik bizantinskega cesarstva, je eklektično stičišče, ki temelji na tradiciji pisanega jezika koiné;
+moderna grščina, s koreninami v srednjeveški grščini je v moderni grščini čutiti vplive bizantinskega obdobja, ki segajo do 11. stoletja. Govorijo jo Grki. Poleg standardne moderne grščine ima veliko narečij.
+Diglosija
+Glavni članek: Vprašanje grškega jezika.
+V sodobnih časih je za grški jezik značilna diglosija ali dvojezičje, to je obstoj domačega jezika (vernakularja) na eni strani in arhaizirane oblike jezika na drugi strani. Grško jezikovno vprašanje je ime za polarizacijo med dvema konkurenčnima vrstama moderne grščine: demotike, današnje oblike grškega jezika na eni strani, in katarevuse, to je prečiščeni jezik med demotsko in staro grščino, razvite v začetku 19. stoletja, ter jezika za literarne in uradne namene novonastale grške države. Leta 1976 so demotiko razglasili za uradni jezik Grčije, dodali so mu značilnosti katarevuse in v tej obliki se danes uporablja za vse uradne namene in v izobraževanju.
+
+Zgodovinska enotnost
+
+Porazdelitev glavnih sodobnih grških narečnih območij
+Zgodovinska enotnost in neprekinjena istovetnost različnih faz grškega jezika se pogosto poudarjata. Čeprav je grščina doživela morfološke in fonološke spremembe, ki jih lahko primerjamo s spremembami v drugih jezikih, nikoli, od klasične antike dalje, kulturna, literarna in pravopisna tradicija jezika ni bila prekinjena do take mere, da bi lahko govorili o nastanku novega jezika. Grški govorniki danes še vedno pogosto jemljejo literarna dela antične grščine kot del lastnega, ne pa tujega jezika. [10] Pogosto je slišati mnenje, da so bile zgodovinske spremembe sorazmerno majhne v primerjavi z nekaterimi drugimi jeziki, kot na primer: "Homerjeva grščina je verjetno bliže demotski grščini, kot pa je angleščina 12. stoletja blizu angleščini, ki se govori danes." [11]
+
+Slovenjenje grških imen
+Priporočila o rabi grških besed presega pravila prečrkovanja (grške abecede); saj je treba določiti tudi pregibanje in skladnjo. Poleg tega so se nekatere oblike v jezikovni praksi že ustalile. Nekatera imena so k nam zašla tudi posredno, največ prek latinščine. V slovenskem prevodnem slovstvu in slovarjih najdemo različna slovenjenja. Novejša priporočila (Slovenski pravopis, namenski slovar s pravili Bronislave Aubelj[12]) temeljijo na približevanju k izvorni obliki.
+
+Glej tudi
+grška abeceda
+demotiki – sodobni uradni grški jezik
+Sklici
+ »arhivska kopija«. Arhivirano iz prvotnega spletišča dne 30. decembra 2010. Pridobljeno 6. septembra 2014.
+ »arhivska kopija«. Arhivirano iz prvotnega spletišča dne 4. oktobra 2016. Pridobljeno 8. novembra 2013.
+ »Greek«. Urad visokega komisarja za človekove pravice. Pridobljeno 8. decembra 2008.
+ Jeffries, Ian. Eastern Europe at the end of the 20th century. Books.google.com. str. 69. Pridobljeno 9. septembra 2013.
+ »List of declarations made with respect to treaty No. 148«. Council of Europe. Arhivirano iz prvotnega spletišča dne 22. maja 2012. Pridobljeno 8. decembra 2008.
+ »Greek in Hungary«. Database for the European Charter for Regional or Minority Languages. Public Foundation for European Comparative Minority Research. Pridobljeno 31. maja 2013.
+ Hellenic Republic: Ministry of Foreign Affairs: Italy: The Greek Community
+ Tsitselikis, Konstantinos (2013). »A surviving treaty: the lausanne minority protection in Greece and Turkey«. V Kristin Henrard (ur.). The interrelation between the right to identity of minorities and their socio-economic participation. Leiden: Martinus Nijhoff. str. 294–295.
+ »Ancient Tablet Found: Oldest Readable Writing in Europe«. National Geographic Society. 30. marec 2011. Pridobljeno 22. novembra 2013.
+ Browning, Robert. Medieval and Modern Greek. Cambridge University Press, 1983. ISBN 0-521-29978-0
+ Margaret Alexiou (1982): Diglossia v Grčiji. V: William Haas (1982): Standardni jeziki: pisano in govorjeno. Manchester University Press ND. ISBN 0-389-20291-6, ISBN 978-0-389-20291-2
+ Aubelj, Bronislava (1997). Antična imena po slovensko. Ljubljana: Modrijan. COBISS 67266816. ISBN 961-6183-34-6.
+Zunanje povezave
+
+Wikiknjige vsebujejo gradivo o temi: Grščina
+
+Wikipedija - grščina
+
+Poglejte si besedo grščina ali Grščina v Wikislovarju, prostem slovarju.
+
+
+Splošno ozadje
+Grščina, (v angleščini) Columbia Electronic Encyclopedia.
+Grški jezik in lingvistika, v angleščini – koristni podatki o zgodovini jezika, moderna lingvistika in grščina, orodja za učenje grščine.
+Aristotelova univerza v Solunu, Portal za grščino, učna sredstva za grški jezik, jezikoslovje
+Projekt Perzej (v angleščini) ima številne pripomočke za študij klasičnih jezikov in literature
+Uvod v antično grščino, v angleščini, University of California, Berkeley
+Normativna kontrola: Narodne knjižnice Uredite to na Wikipodatkih	
+ŠpanijaIzraelZDALatvijaJaponskaČeška republika
+Kategorije: GrščinaGrška abecedaJeziki AlbanijeJeziki ApulijeJeziki ArmenijeJeziki KalabrijeJeziki CipraJeziki GruzijeJeziki GrčijeJeziki RomunijeJeziki TurčijeJeziki UkrajinePregibni jeziki
+Čas zadnje spremembe strani: 00:52, 15. november 2024.
+Besedilo se sme prosto uporabljati v skladu z dovoljenjem Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0; uveljavljajo se lahko dodatni pogoji. Za podrobnosti glej Pogoje uporabe.
+Wikipedia® je tržna znamka neprofitne organizacije Wikimedia Foundation Inc.
+Pravilnik o zasebnostiO WikipedijiZavrnitve odgovornostiKodeks ravnanjaRazvijalciStatistikaO piškotkihMobilni prikaz
+Wikimedia Foundation
+Powered by MediaWiki
+
+Grščina
+
+221 jezikov
+Dodaj temo
+
+
+
+
+Wikipedijaprosta enciklopedija
+Iskanje v Wikipediji
+Išči
+Denarni prispevki
+Ustvari račun
+Prijava
+
+Vsebina skrij
+Uvod
+Izvor grškega jezika in njegovega narečja
+Zgodovina
+
+Obdobja
+Diglosija
+Zgodovinska enotnost
+Slovenjenje grških imen
+Glej tudi
+Sklici
+Zunanje povezave
+
+Splošno ozadje
+Grščina
+
+Stran
+Pogovor
+Preberi
+Uredi stran
+Uredi kodo
+Zgodovina
+
+Orodja
+Videz skrij
+Besedilo
+
+Majhna
+
+Standard
+
+Velika
+Širina
+
+Standardno
+
+Široko
+Barva (beta)
+
+Samodejno
+
+Svetlo
+
+Temno
+Iz Wikipedije, proste enciklopedije
+(Preusmerjeno s strani Stara grščina)
+Grščina
+ελληνικά elliniká
+ἑλληνική hellēnikḕ
+Izgovarjava	eliniˈka
+Materni jezik	Grčija, Ciper, Albanija, Italija, Turčija, Egipt, Gruzija, Bolgarija, Romunija, Francija, Ukrajina, Rusija in grška diaspora
+Št. maternih
+govorcev
+12 milijonov[1][2]
+Jezikovna družina
+indoevropski
+helenski
+grščina
+Standardne oblike
+standardna moderna grščina
+Narečja	
+starogrški dialekti (izumrli)
+moderni dialekti
+Pisava	grška pisava
+grška Braillova pisava
+Uradni status
+Uradni jezik
+Zastava Grčije Grčija
+Zastava Cipra Ciper
+Zastava Evrope Evropska unija
+Priznani manjšinski
+jezik
+ Albanija[3][4]
+Zastava Armenije Armenija[5]
+Zastava Madžarske Madžarska[6]
+Zastava Italije Italija[7]
+Zastava Romunije Romunija[5]
+Zastava Turčije Turčija[8]
+Zastava Ukrajine Ukrajina[5]
+Jezikovne oznake
+ISO 639-1	el
+ISO 639-2	gre (B)
+ell (T)
+ISO 639-3	Različno:
+grc – stara grščina
+ell – moderna grščina
+pnt – pontska grščina
+gmy – mikenska grščina
+cpg – kapadokijska grščina
+yej – judovsko-grški jezik
+tsd – cakonski jezik
+Glottolog	gree1276
+Linguasphere	56-AAA-a (variacije: 56-AAA-aa to -am)
+Ta članek vsebuje zapis glasov v črkovni obliki po IPA. Brez ustrezne podpore za interpretacijo, lahko vidite vprašaje, okvirje ali druge simbole namesto Unicode znakov.
+Gŕščina (grško Ελληνικά, latinizirano: Elliniká, starogrško Ἑλληνική, latinizirano: Hellēnikḕ) je indoevropski jezik, ki ga govorijo predvsem v Grčiji. V Grčijo so ga prinesli indoevropski naseljenci (pozneje imenovani Ahajci) okoli leta 2000 pr. n. št. V 1. tisočletju pr. n. št. je bilo več različnih narečij, ki so se delila na te narečne skupine: jonsko-atiška (jonsko, atiško), dorska, ajolska in arkadsko-kiprska. Od 3. stoletja pr. n. št. naprej je nekdanja narečja postopoma izpodrinila t. i. skupna grščina (koiné), ki je prednica srednjeveške in današnje nove grščine.
+
+Najstarejša ohranjena grška besedila so glinaste tablice, najdene na Kreti (Knosos; nastale okoli 1400 pr. n. št.) in v celinski Grčiji (Mikene, Pilos, Tebe, Tirint; nastale okoli 1200 pr. n. št.). To so inventarni popisi ter seznami prejetega in izdanega blaga, zapisani v zlogovni pisavi, imenovani linearna pisava B.
+
+Izvor grškega jezika in njegovega narečja
+Grški jezik spada v indoevropsko družino jezikov. Tej jezikovni družini so pripadala ljudstva, ki so v 3. tisočletju pr. n. št. živela na območju južne Rusije, predniki Grkov pa natančneje na zahodni obali Črnega morja[navedi vir]. Ta ljudstva so se v 2. tisočletju pr. n. št. začela seliti po Evropi, na Balkan in v Azijo. Priseljenci s severa so se postopoma naselili na celotno območje današnje Grčije in Male Azije. Ob tem niso naleteli na prazen prostor, ampak so tam živeli staroselci. V medsebojnem vplivu se je razvila nova civilizacija. Sicer ni jasno, kolikšen je bil dejanski vpliv staroselcev na jezik priseljencev, dejstvo pa je, da se je grški jezik razvil do srede 2. tisočletja pr. n. št.
+
+Grki so bili razdeljeni na več plemen. Najpomembnejši med njimi so bili Jonci, Dorci in Ajolci. Ta plemena niso imela skupnega knjižnega jezika, ampak je vsako uporabljalo svoje narečje. Eno najpomembnejših narečij je bil klasični atiški jezik, torej narečje, ki se je govorilo in pisalo na območju Atike v klasični dobi. V tem narečju so pisali najpomembnejši avtorji grške antike, mesto pa je na kulturnem področju uživalo velik ugled. Ko je po smrti Aleksandra Velikega, ki je prvič v zgodovini Grke združil v eno državo, prišlo do zlitja narečij v en skupen jezik (κοινὴ διάλεκτος), je bila njegova osnova ravno atiško narečje. Ta skupni jezik se je uporabljal kot sporazumevalni jezik v državah, ki so nastale na območju velikega Aleksandrovega imperija.
+
+Zgodovina
+Glavni članek: Zgodovina grščine.
+Grščina se je na Balkanu govorila od konca tretjega tisočletja pr. n. št. Najstarejši dokaz za to je v Meseniji najdena glinasta tablica (linearna pisava B) iz let med 1450 in 1350 pr. n. št.[9], tako da je grščina najstarejši še živeči jezik. Med indoevropskimi jeziki, katerih starost potrjujejo pisani viri, se lahko z njo meri samo izumrla anatolščina.
+
+Obdobja
+
+Območje, na katerem naj bi se govorila protogrščina – Vladimir I. Georgiev
+Grščina se običajno deli na ta obdobja:
+
+protogrščina: jezik brez prič v pisni obliki, verjetno zadnji skupni prednik vse znanih zvrsti grščine. Indoevropski govorci so verjetno prišli na grški polotok konec 3. tisočletja pr. n. št. Od takrat se v Grčiji brez prekinitev govori grško;
+mikenska grščina: jezik mikenske civilizacije. Zapisan je v linearni pisavi B na tablicah od 15. stoletja pr. n. št. dalje;
+stara grščina: s svojimi raznimi narečji je jezik arhaičnega in klasičnega obdobja antične grške civilizacije. Jezik je bil na splošno znan po vsem rimskem imperiju. Stara grščina je bila v zahodni Evropi v srednjem veku pozabljena, vendar je ostala uradni jezik bizantinskega sveta; preostala Evropa jo je spoznala ob padcu Konstantinopla in selitvi Grkov na zahod;
+grščina koiné: zlitje jonske grščine z atiško, to je z narečjem Aten, je bilo začetek nastajanja prvega skupnega grškega narečja, ki je postala lingua franca v vzhodnem Sredozemlju in na Bližnjem vzhodu. Koiné lahko najprej zasledimo v vojskah in na osvojenih ozemljih Aleksandra Velikega; po helenistični kolonizaciji znanega sveta in po rimljanski osvojitvi Grčije, je Rim postal dejansko dvojezičen in koiné je postal latinščini enakovreden jezik rimskega imperija. Izvor krščanstva lahko zasledimo tudi prek grščine koiné, saj so apostoli uporabljali ta jezik v Grčiji in drugod po grško govorečem svetu (oikumene). Koiné je znan tudi kot helenistična grščina, grščina Nove zaveze in včasih biblična grščina, saj je jezik Septuaginte, to je skupnega prevoda nove in stare zaveze;
+srednjeveška grščina, znana tudi kot bizantinska grščina: nadaljevanje jezika koiné med bizantinskim imperijem do njegovega propada v 15. stoletju. Srednjeveška grščina je ime za številne govorne in pisne sloge, vse od potomcev govorjenega koiné (ki je v marsikaterem pogledu že blizu moderni grščini) do akademsko dvignjenih oblik, ki oponašajo atiško grščino. Večina pisane grščine, ki je bila uradni jezik bizantinskega cesarstva, je eklektično stičišče, ki temelji na tradiciji pisanega jezika koiné;
+moderna grščina, s koreninami v srednjeveški grščini je v moderni grščini čutiti vplive bizantinskega obdobja, ki segajo do 11. stoletja. Govorijo jo Grki. Poleg standardne moderne grščine ima veliko narečij.
+Diglosija
+Glavni članek: Vprašanje grškega jezika.
+V sodobnih časih je za grški jezik značilna diglosija ali dvojezičje, to je obstoj domačega jezika (vernakularja) na eni strani in arhaizirane oblike jezika na drugi strani. Grško jezikovno vprašanje je ime za polarizacijo med dvema konkurenčnima vrstama moderne grščine: demotike, današnje oblike grškega jezika na eni strani, in katarevuse, to je prečiščeni jezik med demotsko in staro grščino, razvite v začetku 19. stoletja, ter jezika za literarne in uradne namene novonastale grške države. Leta 1976 so demotiko razglasili za uradni jezik Grčije, dodali so mu značilnosti katarevuse in v tej obliki se danes uporablja za vse uradne namene in v izobraževanju.
+
+Zgodovinska enotnost
+
+Porazdelitev glavnih sodobnih grških narečnih območij
+Zgodovinska enotnost in neprekinjena istovetnost različnih faz grškega jezika se pogosto poudarjata. Čeprav je grščina doživela morfološke in fonološke spremembe, ki jih lahko primerjamo s spremembami v drugih jezikih, nikoli, od klasične antike dalje, kulturna, literarna in pravopisna tradicija jezika ni bila prekinjena do take mere, da bi lahko govorili o nastanku novega jezika. Grški govorniki danes še vedno pogosto jemljejo literarna dela antične grščine kot del lastnega, ne pa tujega jezika. [10] Pogosto je slišati mnenje, da so bile zgodovinske spremembe sorazmerno majhne v primerjavi z nekaterimi drugimi jeziki, kot na primer: "Homerjeva grščina je verjetno bliže demotski grščini, kot pa je angleščina 12. stoletja blizu angleščini, ki se govori danes." [11]
+
+Slovenjenje grških imen
+Priporočila o rabi grških besed presega pravila prečrkovanja (grške abecede); saj je treba določiti tudi pregibanje in skladnjo. Poleg tega so se nekatere oblike v jezikovni praksi že ustalile. Nekatera imena so k nam zašla tudi posredno, največ prek latinščine. V slovenskem prevodnem slovstvu in slovarjih najdemo različna slovenjenja. Novejša priporočila (Slovenski pravopis, namenski slovar s pravili Bronislave Aubelj[12]) temeljijo na približevanju k izvorni obliki.
+
+Glej tudi
+grška abeceda
+demotiki – sodobni uradni grški jezik
+Sklici
+ »arhivska kopija«. Arhivirano iz prvotnega spletišča dne 30. decembra 2010. Pridobljeno 6. septembra 2014.
+ »arhivska kopija«. Arhivirano iz prvotnega spletišča dne 4. oktobra 2016. Pridobljeno 8. novembra 2013.
+ »Greek«. Urad visokega komisarja za človekove pravice. Pridobljeno 8. decembra 2008.
+ Jeffries, Ian. Eastern Europe at the end of the 20th century. Books.google.com. str. 69. Pridobljeno 9. septembra 2013.
+ »List of declarations made with respect to treaty No. 148«. Council of Europe. Arhivirano iz prvotnega spletišča dne 22. maja 2012. Pridobljeno 8. decembra 2008.
+ »Greek in Hungary«. Database for the European Charter for Regional or Minority Languages. Public Foundation for European Comparative Minority Research. Pridobljeno 31. maja 2013.
+ Hellenic Republic: Ministry of Foreign Affairs: Italy: The Greek Community
+ Tsitselikis, Konstantinos (2013). »A surviving treaty: the lausanne minority protection in Greece and Turkey«. V Kristin Henrard (ur.). The interrelation between the right to identity of minorities and their socio-economic participation. Leiden: Martinus Nijhoff. str. 294–295.
+ »Ancient Tablet Found: Oldest Readable Writing in Europe«. National Geographic Society. 30. marec 2011. Pridobljeno 22. novembra 2013.
+ Browning, Robert. Medieval and Modern Greek. Cambridge University Press, 1983. ISBN 0-521-29978-0
+ Margaret Alexiou (1982): Diglossia v Grčiji. V: William Haas (1982): Standardni jeziki: pisano in govorjeno. Manchester University Press ND. ISBN 0-389-20291-6, ISBN 978-0-389-20291-2
+ Aubelj, Bronislava (1997). Antična imena po slovensko. Ljubljana: Modrijan. COBISS 67266816. ISBN 961-6183-34-6.
+Zunanje povezave
+
+Wikiknjige vsebujejo gradivo o temi: Grščina
+
+Wikipedija - grščina
+
+Poglejte si besedo grščina ali Grščina v Wikislovarju, prostem slovarju.
+
+
+Splošno ozadje
+Grščina, (v angleščini) Columbia Electronic Encyclopedia.
+Grški jezik in lingvistika, v angleščini – koristni podatki o zgodovini jezika, moderna lingvistika in grščina, orodja za učenje grščine.
+Aristotelova univerza v Solunu, Portal za grščino, učna sredstva za grški jezik, jezikoslovje
+Projekt Perzej (v angleščini) ima številne pripomočke za študij klasičnih jezikov in literature
+Uvod v antično grščino, v angleščini, University of California, Berkeley
+Normativna kontrola: Narodne knjižnice Uredite to na Wikipodatkih	
+ŠpanijaIzraelZDALatvijaJaponskaČeška republika
+Kategorije: GrščinaGrška abecedaJeziki AlbanijeJeziki ApulijeJeziki ArmenijeJeziki KalabrijeJeziki CipraJeziki GruzijeJeziki GrčijeJeziki RomunijeJeziki TurčijeJeziki UkrajinePregibni jeziki
+Čas zadnje spremembe strani: 00:52, 15. november 2024.
+Besedilo se sme prosto uporabljati v skladu z dovoljenjem Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0; uveljavljajo se lahko dodatni pogoji. Za podrobnosti glej Pogoje uporabe.
+Wikipedia® je tržna znamka neprofitne organizacije Wikimedia Foundation Inc.
+Pravilnik o zasebnostiO WikipedijiZavrnitve odgovornostiKodeks ravnanjaRazvijalciStatistikaO piškotkihMobilni prikaz
+Wikimedia Foundation
+Powered by MediaWiki
+
+Grščina
+
+221 jezikov
+Dodaj temo
+
+
+Wikipedijaprosta enciklopedija
+Iskanje v Wikipediji
+Išči
+Denarni prispevki
+Ustvari račun
+Prijava
+
+Vsebina skrij
+Uvod
+Etimologija
+Geografija
+
+Območje
+Hidrografija
+Zgodovina
+Gospodarstvo in politika
+Sklici
+Zunanje povezave
+Egejsko morje
+
+Stran
+Pogovor
+Preberi
+Uredi stran
+Uredi kodo
+Zgodovina
+
+Orodja
+Videz skrij
+Besedilo
+
+Majhna
+
+Standard
+
+Velika
+Širina
+
+Standardno
+
+Široko
+Barva (beta)
+
+Samodejno
+
+Svetlo
+
+Temno
+Koordinati: 39°0′0″N 25°0′0″E
+Iz Wikipedije, proste enciklopedije
+Egejsko morje
+
+Zemljevid Egejskega morja
+Lega	Evropa
+Koordinate	39°0′0″N 25°0′0″E
+Vrsta	morje
+Glavni odtoki	Sredozemsko morje
+Države porečja	Grčija, Turčija[1]
+Maks. dolžina	700
+Maks. širina	400
+Površina	214.000
+Maks. globina	3543
+
+Topografski in batimetrični zemljevid
+Egêjsko mórje (grško Αιγαίον Πέλαγος, turško Ege denizi) je do 400 km širok in do 600 km dolg zaliv Sredozemskega morja med Evropo in Azijo, ki ga na severu in zahodu omejuje Balkanski polotok, na vzhodu Mala Azija, na zahodu pa Peloponez. Na severovzhodu se prek morskega preliva Dardanele odpira v Marmarsko morje, na jugu pa ga omejujejo Kreta in Dodekaneški otoki. Umetni Korintski prekop ga iz Saronskega zaliva povezuje s Korintskim zalivom in s tem tudi z Jonskim morjem.
+
+Površina Egejskega morja je okoli 179.000 km², največja globina je 2591 m. Slanost je od 25 do 39 ‰.
+
+Iz zgodovinskih razlogov so deli Egejskega morja poimenovani kot morja: severovzhodni del Egejskega morja pred trakijsko obalo med Halkidiko in polotokom Galipoli je Trakijsko morje; jugozahodni del med Peloponezom in Kikladi je Mirtojsko morje, južni del severno od Krete pa Kretsko morje, vse do Rodosa in Gokovskega zaliva v Mali Aziji na vzhodu.
+
+Severozahodni del Egejskega morja med Halkidiko in osrednjo Grčijo se končuje s Solunskim zalivom (grško Thermaikos kólpos),
+
+Etimologija
+Za ime Egejskega morja so različne razlage. Lahko je bilo imenovano po grškem mestu Egej ali po Egeji, kraljici Amazonk, ki je umrla v morju, ali po ajgajon (morska koza), drugo ime za Briareja, ki je bil eden od arhaičnih Hekatonhejrijev ali zlasti med Atenci po Ajgeju, Tezejevem očetu, ki se je utopil v morju, ker je mislil, da je njegov sin umrl.
+
+Možna etimologija je izpeljanka iz grške besede αἶγες aiges = »valovi« (slovničar Hesihij iz Aleksandrije, metaforično uporablja αἴξ (aix) »koza«), torej »valovito morje», tudi αἰγιαλός (Aigialos = aiges (valovi) + hals (morje))[2], kar pomeni »morska obala«.
+
+Benečani, ki so obvladovali številne grške otoke v visokem in poznem srednjem veku, so uporabljali ime arhipelag (grško za »glavno morje«), ime, ki je veljalo v mnogih evropskih državah do zgodnjega obdobja moderne.
+
+V nekaterih južnoslovanskih jezikih se Egej pogosto imenuje Belo morje (Бело море v srbščini in makedonščini oz. Бяло море v bolgarščini).[3]
+
+Geografija
+Egejsko morje pokriva površino približno 214.000 kvadratnih kilometrov, dolgo je približno 610 kilometrov in 300 kilometrov široko. Največja globina morja je 3543 metrov, to je vzhodno od Krete. Egejski otoki so v notranjih vodah, z naslednjimi otoki pa je morje omejeno na jugu: Kitera, Antikitera, Kreta, Kasos, Karpatos in Rodos.
+
+Egejski otoki (približno 3000), ki skoraj vsi pripadajo Grčiji, so razdeljeni v sedem skupin:
+
+otok Evbeja (tudi Evboja)
+severnoegejska skupina v Trakijskem morju (Lemnos, Tasos, Samotraki, Imbros/Gokceada, Tenedos)
+vzhodnoegejska skupina (Lezbos, Hios, Psara, Samos z Ikario...)
+Sporadi (Skiatos, Skopelos, Alonisos, Skiros, Kira Panagia...)
+Kikladi (Naksos, Delos, Siros, Folegandros, Sikinosi, Anafi, Ios (Híos), Kea...)
+Saronski otoki (Salamina, Aegina, Hidra, Poros, Spetses, Dokos...)
+Dodekanez (Rodos, Kos, Astipalea, Kalimnos, Karpatos, Kasós, Kastellorizo, Leros, Nissiros, Patmos, Simi, Tilos)
+Kreta - največji grški otok
+Beseda arhipelag je bila prvotno uporabljena posebej za Egejsko morje in njegove otoke. Mnogi izmed egejskih otokov ali verige otokov so dejansko podaljški gora na celini. Ena veriga se razteza čez morje na Hios, druga se razteza čez Evbejo na Samos in tretja čez Peloponez in Kreto na Rodos, ki deli Egejsko morje s Sredozemljem.
+
+Zalivi in prelivi Egejskega morja so (z juga in v smeri urnega kazalca): na Kreti so zalivi Mirabelli, Almyros, Souda in Kanija, na celini od zahoda Mesinijski, Lakonijski, Argolidski, Eginski zaliv, Evbejski preliv, zaliv Petalioi, Solunski in Kasandrijski zaliv ter zaliv Ajion Oros in Strimin (Strumiški zaliv), drugi so v Turčiji: zaliv Saros, Edremit, Dikili, zaliv Çandarlı, İzmir, Kuşadası, Mandalijski in zaliva Gökova in Güllük.
+
+Območje
+Mednarodna hidrografska organizacija (International Hydrographic Organization) opredeljuje meje Egejskega morja:[4]
+
+Na jugu. Črta, ki teče od rta Aspro (28° 16' E) v Malo Azijo do Cum Burnù (Capo della Sabbia), ki je severovzhodna skrajna točka otoka Rodos, prek otoka do rta Prasonisi, njegove jugozahodne točke do točke Vrontos (35 ° 33' N) v Skarpanto (Karpatos), nato do točke Castello, to je južna skrajna točka otoka, do Cape Plaka (vzhodna skrajna točka na Kreti), s Krete do Agria Grabusa, njegova severozahodna skrajna točka, od tam do rta Apolitares na otoku Antikitera, prek otoka na Psira Rock (severozahodna točka) in čez rta Trakhili na otoku Kitera, prek njega do severozahodne točke (rt Karavugia) in od tam do rta Santa Maria (36°28′N 22°57′E) na Moreji.
+
+V Dardanelah. Črta povezuje Kum Kale (26 ° 11' E) in rt Heles.
+
+Panoramski pogled na kaldero Santorini iz Oje
+Hidrografija
+
+Stolpna ura v İzmirju, Turčija
+Površinska voda kroži v nasprotni smeri urnega kazalca, zelo slana sredozemska voda se premika proti severu ob zahodni obali Turčije, preden se premakne v manj gost odliv Črnega morja. Gosta sredozemska voda potone pod pritokom Črnega morja do globine 23-30 metrov, nato pa teče skozi preliv Dardanele in v Marmarsko morje s hitrostjo od 5 do 15 cm/s. Odliv Črnega morja se premika proti zahodu vzdolž severnega Egejskega morja, nato pa teče proti jugu vzdolž vzhodne obale Grčije.[5]
+
+Fizična oceanografija v Egejskem morju je pod nadzorom predvsem regionalnega podnebja, sveža voda prihaja iz večjih rek, ki odmakajo jugovzhodno Evropo, in sezonskih nihanj v črnomorski odtočni površinski vodi skozi ožino Dardanele.
+
+Analiza [6] Egejskega morja v letih 1991-92 je pokazala tri različne vodne mase:
+
+Egejsko morje površinskih voda - 40 do 50 metrov debel sloj, pri poletnih temperaturi 21-26 °C in pozimi od 10 °C na severu do 16 °C na jugu.
+Egejsko morje vmesna voda - sega od 40 do 50 m do 200-300 m pri temperaturah od 11 do 18 °C.
+Egejsko morje spodnje vode - ki se pojavljajo v globinah pod 500-1000 m z zelo enotno temperaturo 13-14 °C in slanostjo 3,91-3,92 %.
+Večje reke, ki se v evropskem (balkanskem) delu izlivajo v Egejsko morje so Titarisios, Haliakmon, Vardar (Axios), Struma (Strimon), Nesta (Nestos) in Marica (Hebrus, Meriç), iz Male Azije pa Gediz in Meander.
+
+Zgodovina
+
+Zgodovinski zemljevid (1528) Egejskega morja, Otomanski imperij, turški geograf Piri Reis
+Sedanja obala je iz obdobja 4000 let pred našim štetjem. Pred tem obdobjem, na vrhuncu zadnje ledene dobe (približno 16.000 pred sedanjostjo) je bila morska gladina povsod 130 metrov nižja, obstajale so velike vodnate obalne ravnice na večjem delu površine severnega Egejskega morja. Ko so bile prvič zalite, so bili današnji otoki vključno Milos, s pomembno proizvodnjo obsidiana, verjetno še vedno povezani s kopnim. Današnja obalna ureditev se je pojavila približno 7000 pred našim štetjem s poledeniškim morjem, ki je še vedno naraščalo naslednjih 3000 let.[7]
+
+Poznejše bronastodobne civilizacije Grčije in Egejskega morja so povod za splošen izraz egejske civilizacije. V starih časih je morje rojstni kraj dveh starih civilizacij - Minojske na Kreti in Mikenske na Peloponezu.[8]
+
+
+Satelitski pogled na Egejsko morje
+Pozneje so nastale mestne državice antične Atene in Šparta med mnogimi drugimi, ki so sestavljale atenski imperij in helensko civilizacijo. Platon je opisal Grke, ki živijo okrog Egejskega morja "kot žabe okoli ribnika".[9] Egejsko morje so pozneje napadli Perzijci in Rimljani, zasedlo ga je bizantinsko cesarstvo, Bolgari, Benečani, Genovežani, Seldžuški Turki in Osmansko cesarstvo. Egejsko morje je bilo kraj prve demokracije, njegove morske poti so bile sredstvo stika med več različnimi civilizacijami vzhodnega Sredozemlja.
+
+Apostol Pavel v Apostolskih delih poroča o potovanju s tovariši okoli leta 57 od Asosa v sodobni Turčiji prek otokov Rodosa in naprej do Jeruzalema. (Apd 20: 14-21: 3). V 21. stoletju je severno Egejsko morje igralo pomembno vlogo pri prehodu priseljencev iz Turčije do grških otokov.
+
+Gospodarstvo in politika
+Mnogi otoki v Egejskem morju imajo varna pristanišča in zalive. V starih časih je bila plovba po morju lažja kot potovanje po grobem terenu grške celine (in do neke mere obalnih območjih Anatolije). Mnogi otoki so vulkanski, na nekaterih pridobivajo marmor in železo. Večji otoki imajo nekaj rodovitnih dolin in ravnice. Glavni otoki v Egejskem morju, dva pripadata Turčiji - Bozcaada (Tenedos - Τένεδος) in Gökçeada (Imbros - Ίμβρος), drugi pripadajo Grčiji. Med državama so politični spori o različnih vidikih političnega nadzora nad egejskim prostorom, vključno z velikostjo teritorialnih voda, nadzorom zračnega prostora in razmejitev ekonomskih pravic do epikontinentalnega pasu.
+
+Sklici
+ DRAINAGE BASIN OF THE MEDITERRANEAN SEA, UNECE http://www.unece.org/fileadmin/DAM/env/water/blanks/assessment/mediterranean.pdf
+ Henry George Liddell, Robert Scott, A Greek-English Lexicon, s.v. "αἰγιαλός"
+ Zbornik Matice srbske za društvene nauke: (1961), Volumes 28-31, p.74
+ »Limits of Oceans and Seas« (PDF) (3 izd.). International Hydrographic Organization. 1953. Arhivirano iz prvotnega spletišča (PDF) dne 8. oktobra 2011. Pridobljeno 7. februarja 2010.
+ Aksu, A. E., D. Yasar, et al. (1995). "LATE GLACIAL-HOLOCENE PALEOCLIMATIC AND PALEOCEANOGRAPHIC EVOLUTION OF THE AEGEAN SEA – MICROPALEONTOLOGICAL AND STABLE ISOTOPIC EVIDENCE." Marine Micropaleontology 25(1): 1–28.
+ Yagar, D., 1994. Late glacial-Holocene evolution of the Aegean Sea. Ph.D. Thesis, Inst. Mar. Sci. Technol., Dokuz Eyltil Univ., 329 pp. (Unpubl.)
+ Tjeerd H. van Andel; Judith C. Shackleton (Winter 1982). Late Paleolithic and Mesolithic Coastlines of Greece and the Aegean. Zv. 9, . Journal of Field Archaeology. str. 445–454.
+ Tracey Cullen, Aegean Prehistory: A Review (American Journal of Archaeology. Supplement, 1); Oliver Dickinson, The Aegean Bronze Age (Cambridge World Archaeology).
+ John F. Cherry; Despina Margomenou; Lauren E. Talalay. The familiar phrase giving rise to the title Prehistorians Round the Pond: Reflections on Aegean Prehistory as a Discipline.
+Zunanje povezave
+
+Poglejte si besedo egejsko morje v Wikislovarju, prostem slovarju.
+
+Wikimedijina zbirka ponuja več predstavnostnega gradiva o temi: Egejsko morje.
+»Cultural Portal of the Aegean Archipelago«. Foundation of the Hellenic World. Pridobljeno 9. julija 2012.
+Normativna kontrola Uredite to na Wikipodatkih
+Splošno	
+VIAF 1WorldCat (via VIAF)
+Narodne knjižnice	
+ŠpanijaFrancija (data)NemčijaIzraelZDAJaponskaČeška republika
+Drugo	
+Faceted Application of Subject TerminologyNational Archives (ZDA)SUDOC (Francija) 1
+Kategorije: Robna morjaSredozemsko morjeEgejsko morjeGeografija GrčijeGeografija Turčije
+Čas zadnje spremembe strani: 03:17, 14. januar 2024.
+Besedilo se sme prosto uporabljati v skladu z dovoljenjem Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0; uveljavljajo se lahko dodatni pogoji. Za podrobnosti glej Pogoje uporabe.
+Wikipedia® je tržna znamka neprofitne organizacije Wikimedia Foundation Inc.
+Pravilnik o zasebnostiO WikipedijiZavrnitve odgovornostiKodeks ravnanjaRazvijalciStatistikaO piškotkihMobilni prikaz
+Wikimedia Foundation
+Powered by MediaWiki
+
+Egejsko morje
+
+137 jezikov
+Dodaj temo
+
+
+Wikipedijaprosta enciklopedija
+Iskanje v Wikipediji
+Išči
+Denarni prispevki
+Ustvari račun
+Prijava
+
+Vsebina skrij
+Uvod
+Ime
+Fizična geografija
+
+Družbena geografija
+
+Gospodarstvo
+
+Rastlinstvo in živalstvo
+
+Okoljsko zaščitena območja
+Zgodovina
+
+Glej tudi
+Sklici
+Zunanje povezave
+Kreta
+
+Stran
+Pogovor
+Preberi
+Uredi stran
+Uredi kodo
+Zgodovina
+
+Orodja
+Videz skrij
+Besedilo
+
+Majhna
+
+Standard
+
+Velika
+Širina
+
+Standardno
+
+Široko
+Barva (beta)
+
+Samodejno
+
+Svetlo
+
+Temno
+Koordinati: 35°12.6′N 24°54.6′E
+Iz Wikipedije, proste enciklopedije
+Kreta
+Domače ime: Κρήτη
+Otok Kreta, Grčija
+NASA slika Krete
+
+Geografija
+Lega	Vzhodno Sredozemsko morje
+Koordinati	35°12.6′N 24°54.6′E
+Površina	8.450 km2 (88)
+Najvišja nadm. višina	2.456 m
+Uprava
+ Grčija
+Regija	Kreta
+Demografija
+Demonim	Krečani
+Prebivalstvo	624.408
+Gostota	74,9 preb./km2
+Dodatne informacije
+Časovni pas	
+GMT +2
+Kreta (grško Κρήτη, latinizirano: Kríti [ˈkriti], Krḗtē [krɛ̌ːtεː]) je z 8261 km² največji grški otok v Egejskem morju in peti največji v Sredozemskem morju za Sicilijo, Sardinijo, Ciprom in Korziko in 88. največji otok na svetu. Kreta je približno 160 km južno od grške celine in približno 100 km jugozahodno od Anatolije. Meji na južno mejo Egejskega morja s Kretskim morjem (ali Severnokretskim morjem) na severu in Libijskim morjem (ali Južnokretskim morjem) na jugu. Kreta je od zahoda proti vzhodu dolga 260 km, vendar je ožja od severa proti jugu.
+
+Kreta in številni otoki in otočki, ki jo obdajajo, sestavljajo regijo Kreta (grško Περιφέρεια Κρήτης), ki je najjužnejša od 13 najvišjih upravnih enot Grčije in peta najbolj naseljena grška regija. Njeo glavno in največje mesto je od 1970-ih Iraklion, na severni obali otoka. Leta 2021 je imela regija 624.408 prebivalcev.[1] Dodekanez je severovzhodno od Krete, medtem ko so Kikladi na severu, ločeni s Kretskim morjem. Peloponez je na severozahodu regije.
+
+Kreta je bila središče prve napredne evropske civilizacije, Minojcev, od 2700 do 1420 pr. n. št. Minojsko civilizacijo je preplavila mikenska civilizacija iz celinske Grčije. Kreti je pozneje vladalo Rimsko cesarstvo, nato zaporedoma Bizantinsko cesarstvo, Andaluzijski Arabci, Beneška republika in Osmansko cesarstvo. Leta 1898 je Kreta, katere prebivalci so se nekaj časa želeli pridružiti grški državi, dosegla neodvisnost od Osmanov in formalno postala Kretska država. Decembra 1913 je Kreta postala del Grčije.
+
+Ime
+kA
+Z1	I9	U33	Z7	N25
+Crete
+Keftiu
+Egipčanski hieroglifi
+Najzgodnejše omembe otoka Kreta izhajajo iz besedil iz sirskega mesta Mari iz 18. stoletja pr. n. št., kjer se otok omenja kot Kaptara.[2] To se pozneje ponovi v neoasirskih zapisih in Svetem pismu (Caphtor). V starem Egiptu je bil znan kot Keftiu ali kftı͗v, kar močno nakazuje podobno minojsko ime za otok.[3]
+
+Sedanje ime Kreta je prvič potrjeno v 15. stoletju pr. n. št. v mikenskih grških besedilih, napisanih v vrstici B, z besedami ke-re-te ke-re-te (𐀐𐀩𐀳, *Krētes; pozneje grško: Κρῆτες [krɛː.tes], množina Κρής [krɛːs])[4] in ke-re-si-jo (𐀐𐀩𐀯𐀍, *Krēsijos; pozneje grško: Κρήσιος [krέːsios],[5] 'Cretan').[6][7] V stari grščini se ime Kreta (Κρήτη) prvič pojavi v Homerjevi Odiseji.[8] Njena etimologija ni znana. En predlog izhaja iz hipotetične luvijske besede *kursatta (primerjaj kursawar 'otok', kursattar 'rezanje, rezino').[9] Drugi predlog nakazuje, da izhaja iz starogrške besede κραταιή (krataie̅), kar pomeni močan, z razlogom, da je bila Kreta najmočnejša talasokracija v starih časih.[10][11]
+
+V latinščini je ime otoka postalo Creta. Prvotno arabsko ime Krete je bilo Iqrīṭiš (arabsko اقريطش < (τῆς) Κρήτης), vendar po ustanovitvi nove prestolnice Kretskega emirata v ربض الخندق Rabḍ al-Ḫandaq (modern Iraklion; grško Ηράκλειο, Irákleio), oba mesto in otok sta postala znana kot Χάνδαξ (Chandax) ali Χάνδακας (Chandakas), kar je dalo latinsko, italijansko in beneško Candia, iz katere so izpeljali francosko Candie. Pod osmansko oblastjo se je Kreta v osmanski turščini imenovala Girit (كريد). V hebrejski Bibliji se Kreta imenuje (כְּרֵתִים) kretim.
+
+Fizična geografija
+
+Planota Mesara
+
+Palmova plaža Vai
+
+Lefka Ori
+
+Pogled na Psiloritis
+Kreta je največji otok v Grčiji in peti največji otok v Sredozemskem morju. Leži v južnem delu Egejskega morja, ki ločuje Egejsko morje od Libijskega morja. S trajektom je povezana s Pirejem na celini. Ostala večja mesta in turistično pomembnejši kraji na otoku so še Hanija, ki je najstarejše kretsko mesto, Retimno, Malija, Agios Nikolaos, Elounda, Gournija, Sitia, Spili, Ierapetra, Palaiokhora, Anogia, Hora Sfakión, Loutro, pa tudi Pánormos, Knossós, Avía Roumeli, (K)Hárkás, Mokhós, Neápolis, Palaiokastrón, Mírtos, Íerapetra, Timbákion, Spílion, Mokhós, (K)havousi, Zákros, Ano Arkhánai, Márathos, Kolimbári, Kámbos, Kastélli, ...
+
+Morfologija otoka
+Otok ima podolgovato obliko: obsega 260 km od vzhoda proti zahodu, na najširši točki je 60 km in se zoži na le 12 km (blizu Ierapetre). Kreta pokriva površino 8336 km², z obalo, dolgo 1046 km; na severu se izliva v Kretsko morje (grško Κρητικό Πέλαγος); na jugu Libijsko morje (grško Λιβυκό Πέλαγος); na zahodu Mirtojsko morje, proti vzhodu pa Karpatsko morje. Leži približno 160 km južno od grške celine.
+
+Na severni strani Krete je več polotokov in zalivov, od zahoda proti vzhodu so: polotok Gramvousa, zaliv Kissamos, polotok Rodopos, zaliv Hanija, polotok Akrotiri, zaliv Souda, rt Apokoronas, zaliv Almiros, zaliv Iraklion, rt Aforesmenos, zaliv Mirabello, zaliv Sitia in polotok Sideros. Na južni strani Krete je zaliv Messaras in rt Lithinon.
+
+Gore in doline
+Kreta je gorata, njen značaj pa opredeljuje visoko gorovje, ki jo prečka od zahoda proti vzhodu in tvori šest različnih skupin gora:
+
+Bele gore ali Lefka Ori 2453 m
+Pogorje Idi (Psiloritis) 2456 m
+Gore Asterousia 1231 m
+Kedros 1777 m
+Gore Dikti 2148 m
+Thrypti 1489 m
+Kreta je razkosana z dolinami, kot je dolina Amari, rodovitnimi planotami, kot so planota Lasithi, Omalos in Nidha; jame, kot so Gourgouthakas, Diktaion in Idaion (rojstni kraj starogrškega boga Zeusa); in številne soteske.
+
+Gore so veljale za ključno značilnost otoške posebnosti, še posebej od časa pisanja romantičnih popotnikov. Sodobni Krečani razlikujejo med gorjani in nižinci; prvi pogosto trdijo, da prebivajo v krajih, ki ponujajo višje/boljše klimatsko in moralno okolje. V skladu z zapuščino romantičnih avtorjev se vidi, da so gore določile 'odpor' prebivalcev proti preteklim osvajalcem, kar je povezano s pogosto slišano idejo, da so gorjani 'čistejši' v smislu manj porok z okupatorji. Za prebivalce gorskih območij, kot je Sfakia na zahodni Kreti, je suhost in kamnita gora poudarjena kot element ponosa in se pogosto primerja z domnevno mehko umazanimi gorami drugih delov Grčije ali sveta.[12]
+
+Soteske, reke in jezera
+Otok ima številne soteske, kot so soteska Samariá, soteska Imbros, soteska Kourtaliotiko, soteska Ha, soteska Platania, Soteska mrtvih (pri Kato Zakros, Sitia) ter soteska Richtis in (Richtis) slap v Exo Mouliana v Sitia.[13][14][15][16]
+
+Reke na Kreti so Geropotamos, Koiliaris, Anapodiaris, Almiros, Giofiros, Keritis in Megas Potamos. Na Kreti sta samo dve sladkovodni jezeri: jezero Kournas in jezero Agia, ki sta obe v regionalni enoti Hanija.[17] Jezero Voulismeni na obali, pri Aghios Nikolaosu, je bilo prej sladkovodno jezero, zdaj pa je povezano z morjem v Lasitiju.[18] Na Kreti obstajajo tudi tri umetna jezera, ustvarjena z jezovi: jezero Aposelemis Dam, jezero Potamos Dam in jezero Mpramiana Dam.
+
+Soteska Ha
+Soteska Ha
+ 
+Soteska Samariá
+Soteska Samariá
+ 
+Soteska Aradaina
+Soteska Aradaina
+ 
+Beneški most čez reko Megalopotamos
+Beneški most čez reko Megalopotamos
+Okoliški otoki
+
+Podroben zemljevid Krete in oddaljenih otokov
+Veliko število otokov, otočkov in skal objema obalo Krete. Mnoge obiščejo turisti, nekatere samo arheologi in biologi. Nekatere so okolju prijazno zaščitene. Majhen vzorec otokov vključuje:
+
+Gramvousa (Kissamos, Hanija) piratski otok nasproti lagune Balo
+Elafonisi ​​(Hanija), ki obeležuje brodolom in otomanski pokol
+Otok Chrisi (Ierapetra, Lasithi), ki gosti največji naravni gozd Juniperus macrocarpa v Evropi
+Paksimadia otok (Agia Galini, Rethimno), kjer sta se rodila bog Apolon in boginja Artemida
+Beneška utrdba in kolonija gobavcev v Spinalonga nasproti plaže in plitvih voda Elounda (Agios Nikolaos, Lasithi)
+Dionizovi otoki, ki so v okolju zaščiteni regiji skupaj z gozdom Palm Beach v Vai v občini Sitia, Lasithi
+in drugi: Dia, Koufonissi, Chrissi, Gavdhopoúla, Gaidhournísi, Élasa, Pondikonísi
+Ob južni obali je otok Gavdos 48 km južno od Hora Sfakion in je najjužnejša točka Evrope.
+
+Podnebje
+Kreta se razteza med dvema podnebnima pasovoma, sredozemskim in polsušnim podnebjem, ki večinoma spada v prvo. Kot tako je podnebje na Kreti predvsem sredozemsko podnebje z vročim poletjem (Csa), medtem ko imajo nekatera območja na jugu in vzhodu vroče polsušno podnebje (Köppnova podnebna klasifikacija: BSh). Višje lege spadajo v kategorijo sredozemskega podnebja s toplim poletjem (Csb) [23], medtem ko so gorski vrhovi (> 2000 metrov) morda značilno za sredozemsko podnebje s hladnim poletjem (Csc) ali celinsko podnebje (Dfb ali Dfc). Ozračje je lahko precej vlažno, odvisno od bližine morja, medtem ko je zima dokaj mila. Med novembrom in majem je v gorah običajno sneženje, v nižinah pa redko.
+
+
+Pristanišče Hanija z zastavo, Kreta, Grčija
+Južna obala, vključno s planoto Mesara in gorovjem Asterousia, spada v severnoafriško podnebno območje, kjer uživa veliko več sončnih dni in visokih temperatur skozi vse leto. Tam obrodijo datljeve palme, lastovke pa ostanejo vse leto, namesto da bi se selile v Afriko. Rodovitna regija okoli Ierapetre, na jugovzhodnem kotu otoka, ima celoletno kmetijsko pridelavo, s poletno pridelavo zelenjave in sadja v rastlinjakih skozi zimo.[19] Zahodna Kreta (provinca Hanija) prejme več dežja in tla tam trpijo večjo erozijo v primerjavi z vzhodnim delom Krete.[20]
+
+Povprečne letne temperature na južni Kreti dosežejo do 21,0 °C. Kreta drži rekord za najvišje temperature, kar jih je bilo kdaj zabeleženih v Evropi oktobra, novembra, januarja in februarja s postaj Svetovne meteorološke organizacije. Po podatkih Helenske nacionalne meteorološke službe je Južna Kreta deležna največ sonca v Grčiji z več kot 3257 sončnimi urami na leto.[21]
+
+Družbena geografija
+Kreta je najbolj naseljen otok v Grčiji z več kot 600.000 prebivalci. Približno 42 % jih živi v glavnih mestih na Kreti, medtem ko jih 45 % živi na podeželju.[22]
+
+Beneško pristanišče v Haniji
+Beneško pristanišče v Haniji
+ 
+Mračni pogled na staro pristanišče Retimno
+Mračni pogled na staro pristanišče Retimno
+ 
+Pogled na pristanišče Iraklion
+Pogled na pristanišče Iraklion
+ 
+Staro pristanišče Agios Nikolaos
+Staro pristanišče Agios Nikolaos
+Uprava
+Kreta s svojimi bližnjimi otoki tvori regijo Kreta (grško Περιφέρεια Κρήτης, Periféria Krítis, [periˈferia ˈkritis]), eno od 13 regij Grčije, ki so bile ustanovljene z upravno reformo leta 1987.[23] V okviru Kalikratovega programa iz leta 2010 so bile pristojnosti in avtoriteta regij na novo opredeljene in razširjene. Regija ima sedež v Iraklionu in je razdeljena na štiri regionalne enote (prefekture pred Kallikratom). Od zahoda proti vzhodu so to: Hanija, Retimno, Iraklion in Lasithi. Te so nadalje razdeljene na 24 občin.
+
+Od 1. januarja 2011 je regionalni guverner Stavros Arnaoutakis iz Panhelenskega socialističnega gibanja. Prvič je bil izvoljen leta 2010, bil je ponovno izvoljen v letih 2014, 2019 in 2023.
+
+Mesta
+Iraklion je največje mesto in glavno mesto Krete, v katerem živi več kot četrtina prebivalstva otoka. Hanija je bila glavno mesto do leta 1971. Nekatera mesta so:
+
+Iraklion (Iraklion ali Kandia) (144.422 prebivalcev)
+Hanija (Haniá) (88.525 prebivalcev)
+Retimno (34.300 prebivalcev)
+Ierapetra (23.707 prebivalcev)
+Agios Nikolaos (20.679 prebivalcev)
+Sitia (14.338 prebivalcev)
+Beneška trdnjava v Iraklionu
+Beneška trdnjava v Iraklionu
+ 
+Stolnica v Haniji
+Stolnica v Haniji
+ 
+Utrjena mošeja v Retimnu
+Utrjena mošeja v Retimnu
+ 
+Beneška trdnjava na vrhu v Sitiji
+Beneška trdnjava na vrhu v Sitiji
+Demografija
+Po uradnih podatkih popisa grškega statističnega urada se je prebivalstvo regije med letoma 2011 in 2021 povečalo za 1343 ljudi, kar je 0,22-odstotno povečanje.[24] Na otoku živi 624.408 prebivalcev, od tega 308.608 moških in 315.800 žensk, kar predstavlja 49,4 % oziroma 50,6 % prebivalstva.
+
+Gospodarstvo
+Gospodarstvo Krete temelji predvsem na storitvah in turizmu. Vendar ima kmetijstvo tudi pomembno vlogo in Kreta je eden redkih grških otokov, ki se lahko preživi brez turistične industrije.[25] Gospodarstvo se je začelo vidno spreminjati v sedemdesetih letih, ko je turizem pridobival na pomenu. Čeprav ostaja poudarek na kmetijstvu in živinoreji, je zaradi podnebja in reliefa otoka upadla proizvodnja in opazna širitev storitvenih dejavnosti (predvsem povezanih s turizmom). Vsi trije sektorji kretskega gospodarstva (kmetijstvo/kmetijstvo, predelava-pakiranje, storitve) so neposredno povezani in soodvisni. Otok ima dohodek na prebivalca veliko višji od grškega povprečja, medtem ko je brezposelnost približno 4 %, kar je ena šestina celotne države.
+
+Kot v mnogih regijah Grčije so vinogradništvo in oljčni nasadi pomembni; gojijo tudi pomaranče, citrone in avokado. Do nedavnega so veljale omejitve pri uvozu banan v Grčijo, zato so banane na otoku gojili predvsem v rastlinjakih. Mlečni izdelki so pomembni za lokalno gospodarstvo in obstajajo številni posebni siri, kot so mizitra, antotiros in kefalotiri.
+
+20 % grškega vina pridelajo na Kreti, večinoma v regiji Peza.[26]
+
+Bruto domači proizvod (BDP) regije je leta 2018 znašal 9,4 milijarde EUR, kar je predstavljalo 5,1 % grške gospodarske proizvodnje. BDP na prebivalca, prilagojen glede na kupno moč, je v istem letu znašal 17.800 evrov ali 59 % povprečja EU27. BDP na zaposlenega je znašal 68 % povprečja EU. Kreta je regija v Grčiji s petim najvišjim BDP na prebivalca.[27]
+
+Na otoku so tri letališča, ki se nahajajo pri Haniji, Iraklionu in Sitii. Po severni strani Krete poteka glavna otočna hitra cesta, ostala naselja pa so povezana večinoma z asfaltiranimi regionalnimi cestami.
+
+Turizem
+Turistično najbolj obiskani kraji na Kreti so:
+
+soteska Samariá (z 18 kilometri najdaljša evropska soteska),
+Knosos (ostanki minojske palače),
+Matala (ribiška vasica, poznana kot nekdanje prebivališče hipijev),
+Vai (plaža, obdana z gozdom dateljnovih palm),
+Gortina (ostanki rimske naselbine),
+Moni Toplou (samostan grške pravoslavne cerkve).
+Pogled na Gortin
+Pogled na Gortin
+ 
+Arheološko najdišče Fajstos
+Arheološko najdišče Fajstos
+ 
+Ruševine palače v Knososu
+Ruševine palače v Knososu
+ 
+Arheološki muzej Hanija
+Arheološki muzej Hanija
+ 
+Arheološki muzej Hanija
+Arheološki muzej Hanija
+ 
+Pomorski muzej na Kreti
+Pomorski muzej na Kreti
+ 
+Pluton in Perzefona v muzeju v Iraklionu
+Pluton in Perzefona v muzeju v Iraklionu
+ 
+Posoda v Maliji, Kreta
+Posoda v Maliji, Kreta
+Rastlinstvo in živalstvo
+Rastlinstvo
+Minojci so prispevali k krčenju gozdov na Kreti. V 17. stoletju je prišlo do nadaljnjega krčenja gozdov, »tako da ni bilo več na voljo lokalnih zalog drva«.[28]
+
+Pogosti divji cvetovi so med drugim: kamilica, marjetica, gladiola, hijacinta, perunika, mak, ciklama in tulipan. Na otoku je več kot 200 različnih vrst divjih orhidej in to vključuje 14 vrst Ophrys cretica.[29] Kreta ima bogato paleto avtohtonih zelišč, vključno z navadnim žajbljem, rožmarinom, timijanom in origanom. Med redka zelišča sodi endemična kretska ditanija in železovka, Sideritis syriaca, znana kot malotira (Μαλοτήρα). Sorte kaktusov vključujejo užitno opuncijo. Pogosta drevesa na otoku so kostanj, cipresa, hrast, oljka, bor, platana in tamarisk. Drevesa so običajno višja na zahodu otoka, kjer je vode več.
+
+Kačja lilija(Dracunculus vulgaris)
+Kačja lilija(Dracunculus vulgaris)
+ 
+Ophrys cretica - Ciprska čebelja orhideja
+Ophrys cretica - Ciprska čebelja orhideja
+Živalstvo
+Kreta je izolirana od celinske Evrope, Azije in Afrike, kar se odraža v raznolikosti živalstva in rastlinstva. Posledično imata favna in flora Krete veliko namigov za razvoj vrst. Na otoku Kreta v nasprotju z drugimi deli Grčije ni človeku nevarnih živali. Dejansko so stari Grki pomanjkanje velikih sesalcev, kot so medvedi, volkovi, šakali in strupene kače, pripisovali delu Herkula (ki je na Peloponez odnesel živega kretskega bika). Herkul je želel počastiti Zevsov rojstni kraj tako, da je s Krete odstranil vse 'škodljive' in 'strupene' živali. Kasneje so Krečani verjeli, da je otok s svojimi eksorcizmi in blagoslovi očistil nevarnih bitij apostol Pavel, ki je na otoku Kreti živel dve leti.
+
+Prirodoslovni muzej na Kreti deluje pod vodstvom Univerze na Kreti in dva akvarija – Aquaworld v Hersonissosu in Cretaquarium v ​​Gournesu, prikazujeta morska bitja, ki so običajna v vodah Krete.
+
+Prazgodovinska favna
+Pritlikavi sloni, pritlikavi povodni konj, pritlikavi mamuti, pritlikavi jeleni in velikanske sove neleteče so bili doma na pleistocenski Kreti.[30][31] Njihovi predniki bi lahko prispeli na otok v času mesinske krize slanosti.
+
+Sesalci
+Sesalci na Kreti so ranljivi kri-kri (Capra aegagrus cretica), ki ga je mogoče videti v narodnem parku soteske Samaria in na Thodorouju,[32] in na otokih Dia in Agioi Pantes (otočka ob severni obali), kretska divja mačka in kretska bodičasta miška. Drugi kopenski sesalci so podvrste kretske kune, kretske podlasice, kretskega jazbeca, kretske divje mačke, dolgouhega ježa in užitnega polha.
+
+Kretska rovka, vrsta belozobe rovke, velja za endemično na otoku Kreta, ker je druga vrsta rovke neznana. Je reliktna vrsta rovk Crocidura, katere fosile so našli v pleistocenski dobi. Danes jo je mogoče najti le v visokogorju Krete.[33] Velja za edini preživeli ostanek endemične vrste pleistocenskih sredozemskih otokov.
+
+Med vrste netopirjev sodijo: Blasiusov podkovnjak, mali podkovnjak, veliki podkovnjak, mali mišouhac, Geoffroyev netopir, brkati netopir, belorobi netopir, mali netopir, Savijev netopis, pozni netopir, dolgouhi netopir, dolgokrili netopir in evropski prostorepi netopir.[34]
+
+Kri-kri (kretski kozorog) živi v zaščitenih naravnih parkih v soteski Samarije in na otoku Agios Theodoros
+Kri-kri (kretski kozorog) živi v zaščitenih naravnih parkih v soteski Samarije in na otoku Agios Theodoros
+ 
+Samec kretskega kozoroga
+Samec kretskega kozoroga
+ 
+Kretski hrt ali Kritikos Lagonikos, ena najstarejših evropskih pasem lovskih psov
+Kretski hrt ali Kritikos Lagonikos, ena najstarejših evropskih pasem lovskih psov
+Ptice
+Različne vrste ptic vključujejo orle (lahko jih vidimo v Lasitiju), lastovke (povsod po Kreti poleti in vse leto na jugu otoka), pelikane (ob obali) in navadne žerjave. Kretske gore in soteske so zatočišča za ogroženega jastreba. Med vrste ptic sodijo: planinski orel, kragulji orel, brkati ser, beloglavi jastreb, sredozemski sokol, sokol selec, južni sokol, postovka, Lesna sova, čuk, siva vrana, planinska kavka, rdečekljuna vrana, in smrdokavra. Populacija beloglavih jastrebov na Kreti je največja otoška vrsta na svetu in je sestavljena iz večine populacije beloglavih jastrebov v Grčiji.[35]
+
+Plazilci in dvoživke
+Želve je mogoče videti po celem otoku. Pod skalami se lahko najdejo kače. Krastače in žabe se razkrijejo, ko dežuje.
+
+Plazilci vključujejo egejskega stenskega kuščarja (Podarcis erhardii), balkansko zeleno kuščarico (Lacerta trilineata), navadnega kameleona (Chamaeleo chamaeleon), skinka Chalcides ocellatus, kačjeokega skinka (Ablepharus), stenskega gekona (Tarentola mauritanica), sredozemskega hišnega gekona (Hemidactylus turcicus), Kotschyjevega gekona (Mediodactylus kotschyi), grško želvo (Testudo graeca) in kaspijsko želvo (Mauremys caspica).
+
+Na otoku živijo štiri vrste kač, ki človeku niso nevarne. Štiri vrste vključujejo leopardjo kačo (lokalno znano kot Ochendra), balkansko bičasto kačo (lokalno imenovano Dendrogallia), kockasto kačo (v grščini imenovano Nerofido) in edina strupena kača je nočna mačja kača, ki se je razvila tako, da zagotavlja šibek strup na zadnji strani ust, ki paralizira gekone in majhne kuščarje, in ni nevaren za ljudi.
+
+Morske želve so orjaška črepaha in glavata kareta, ki sta obe ogroženi vrsti. Želva kareta gnezdi in se izleže na plažah na severni obali okoli Retimna in Hanije ter na plažah na južni obali ob zalivu Mesara.[36]
+
+Dvoživke so zelena krastača, volovska žaba (vnesena), zelena rega in kretska močvirska žaba (Pelophylax cretensis) (endemična).[37]
+
+Členonožci
+Cikade, lokalno znane kot Tzitzikia, oddajajo značilen ponavljajoč zvok tzi tzi, ki v vročih poletnih dneh postane glasnejši in pogostejši. Vrste metuljev vključujejo metulja lastovičnega repka. Vrste moljev vključujejo molja kolibrija. Obstaja več vrst škorpijonov, kot je Euscorpius carpathicus, katerih strup na splošno ni močnejši od ugriza komarja.
+
+Raki in mehkužci
+Rečni raki vključujejo polzemeljskega raka Potamon potamios. Užitni polži so zelo razširjeni in se lahko zberejo na stotine in čakajo na padavine, da jih oživijo.
+
+Morsko življenje
+
+Morska želva kareta gnezdi in se izleže ob plažah Retimna in Hanije ter v zalivu Mesara
+Poleg kopenskih sesalcev so morja okoli Krete bogata z velikimi morskimi sesalci. Ogrožena sredozemska medvedjica živi na skoraj vseh obalah države. Območje južno od Krete, znano kot Grško brezno, gosti kite, kita glavača, delfine in pliskavke. Minojske freske, ki prikazujejo delfine v Kraljičinem megaronu v Knososu, kažejo, da so se Minojci dobro zavedali in slavili ta bitja. Lignji, hobotnice, morske želve in morski psi kladivarji živijo ali potujejo ob obali.
+
+Nekatere izmed rib v vodah okoli Krete so: Scorpaenidae, kirnja, ustnače, morski bič (Dasyatis pastinaca), navadni ožigalkar, rjava raža, črni bik (Gobius niger), cepavec (Xyrichtys novacula), zvezdar, pisanica (Serranus scriba) in druge.
+
+Cretaquarium in Aquaworld Aquarium sta dva od treh akvarijev v Grčiji. Sta v Gournesu oziroma Hersonisosu.[38][39]
+
+Okoljsko zaščitena območja
+Okoljsko zaščitena območja so otok Elafonisi na obali jugozahodne Krete, palmov gozd Vai na vzhodni Kreti in Dionysades (oboje v občini Sitia, Lasithi). Vai ima palmovo plažo in je največji naravni palmov gozd v Evropi. Otok Chrysi, 15 kilometrov južno od Ierapetre, ima največji naravno gojeni gozd Juniperus macrocarpa v Evropi. Soteska Samaria je svetovni rezervat biosfere, soteska Rihtis pa je zaščitena zaradi svoje krajinske raznolikosti. Tudi Sitia UNESCO Global Geopark, dodan leta 2015 v UNESCO Geoparks, se nahaja na najbolj vzhodnem robu Krete.
+
+Zgodovina
+
+Minojski riton v obliki bika, Arheološki muzej Iraklion
+
+Minojska freska iz Knososa, Arheološki muzej Iraklion
+
+Minojska palača v Knososu
+V kasnejših obdobjih neolitika in bronaste dobe, pod Minojci, je imela Kreta visoko razvito, pismeno civilizacijo. Vladale so mu različne starogrške entitete, Rimsko cesarstvo, Bizantinsko cesarstvo, Kretski emirat, Beneška republika in Osmansko cesarstvo. Po kratkem obdobju neodvisnosti (1897–1913) pod začasno kretsko vlado se je pridružila Kraljevini Grčiji. Med drugo svetovno vojno ga je okupirala nacistična Nemčija.
+
+Prazgodovina
+Kamnita orodja kažejo, da so arhaični ljudje morda obiskali Kreto že pred 130.000 leti, vendar ni dokazov o stalni poselitvi otoka vse do neolitika, okoli 7000 pr. n. št..[40] Naselbine iz keramičnega neolitika v 7. tisočletju pred našim štetjem so uporabljale govedo, ovce, koze, prašiče in pse ter udomačene žitarice in stročnice; starodavni Knosos je bil mesto enega od teh večjih neolitskih (nato kasneje minojskih) najdišč.[41] Druge neolitske naselbine so tiste v Kephali, Magasi in Trapezi.
+
+Minojska civilizacija
+Glavni članek: Minojska doba.
+Med bronasto dobo je bila Kreta središče minojske civilizacije, znana po svoji umetnosti, pisnih sistemih, kot je linear A, in po svojih ogromnih stavbnih kompleksih, vključno s palačo v Knososu. Njeno gospodarstvo je imelo koristi od trgovske mreže po večjem delu Sredozemlja, minojski kulturni vpliv pa se je razširil na Ciper, Kanaan in Egipt. Nekateri učenjaki domnevajo, da imajo legende, kot je tista o minotavru, zgodovinsko podlago v minojskih časih.
+
+Mikenska civilizacija
+Glavni članek: Mikenska doba.
+Leta 1420 pred našim štetjem je minojsko civilizacijo prevzela mikenska civilizacija iz celinske Grčije. Najstarejši vzorci pisave v grškem jeziku, kot jih je identificiral Michael Ventris, je arhiv [[Linearna pisava B|linearne B}} iz Knososa, datiran približno v 1425–1375 pr. n. št..[42]
+
+Arhaično in klasično obdobje
+Po propadu bronaste dobe so Kreto naselili novi valovi Grkov s celine. V arhaičnem obdobju se je razvilo več mestnih držav. Stik s celinsko Grčijo je bil omejen, grško zgodovinopisje pa kaže malo zanimanja za Kreto, zato je malo literarnih virov.
+
+Med 6. in 4. stoletjem pred našim štetjem je bila Kreta sorazmerno brez vojskovanja. Gortinski zakonik (5. stoletje pr. n. št.) je dokaz, kako je kodificirano civilno pravo vzpostavilo ravnovesje med plemiško močjo in državljanskimi pravicami.
+
+V poznem 4. stoletju pred našim štetjem je aristokratski red začel propadati zaradi endemičnih notranjih spopadov med elito, gospodarstvo Krete pa so oslabile dolgotrajne vojne med mestnimi državami. V 3. stoletju pred našim štetjem so Gortin, Kidonia (Hanija), Litos in Polirhenia izpodbijali primat starodavnega Knososa.
+
+Medtem ko so mesta še naprej plenila drug drugega, so v svoje spore povabila celinske sile, kot sta Makedonija in njeni tekmeci Rodos ter Ptolemajski Egipt. Leta 220 pr. n. št. je otok mučila vojna med dvema nasprotujočima si koalicijama mest. Posledično je makedonski kralj Filip V. pridobil hegemonijo nad Kreto, ki je trajala do konca kretske vojne (205–200 pr. n. št.), ko so Rodošani nasprotovali vzponu Makedonije in so se Rimljani začeli vmešavati v kretske zadeve.
+
+V 2. stoletju pred našim štetjem je Ierapitna (Ierapetra) pridobila prevlado na vzhodni Kreti.
+
+Rimska vladavina
+Glavni članek: Kreta in Cirenajka (rimska provinca).
+Kreta je bila vpletena v Mitridatske vojne, ko je sprva odbila napad rimskega generala Marka Antonija Kretika leta 71 pr. n. št. Kljub temu je kmalu sledila divja triletna kampanja pod vodstvom Kvinta Cecilija Metela, opremljenega s tremi legijami. Kreto je Rim osvojil leta 69 pr. n. št., zaradi česar je Metel dobil naziv Creticus. Gortin je postal glavno mesto otoka, Kreta pa je postala rimska provinca, skupaj s Cirenajko, ki se je imenovala Creta et Cyrenaica. Arheološki ostanki kažejo, da je bila Kreta pod rimsko vladavino priča razcvetu in povečani povezanosti z drugimi deli cesarstva.[43] V 2. stoletju našega štetja so se vsaj tri mesta na Kreti (Litos, Gortin, Hierapitna) pridružila Panhellenionu, ligi grških mest, ki jo je ustanovil cesar Hadrijan. Ko je Dioklecijan ponovno razdelil cesarstvo, je bila Kreta skupaj s Cirenajko uvrščena pod škofijo Mezije, kasneje pa je Konstantin I. Veliki pod škofijo Makedonije.
+
+Bizantinsko cesarstvo – prvo obdobje
+
+Samostan Arkadi
+Kreta je bila ločena od Cirenajke ok. leta 297. Ostala je provinca znotraj vzhodne polovice Rimskega cesarstva, običajno imenovanega Vzhodno rimsko (Bizantinsko) cesarstvo, potem ko je Konstantin leta 330 ustanovil drugo prestolnico v Konstantinoplu. Leta 467 so Kreto napadli Vandali, velika potresa leta 365 in 415, vpad Slovanov leta 623, arabski vpadi leta 654 in 670 ter ponovno v 8. stol. Okoli leta 732 je cesar Leon III. Izavrijec otok prenesel iz jurisdikcije papeža v jurisdikcijo carigrajskega patriarhata.[44]
+
+Arabska vladavina
+Glavni članek: Kretski emirat.
+
+Bizantinci so pod poveljstvom Damijana napadli Kreto, vendar so jih premagali Saraceni, ok.828, kot ga je upodobil Ivan Skilica
+V 820-ih, po 900 letih kot rimski otok, so Kreto zavzeli andaluzijski Muladi pod vodstvom Abu Hafsa,[45] ki je ustanovil Kretski emirat. Bizantinci so leta 842 in 843 pod Teoktistosom začeli pohod, ki je zavzel večino otoka. Nadaljnji bizantinski pohodi leta 911 in 949 so bili neuspešni. Leta 960–61 je pohod Nikeforja Fokasa vrnil Kreto v Bizantinsko cesarstvo po stoletju in pol arabskega nadzora.
+
+Bizantinsko cesarstvo – drugo obdobje
+Leta 961 je Nikefor II. Fokas po izgonu Arabcev vrnil otok pod bizantinsko oblast.[46] Izvedena so bila obsežna prizadevanja za spreobrnitev prebivalstva, ki sta jih vodila Ioannis Xenos in Nikon Pokornik.[47][48] Ponovna osvojitev Krete je bila velik dosežek za Bizantince, saj je obnovila bizantinski nadzor nad Egejskim primorjem in zmanjšala grožnjo saracenskih piratov, ki jim je Kreta predstavljala oporišče za operacije.
+
+Leta 1204 je četrta križarska vojna zavzela in oplenila cesarsko prestolnico Konstantinopel. Kreta je bila prvotno podeljena vodilnemu križarju Bonifaciju Montferratskemu pri razdelitvi plena, ki je sledila. Vendar je Bonifacij svojo pravico prodal Beneški republiki, katere sile so predstavljale večino križarske vojne. Beneški tekmec Genovska republika je takoj zavzela otok in šele leta 1212 so Benetke zagotovile Kreto kot kolonijo.
+
+Beneška oblast
+
+Buondelmontijev zemljevid iz 15. stoletja
+Od leta 1212, v času beneške vladavine, ki je trajala več kot štiri stoletja, je otok zajela renesansa, kar je razvidno iz umetniških del iz tega obdobja. Znan kot kretska šola ali postbizantinska umetnost, je med zadnjimi cvetovi umetniških tradicij propadlega cesarstva. To je vključevalo slikarja El Greca in pisatelje Nicholasa Kalliakisa (1645–1707), Georgiosa Kalafatisa (profesorja) (ok. 1652–1720), Andreasa Musalusa (ok. 1665–1721) in Vitsentzosa Kornarosa.[49][50][51]
+
+
+Frangokastello so zgradili Benečani v letih 1371–74
+Pod vladavino katoliških Benečanov je mesto Candia veljalo za najbolje utrjeno mesto v vzhodnem Sredozemlju.[52] Tri glavne utrdbe so bile Gramvousa, Spinalonga in Fortezza v Retimnonu. Druge utrdbe so trdnjava Kazarma v Sitiji in Frangokastello v Sfakiji.
+
+Leta 1492 so se na otok naselili Judje, izgnani iz Španije.[53] V letih 1574–77 je bila Kreta pod vladavino Giacoma Foscarinija kot generalnega providurja, Sindaceja in inkvizitorja. Glede na Starrov članek iz leta 1942 je bila vladavina Giacoma Foscarinija temna doba za Jude in Grke. Pod njegovo vladavino so morali nekatoličani plačevati visoke davke brez dodatkov. Leta 1627 je bilo v mestu Candia 800 Judov, približno sedem odstotkov mestnega prebivalstva. Marco Foscarini je bil v tem času beneški dož.
+
+Osmanska vladavina
+
+Obleganje Kandije, ki velja za eno najdaljših obleganj v zgodovini, je trajalo od leta 1648 do 1669
+
+Nicolas Sanson, Kreta leta 1651
+
+Etnična sestava otoka leta 1861
+  pravoslavni Grki
+   Kretski muslimani/turki
+
+Mošeja Kara Musa Paša, Retimno
+Osmani so leta 1669 po obleganju Kandije osvojili Kreto (Girit Eyâleti). Številni grški Krečani so po osmansko-beneških vojnah zbežali v druge regije Beneške republike, nekateri so celo uspevali, kot je družina Simone Stratigo (okoli 1733 – okoli 1824), ki se je leta 1669 preselila s Krete v Dalmacijo.[54]
+
+Islamska prisotnost na otoku je bila poleg vmesne arabske okupacije utrjena z osmanskim osvajanjem. Večina kretskih muslimanov je bilo lokalnih grških spreobrnjencev, ki so govorili kretsko grščino, vendar so v otoškem političnem kontekstu 19. stoletja krščansko prebivalstvo nanje začeli gledati kot na Turke. Sodobne ocene se razlikujejo, toda na predvečer grške vojne za neodvisnost (1830) je bilo morda kar 45 % prebivalcev otoka muslimanov. Številni sufijski redovi so bili razširjeni po vsem otoku, najbolj razširjen je bil bektaški red, ki je imel vsaj pet tekij. Številni kretski Turki so zaradi nemirov pobegnili s Krete in se naselili v Turčiji, na Rodosu, v Siriji, Libiji in drugod. Do leta 1900 je bilo 11 % prebivalstva muslimanov. Tisti, ki so ostali, so bili leta 1924 preseljeni med Grčijo in Turčijo.[55]
+
+Med veliko nočjo leta 1770 je Daskalogiannis, ladjar iz Sfakie, ki mu je Orlovova flota obljubila podporo, ki ni nikoli prispela, sprožil upor proti osmanski oblasti na Kreti. Daskalogiannis se je na koncu predal osmanskim oblastem. Danes se letališče v Haniji imenuje po njem.
+
+Med grško vojno za neodvisnost je sultan Mahmud II. podelil oblast nad Kreto egiptovskemu vladarju Mohamedu Ali Paši v zameno za njegovo vojaško podporo. Kreta je bila nato izpuščena iz nove grške države, ustanovljene v skladu z Londonskim protokolom iz leta 1830. Njena uprava s strani Muhammada Alija je bila potrjena s konvencijo iz Kütahye iz leta 1833, vendar je bila neposredna osmanska oblast ponovno vzpostavljena z Londonsko konvencijo z dne 3. julija 1840.
+
+Iraklion je bil obdan z visokim obzidjem in bastijoni ter se do 17. stoletja razširil proti zahodu in jugu. Najbolj razkošno območje mesta je bil severovzhodni kvadrant, kjer se je zbirala elita. Mesto je pod vladavino Osmanov dobilo drugo ime, »zapuščeno mesto«. Urbanistična politika, ki so jo Osmani uporabili za Kandijo, je bila dvostranski pristop. Prva so bila verska darila. Zaradi tega je osmanska elita prispevala k izgradnji in obnovi porušenega mesta. Druga metoda je bila povečanje števila prebivalstva in mestnih prihodkov s prodajo mestnih posesti. Po besedah ​​Molly Greene (2001) je bilo med osmansko vladavino veliko zapisov o transakcijah z nepremičninami. V zapuščenem mestu so manjšine dobile enake pravice pri nakupu posesti. Kristjani in Judje so lahko kupovali in prodajali tudi na trgu nepremičnin.
+
+Kretski upor 1866–1869 ali Velika kretska revolucija (grško Κρητική Επανάσταση του 1866) je bil triletni upor proti osmanski oblasti, tretji in največji v nizu uporov med koncem grške vojne za neodvisnost leta 1830 in ustanovitev neodvisne Kretske države leta 1898. Poseben dogodek, ki je sprožil močan odziv v liberalnih krogih zahodne Evrope, je bil Arkadijev holokavst. Dogodek se je zgodil novembra 1866, ko je velika osmanska vojska oblegala samostan Arkadiu, ki je služil kot sedež upora. Poleg njegovih 259 branilcev se je v samostan zateklo preko 700 žena in otrok. Po nekaj dneh težkih bojev so Osmani vdrli v samostan. Takrat je opat samostana zažgal smodnik, ki je bil shranjen v samostanskih trezorjih, kar je povzročilo smrt večine upornikov ter tam zatečenih žensk in otrok.
+
+Kretska država 1898–1908
+
+Revolucionarji v Theriso
+Po ponavljajočih se uporih v letih 1841, 1858, 1889, 1895 in 1897 s strani Krečanov, ki so se želeli pridružiti Grčiji, so se velike sile odločile vzpostaviti red in februarja 1897 poslale čete. Na otoku so bile nato garnizone iz Velike Britanije, Francije, Italije in Rusije; Nemčija in Avstro-Ogrska sta se umaknili izpod okupacije v začetku leta 1898. V tem obdobju je Kreto upravljal odbor admiralov iz preostalih štirih sil. Marca 1898 so velesile z nenaklonjenim soglasjem sultana odredile, da bo otok v bližnji prihodnosti dobil avtonomijo pod osmanskim suzerenstvom.[56]
+
+Septembra 1898 je pokol v Kandiji v mestu Kandija, današnjem Iraklionu, pustil več kot 500 kretskih kristjanov in 14 britanskih vojakov mrtvih v rokah muslimanskih neregularnih sil. Posledično so admirali ukazali izgon vseh osmanskih vojakov in upraviteljev z otoka, kar je bilo na koncu končano do začetka novembra. Odločitev o podelitvi avtonomije otoku je bila uveljavljena in imenovan je bil visoki komisar, grški princ Jurij, ki je svojo funkcijo prevzel decembra 1898.[57] Zastavo Kretske države so izbrale sile, pri čemer je bela zvezda predstavljala otomansko suverenost nad otokom.
+
+
+Zastava Kretske države
+Leta 1905 so nesoglasja med princem Jurijem in ministrom Elefteriosom Venizelosom glede vprašanja enosis (združitev z Grčijo), kot je prinčev avtokratski slog vladanja, povzročila upor Theriso, eden od voditeljev je bil Elefterios Venizelos.
+
+Princ Jurij je odstopil s položaja visokega komisarja in leta 1906 ga je zamenjal Alexandros Zaimis, nekdanji grški premier. Leta 1908 so kretski namestniki, ki so izkoristili domače nemire v Turčiji in čas, ko je Zaimis odšel z otoka, enostransko razglasili zvezo z Grčijo.
+
+Z izbruhom prve balkanske vojne je grška vlada razglasila, da je Kreta zdaj grško ozemlje. To je bilo mednarodno priznano šele 1. decembra 1913.
+
+Druga svetovna vojna
+
+Nemški padalci, ki se med bitko za Kreto izkrcajo na Kreti
+
+Vojni spomenik v Kandanosu
+Med drugo svetovno vojno je bil otok maja 1941 prizorišče bitke za Kreto. Prva 11-dnevna bitka je bila krvava in pustila več kot 11.000 ubitih ali ranjenih vojakov in civilistov. Zaradi ostrega odpora zavezniških sil in civilnih kretskih domačinov so invazijske sile utrpele velike izgube in Adolf Hitler je prepovedal nadaljnje obsežne padalske operacije do konca vojne.
+
+Med prvo in kasnejšo okupacijo so nemški strelski vodi redno usmrtili moške civiliste v maščevanje za smrt nemških vojakov; civiliste so naključno zbirali v lokalnih vaseh za množične poboje, kot na primer pri pokolu v Kondomariju in pokolu v Viannosu. Dvema nemškima generaloma so kasneje sodili in usmrtili zaradi njune vloge pri umoru 3000 prebivalcev otoka.[58]
+
+Po propadu front drugod po Evropi so nemške sile oktobra 1944 evakuirale večji del Krete, tako da je območje, vključno s Hanijo, ostalo pod okupacijo. Naslednje leto, dan po dnevu VE, so se preostali Nemci pod poveljstvom generalmajorja Hansa-Georga Benthacka v Knososu predali britanskemu generalmajorju Colinu Callanderju.[59]
+
+Državljanska vojna
+Po Dekemvriani v Atenah so bili kretski levičarji tarča desničarske paravojaške organizacije National Organisation of Rethymno (EOR), ki je januarja 1945 izvajala napade na vasi Koksare in Melampes ter Retimno. Ti napadi niso eskalirali v upor polnega obsega, kot so to storili na grški celini in kretski ELAS ni predal svojega orožja po pogodbi v Varkizi. Nelagodno premirje se je ohranilo do leta 1947 z vrsto aretacij pomembnih komunistov v Haniji in Iraklionu. Spodbujena z ukazi osrednje organizacije v Atenah je KKE sprožila upor na Kreti; ki označuje začetek grške državljanske vojne na otoku. Na vzhodni Kreti se je grška demokratična vojska (DSE) trudila vzpostaviti svojo prisotnost v Diktiju in Psiloritesu. 1. julija 1947 je 55 preživelih borcev DSE padlo v zasedo južno od Psiloritesa, nekaj preživelih članov enote se je uspelo pridružiti ostalim DSE v Lefka Ori.[60]
+
+Regija Lefka Ori na zahodu je ponujala ugodnejše pogoje za upor DSE. Poleti 1947 je DSE napadel in oropal letališče Maleme in avtomobilsko skladišče v Hrisopigiju. Njeno število je naraslo na približno 300 borcev. Naraščanje števila DSE skupaj z izpadom pridelka na otoku je povzročilo resne logistične težave za upornike. Komunisti so se zatekli k lovljenju živine in zaplembam pridelka, kar je problem rešilo le začasno. Jeseni 1947 je grška vlada ponudila velikodušne pogoje amnestije kretskim borcem DSE in gorskim banditom, od katerih so se mnogi odločili opustiti oborožen boj ali prebegniti k nacionalistom. 4. julija 1948 so vladne enote sprožile obsežno ofenzivo na sotesko Samariá. Veliko vojakov DSE je bilo ubitih v bojih, medtem ko so preživeli razpadli v majhne oborožene skupine. Oktobra 1948 je bil v zasedi ubit sekretar kretske KKE Giorgos Tsitilos. Do naslednjega meseca je v Lefka Oriju ostalo aktivnih le še 34 borcev DSE. Upor na Kreti je postopoma usahnil, zadnji dve vztrajni strani sta se predali leta 1974, 25 let po koncu vojne v celinski Grčiji.[61]
+
+Glej tudi
+Minojski izbruh
+Santorini
+Sklici
+ »Population on 1 January by NUTS 2 region«. Statistics Eurostat. Arhivirano iz spletišča dne 21. januarja 2021.
+ Stephanie Lynn Budin, The Ancient Greeks: An Introduction (New York: Oxford UP, 2004), 42.
+ O. Dickinson, The Aegean Bronze Age (Cambridge, UK: Cambridge UP, 1994), 241–244.
+ Found on the PY An 128 tablet.
+ Found on the PY Ta 641 and PY Ta 709 tablets.
+ »The Linear B word ke-re-si-ji«. Palaeolexicon.
+ Κρής, Κρήσιος s.v. κρησίαι. Liddell, Henry George; Scott, Robert; A Greek–English Lexicon at Perseus Project.
+ Book 14, line 199; Henry George Liddell, Robert Scott, A Greek–English Lexicon
+ Edwin L. Brown, "Linear A on Trojan Spindlewhorls, Luvian-Based ϜΑΝΑΞ at Cnossus", in Qui miscuit utile dulci: Festschrift Essays for Paul Lachlan MacKendrick, eds. Gareth Schmeling & Jon D. Mikalson (Wauconda, Ill.: Bolchazy-Carducci, 1998), 62.
+ »Τι σημαίνει το όνομα "Κρήτη" τελικά και γιατί ονομάστηκε έτσι το νησί μας;«. Daynight.gr (v grščini). 8. december 2018. Arhivirano iz spletišča dne 14. julija 2021. Pridobljeno 14. julija 2021.
+ Λελάκης, Γεώργιος (2008). Αιγαίο-ετυμολογίες νήσων (v grščini).
+ Kalantzis, Konstantinos (2019). Tradition in the Frame: Photography, Power, and Imagination in Sfakia, Crete. Indiana University Press. str. 23–58. ISBN 978-0-253-03713-8. Arhivirano iz prvotnega spletišča dne 16. decembra 2019. Pridobljeno 2. oktobra 2019.
+ »Gorge of the Dead«. Cretanbeaches.com. Arhivirano iz prvotnega spletišča dne 25. aprila 2015. Pridobljeno 13. septembra 2012.
+ »Richtis gorge«. Cretanbeaches.com. Arhivirano iz prvotnega spletišča dne 31. julija 2012. Pridobljeno 13. septembra 2012.
+ »Richtis beach and gorge«. Candia.wordpress.com. 20. april 2010. Pridobljeno 13. septembra 2012.
+ »Richtis gorge and waterfall«. Worldreviewer.com. 25. februar 2011. Arhivirano iz prvotnega spletišča dne 12. oktobra 2018. Pridobljeno 13. septembra 2012.
+ Photos of Agia Lake Crete TOURnet.
+ Lake Voulismeni Arhivirano 20 July 2011 na Wayback Machine. aghiosnikolaos.eu
+ Rackham, O; Moody, J (1996). The Making of the Cretan Landscape. Manchester University Press. ISBN 9780719036477.
+ Panagos, Panagos; Christos, Karydas; Cristiano, Ballabio; Ioannis, Gitas (2014). »Seasonal monitoring of soil erosion at regional scale: An application of the G2 model in Crete focusing on agricultural land uses«. International Journal of Applied Earth Observation and Geoinformation. 27: 147–155. Bibcode:2014IJAEO..27..147P. doi:10.1016/j.jag.2013.09.012.
+ »Climatic Atlas of Greece«. Hellenic National Meteorological Service. Pridobljeno 4. avgusta 2022.
+ Crete, p.44, by Victoria Kyriakopoulos.
+ Π.Δ. 51/87 "Καθορισμός των Περιφερειών της Χώρας για το σχεδιασμό κ.λ.π. της Περιφερειακής Ανάπτυξης" (Determination of the Regions of the Country for the planning etc. of the development of the Region, ΦΕΚ A 26/06.03.1987
+ »Μόνιμος Πληθυσμός - ELSTAT«. www.statistics.gr. Arhivirano iz prvotnega spletišča dne 30. marca 2023. Pridobljeno 30. marca 2023.
+ The rough guide to Crete, Introduction, p. ix by J. Fisher and G. Garvey.
+ »Crete information«. Crete.
+ »Regional GDP per capita ranged from 30% to 263% of the EU average in 2018«. Eurostat.
+ Sands, Roger (2005). Forestry in a Global Context. str. 27. ISBN 9780851990897. Pridobljeno 24. septembra 2019.
+ Crete p.68 by Victoria Kyriakopoulos
+ Van der Geer, A.A.E., Dermitzakis, M., De Vos, J., 2006. Crete before the Cretans: the reign of dwarfs. Pharos 13, 121–132. Athens: Netherlands Institute.PDF
+ »Crete: 10 Fun Facts and Interesting Insights«. 7. april 2019.
+ Αναρτήθηκε από admin. »ΤΟΠΙΟ: Θοδωρού, η άγνωστη νησίδα του Βενετικού ναυτικού οχυρού, των κρι-κρι και η απαγόρευση προσέγγισης«. To-pio.blogspot.gr. Pridobljeno 26. marca 2013.
+ Atlas of terrestrial mammals of the Ionian and Aegean islands. De Gruyter. 30. oktober 2012. str. 43. ISBN 9783110254587.
+ Wildlife on Crete Arhivirano 2023-10-03 na Wayback Machine. IntoCrete.com
+ Xirouchakis, Stavros M.; Mylonas, Moysis (december 2005). »Status and structure of the griffon vulture (Gyps fulvus) population in Crete«. European Journal of Wildlife Research. 51 (4): 223–231. doi:10.1007/s10344-005-0101-4. S2CID 24900498.
+ Crete p. 69, by Victoria Kyriakopoulos
+ Dufresnes, C. (2019). Amphibians of Europe, North Africa and the Middle East: A Photographic Guide. Bloomsbury Publishing. ISBN 978-1-4729-4137-4.
+ Cretaquarium Arhivirano 26 June 2011 na Wayback Machine. Cretaquarium.gr
+ Great Britons in Crete, John Bryce McLaren Arhivirano 19 March 2011 na Wayback Machine. BritsinCrete.net
+ Day, Jo (2018), »Crete, Archaeology of«, Encyclopedia of Global Archaeology (v angleščini), Cham: Springer International Publishing, str. 1–18, doi:10.1007/978-3-319-51726-1_1434-2, ISBN 978-3-319-51726-1, pridobljeno 8. maja 2023
+ C. Michael Hogan. 2007 Knossos fieldnotes The Modern Antiquarian
+ Shelmerdine, Cynthia. »Where Do We Go From Here? And How Can the Linear B Tablets Help Us Get There?« (PDF). Arhivirano iz prvotnega spletišča (PDF) dne 3. oktobra 2011. Pridobljeno 27. marca 2008.
+ Jane Francis and Anna Kouremenos (2016). Roman Crete: New Perspectives. Oxford: Oxbow. ISBN 978-1785700958.
+ Gregory & Kazhdan 1991, str. 546.
+ Reinhart Dozy, Histoire des Musulmans d'Espagne: jusqu'à la conquête de l'Andalousie par les Almoravides (French) pg. 711–1110, Leiden, 1861 & 1881, 2nd edition
+ Panagiotakis 1987, str. XVI.
+ Gregory & Kazhdan 1991, str. ;545–546.
+ Treadgold 1997, str. 495.
+ Tiepolo, Maria Francesca; Tonetti, Eurigio (2002). I greci a Venezia. Istituto veneto di scienze. str. 201. ISBN 978-88-88143-07-1. Cretese Nikolaos Kalliakis
+ Boehm, Eric H. (1995). Historical abstracts: Modern history abstracts, 1450–1914, Volume 46, Issues 3–4. American Bibliographical Center of ABC-Clio. str. 755. OCLC 701679973. Between the 15th and 19th centuries the University of Padua attracted a great number of Greek students who wanted to study medicine. They came not only from Venetian dominions (where the percentage reaches 97% of the students of Italian universities) but also from Turkish-occupied territories of Greece. Several professors of the School of Medicine and Philosophy were Greeks, including Giovanni Cottunio, Niccolò Calliachi, Giorgio Calafatti...
+ Convegno internazionale nuove idee e nuova arte nell '700 italiano, Roma, 19–23 maggio 1975. Accademia nazionale dei Lincei. 1977. str. 429. OCLC 4666566. Nicolò Duodo riuniva alcuni pensatori ai quali Andrea Musalo, oriundo greco, professore di matematica e dilettante di architettura chiariva le nuove idée nella storia dell'arte.
+ M. Greene. 2001. Ruling an island without a navy: A comparative view of Venetian and Ottoman Crete. Oriente moderno, 20(81), 193–207
+ A.J. Schoenfeld. 2007. Immigration and Assimilation in the Jewish Community of Late Venetian Crete (15th–17th centuries). Journal of Modern Greek Studies, 25(1), 1–15
+ Carlo Capra; Franco Della Peruta; Fernando Mazzocca (2002). Napoleone e la repubblica italiana: 1802–1805. Skira. str. 200. ISBN 978-88-8491-415-6. Simone Stratico, nato a Zara nel 1733 da famiglia originaria di Creta (abbandonata a seguito della conquista turca del 1669)
+ »Vakantie Kreta – De beste Tips & Reviews | Holidaytrust.nl« (v nizozemščini). Pridobljeno 18. aprila 2019.
+ Pinar Senisik, The Transformation of Ottoman Crete, Revolts, Politics and Identity in the Late Nineteenth century p. 165. I. B. Tauris, 2011.
+ Robert Holland and Diane Markides, The British and the Hellenes: Struggles for Mastery in the Eastern Mediterranean 1850–1960. p. 81. Oxford University Press, 2005.
+ "Some Noteworthy War Criminals" Arhivirano 1 April 2012 na Wayback Machine., Source: History of the United Nations War Crimes Commission and the Development of the Laws of War, United Nations War Crimes Commission. London: HMSO, 1948, p. 526, updated 29 January 2007 by Stuart Stein (University of the West of England), accessed 22 January 2010
+ Beevor, Antony (2005). Crete: The Battle and the Resistance. John Murray. str. 176. ISBN 978-0-7195-6831-2.
+ Margaritis 2006, str. ;441–447.
+ Margaritis 2006, str. ;447–452.
+Zunanje povezave
+
+Wikimedijina zbirka ponuja več predstavnostnega gradiva o temi: Kreta
+
+Poglejte si besedo kreta v Wikislovarju, prostem slovarju.
+Official Website of Gavalochori Village, Crete (angleško)
+Crete Locals comprehensive guide of Crete Island (in English)
+Natural History Museum of Crete at the University of Crete
+Cretaquarium Thalassocosmos in Heraklion.
+Aquaworld Aquarium in Hersonissos.
+Ancient Crete Arhivirano 30 May 2020 na Wayback Machine. at Oxford Bibliographies Online: Classics.
+Official Greek National Tourism Organisation website
+Interactive Virtual Tour of Crete
+ppu
+Periferije Grčije
+Normativna kontrola Uredite to na Wikipodatkih
+Kategorije: Članki, ki vsebujejo mikenskogrško besediloČlanki, ki vsebujejo pragrško besediloKretaOtoki Grčije v Egejskem morjuPeriferije Grčije
+Čas zadnje spremembe strani: 12:13, 18. december 2024.
+Besedilo se sme prosto uporabljati v skladu z dovoljenjem Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0; uveljavljajo se lahko dodatni pogoji. Za podrobnosti glej Pogoje uporabe.
+Wikipedia® je tržna znamka neprofitne organizacije Wikimedia Foundation Inc.
+Pravilnik o zasebnostiO WikipedijiZavrnitve odgovornostiKodeks ravnanjaRazvijalciStatistikaO piškotkihMobilni prikaz
+Wikimedia Foundation
+Powered by MediaWiki
+
+Kreta
+
+131 jezikov
+Dodaj temo
+
+
+
+
+Wikipedijaprosta enciklopedija
+Iskanje v Wikipediji
+Išči
+Denarni prispevki
+Ustvari račun
+Prijava
+
+Vsebina skrij
+Uvod
+Zgodovina
+
+Arheologija
+Geografija
+Uprava
+Kuhinja
+Sklici
+Zunanje povezave
+Kikladi
+
+Stran
+Pogovor
+Preberi
+Uredi stran
+Uredi kodo
+Zgodovina
+
+Orodja
+Videz skrij
+Besedilo
+
+Majhna
+
+Standard
+
+Velika
+Širina
+
+Standardno
+
+Široko
+Barva (beta)
+
+Samodejno
+
+Svetlo
+
+Temno
+Koordinati: 37°0′0″N 25°10′0″E
+Iz Wikipedije, proste enciklopedije
+Kikladi
+Νομός Κυκλάδων
+bivša grška prefektura
+
+Lega Kikladov na zemljevidu Grčije
+Lega Kikladov na zemljevidu Grčije
+Občine v Prefekturi KIkladi
+Občine v Prefekturi KIkladi
+37°0′0″N 25°10′0″E
+Država	Zastava Grčije Grčija
+Periferija	Južnoegejska periferija
+Ustanovitev	1833
+Razpustitev	2010
+Glavno mesto	Ermoupoli
+Podenote	
+Seznam
+9 provinc
+20 mestnih občin
+11 občin
+Površina
+ • Skupno	2.572 km2
+Rang	23.
+Prebivalstvo (2005)
+ • Skupno	119.549
+ • Rang	29.
+ • Gostota	46 preb./km2
+ • Rang gostote	34.
+Poštne številke	
+84x xx
+Telefonske številke	228x0
+Koda ISO 3166	GR-82
+Avtomobilska oznaka	ΕΜ
+Kikladi (grško starogrško Κυκλάδες, Kykládes, [kikˈlaðes]) so otočje v Egejskem morju jugovzhodno od celinske Grčije in bivša administrativna prefektura Grčije. Ime otočja je izpeljano iz grške besede κύκλος kýklos 'krog', saj gre za otoke, ki obkrožajo sveti otok Delos. Največji otok Kikladov je Naksos, otok za največjim številom prebivalcev pa Siros. Drugi znani otoki so še Santorini, Mikonos, Tinos, Milos, Siros, Paros, Folegandros, Sikinosi, Ios (Híos), Anafi, Andros, Kea ...
+
+Zgodovina
+
+Harfist, primer kikladske umetnosti, Narodni arheološki muzej, Atene
+Pomembna kikladska kultura poznega neolitika in zgodnje bronaste dobe je najbolj znana po svojih shematskih ploščatih skulpturah, izklesanih iz čistega belega marmorja stoletja preden je na Kreti na jugu nastala velika minojska civilizacija srednje bronaste dobe.
+
+Značilna neolitska kultura, ki je združevala anatolske in celinske grške elemente, je nastala v zahodnem Egejskem morju pred letom 4000 pr. n. št. Zanjo so bile značilni dvozrna pšenica, divji ječmen, reja ovac, koz in prašičev ter lov na tune, ki so ga očitno opravljali z majhnimi čolni.[1] Med raziskana najdišča spadajo Halandriani, Filakopi, Skarkos, Saliagos in Kefala (na Kei) z znaki obdelave bakra. Na majhnih Kikladskih otokih je lahko živelo največ nekaj tisoč ljudi. Nekatere vrste kikladskih ladij kažejo, da so imele po petdeset veslačev, ki jih je bil treba zbrati iz raztresenih otoških skupnosti.[1] Ko se je na Kreti razvila visoko organizirana dvorna kultura, je kikladska kultura izgubila svojo pomembnost. Izjema je bil otok Delos, ki je obdržal svoj arhaični ugled svetišča skozi celo antiko do pojava krščanstva.
+
+Arheologija
+
+Antično gledališče v Delosu
+Prvim arheološkim izkopavanjem v 80. letih 19. stoletja so sledila sistematična izkopavanja Britanske šole v Atenah in Kristosa Tsountasa, ki je v letih 1898–1899 raziskal pokopališča na več otokih in uvedel izraz "kikladska civilizacija". Zanimanja je zatem malo zastalo in se nato povečalo sredi 20. stoletja, ko so se ljudje začeli zanimati za drobne kipce, podobne delom kiparjev Jeana Arpa in Constantina Brâncușija. Najdišča so bila izropana in začela se je živahna trgovina s ponaredki. Za mnoge od teh kikladskih figurin je bil kontekst večinoma uničen in njihov pomen morda nikoli ne bo popolnoma razumljen.
+
+Še en zanimiv in skrivnosten predmet so kikladske ponve. Natančnejša arheologija je razkrila široke obrise kmetijske in pomorske kulture, ki se je prenesla iz Anatolije okoli 5000 pr. n. št. Zgodnja kikladska kultura se je razvijala v treh fazah v obdobju okoli 3300-2000 pr. n. št., potem pa jo je vedno bolj preplavljal naraščajoč vpliv minojske Krete. Kultura celinske Grčije, sodobnica kikladske kulture, je znana kot heladsko obdobje.
+
+V zadnjih desetletjih so Kikladi postali priljubljeni med evropskimi in drugimi turisti, posledično pa so se pojavile težave z erozijo, onesnaževanjem in pomanjkanjem vode.
+
+Geografija
+V Kilkadih je okoli 220 otokov. Večji otoki so Anafi, Andros, Antiparos, Delos, Ios, Kea, Kimolos, Kythnos, Milos, Mikonos, Naksos, Paros, Folegandros, Serifos, Sifnos, Sikinos, Siros, Tinos in Thira ali Santoríni. Med manjše otoke spadajo Donousa, Eschati, Giaros, Irakleia, Koufonisia, Makronisos, Rineia in Schoinousa. Ime Kikladi pomeni otoke, ki tvorijo krog okoli svetega otoka Delos. Večina manjših otokov ni naseljena. Glavno mesto in upravno središče nekdanje prefekture je Ermoupoli na Sirosu.
+
+Otoki so vrhovi potopljenega goratega ozemlja. Izjemi sta Milos in Santorini, ki sta ugasla vulkana. Podnebje je na splošno suho in blago. Tla, z izjemo Naksosa, niso zelo rodovitna. Med kmetijske pridelki spadajo vino, sadje, pšenica, olivno olje in tobak. V višjih legah so temperature nižje, sicer pa na otokih ni zimskega vremena.
+
+Južno od Kikladov je Kretsko morje.[2]
+
+Ermoupoli, glavno mesto Kikladov
+Ermoupoli, glavno mesto Kikladov
+ 
+Santorini
+Santorini
+ 
+Mikonos
+Mikonos
+ 
+Naksos
+Naksos
+ 
+Folegandros
+Folegandros
+ 
+Milos
+Milos
+ 
+Traditionalna vraka (hlače) z egejskih otokov
+Traditionalna vraka (hlače) z egejskih otokov
+Uprava
+Kikladska prefektura (grško Νομός Κυκλάδων) je bila ena od grških prefektur. Prefekture so bile leta 2011 ukinjene, ozemlje Kikladske prefekture pa je bilo razdeljeno na devet regionalnih enot Južne egejske regije:
+
+Provinca Amorgos: Amorgos
+Provinca Andros: Andros
+Provinca Kea: Ioulis
+Provinca Milos: Milos
+Provinca Naksos: Naksos
+Provinca Paros: Paroikia
+Provinca Siros: Ermoupoli
+Provinca Tinos: Tinos
+Provinca Thira: Thira
+Opomba: Province Grčiji nimajo več nobenega pravnega statusa.
+
+Kuhinja
+Med lokalne specialitete spadajo:
+
+brantáda, jed iz fileja polenovke
+fava santorinis, jed iz španske graše (Lathyrus clymenum)
+fourtalia (Andros), omleta
+kakavia (juha)
+matsata (testenine)
+kalasouna (Naksos)
+kalogeros (Naksos)
+krompirjevi ocvrtki
+različni siri, kot so kopanisti mikonou, manoura sifnou, armeksia, malaksia, hloro, San Michali in drugi
+loutza, podobna ciprski lountzi
+strapatsada (Koskosela)
+sfougato (omeleta)
+lazarakia (desert)
+melitinia (desert)
+melopita (desert)
+santorini (vino)
+Sklici
+ Jeremy B. Rutter. The Prehistoric Archaeology of the Aegean Arhivirano 2009-01-01 na Wayback Machine., zlasti lekciji 2 in 4: kronologija, zgodovina, bibliografija.
+ Saundry, Peter; Hogan, C. Michael; Baum, Steve (2011). "Sea of Crete". V Pidwirny, M.; Cleveland, C. J. (ur.). Encyclopedia of Earth. Washington DC: National Council for Science and Environment.
+Zunanje povezave
+Cyclades. Uradna spletna stran Grške nacionalje turistične organizacije
+Normativna kontrola Uredite to na Wikipodatkih
+Kategorija: Kikladi
+Čas zadnje spremembe strani: 15:03, 27. avgust 2024.
+Besedilo se sme prosto uporabljati v skladu z dovoljenjem Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0; uveljavljajo se lahko dodatni pogoji. Za podrobnosti glej Pogoje uporabe.
+Wikipedia® je tržna znamka neprofitne organizacije Wikimedia Foundation Inc.
+Pravilnik o zasebnostiO WikipedijiZavrnitve odgovornostiKodeks ravnanjaRazvijalciStatistikaO piškotkihMobilni prikaz
+Wikimedia Foundation
+Powered by MediaWiki
+
+Kikladi
+
+74 jezikov
+Dodaj temo

@@ -57,6 +57,10 @@ a) 3-gram + interpolacija
 b) 4-gram + simple backoff + add-1 
 
 
+
+
+
+
 Predlansko:
 1. PMI enačba za razložit pa za kaj se uporablja
 2. Enačba za značilke za razložit
@@ -77,3 +81,6 @@ bi-gram + Add-1 za verjetnost stavka "v gorovju bo snežilo/deželo" 25t
 poenostavitev za slovnične napake? 10t
 lematizacija in krmljenje (prunning) 10t
 mikro in makro povprečenje 10t
+
+
+
