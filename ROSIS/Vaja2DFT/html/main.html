@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>0fb4d44909bc4f5badf30fd4e1e4a396</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section
+id="frekvenčna-analiza-samoglasnikov-z-uporabo-skalarnega-produkta"
+class="cell markdown">
+<h1>Frekvenčna analiza samoglasnikov z uporabo skalarnega produkta</h1>
+<p>V tej nalogi analiziramo frekvenčno vsebino izgovorjenih
+samoglasnikov "a", "i", "o" z uporabo skalarnega produkta. Uporabimo
+tako realne kot kompleksne sinusoide, primerjamo rezultate s hitro
+Fourierjevo transformacijo (FFT), in določimo pomembne frekvence vsakega
+signala.</p>
+</section>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> frequency_analysis <span class="im">import</span> real_scalar_product, complex_scalar_product</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> utils <span class="im">import</span> load_audio, trim_signal, compute_fft</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.signal <span class="im">import</span> find_peaks</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sounddevice <span class="im">as</span> sd</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> librosa</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> soundfile <span class="im">as</span> sf</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> analyze_vowel(vowel, duration<span class="op">=</span><span class="fl">0.5</span>, N<span class="op">=</span><span class="dv">2000</span>):</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Processing vowel: </span><span class="sc">{</span>vowel<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    path <span class="op">=</span> <span class="ss">f&quot;audio_data/</span><span class="sc">{</span>vowel<span class="sc">}</span><span class="ss">_2_trimmed.wav&quot;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    rate, signal <span class="op">=</span> load_audio(path)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    signal <span class="op">=</span> trim_signal(signal, rate, duration)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># FFT</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    fft_freqs, fft_mag <span class="op">=</span> compute_fft(signal, rate)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    mask <span class="op">=</span> fft_freqs <span class="op">&lt;=</span> N</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    fft_freqs <span class="op">=</span> fft_freqs[mask]</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    fft_mag <span class="op">=</span> fft_mag[mask]</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    plot_spectrum(fft_freqs, fft_mag, <span class="ss">f&quot;</span><span class="sc">{</span>vowel<span class="sc">.</span>upper()<span class="sc">}</span><span class="ss"> - FFT Spectrum&quot;</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Frequencies for scalar products</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    freq_resolution <span class="op">=</span> <span class="dv">1</span> <span class="op">/</span> duration</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    freqs <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="bu">min</span>(N, rate <span class="op">/</span> <span class="dv">2</span>) <span class="op">+</span> freq_resolution, freq_resolution)</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Real sinusoids</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    real_mag <span class="op">=</span> real_scalar_product(signal, rate, freqs)</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    plot_spectrum(freqs, real_mag, <span class="ss">f&quot;</span><span class="sc">{</span>vowel<span class="sc">.</span>upper()<span class="sc">}</span><span class="ss"> - Real Scalar Product&quot;</span>)</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Complex sinusoids</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    complex_mag <span class="op">=</span> complex_scalar_product(signal, rate, freqs)</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    plot_spectrum(freqs, complex_mag, <span class="ss">f&quot;</span><span class="sc">{</span>vowel<span class="sc">.</span>upper()<span class="sc">}</span><span class="ss"> - Complex Scalar Product&quot;</span>)</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Energy threshold</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    total_energy <span class="op">=</span> np.<span class="bu">sum</span>(complex_mag <span class="op">**</span> <span class="dv">2</span>)</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>    threshold <span class="op">=</span> <span class="fl">0.01</span> <span class="op">*</span> total_energy</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>    significant_freqs <span class="op">=</span> freqs[complex_mag <span class="op">**</span> <span class="dv">2</span> <span class="op">&gt;=</span> threshold]</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Significant frequencies for &#39;</span><span class="sc">{</span>vowel<span class="sc">}</span><span class="ss">&#39; (≥1% energy):&quot;</span>)</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(significant_freqs)</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_spectrum(freqs, magnitudes, title):</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">4</span>))</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>    plt.plot(freqs, magnitudes)</span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>    plt.title(title)</span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&#39;Frequency (Hz)&#39;</span>)</span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;Magnitude (Scalar Product)&#39;</span>)</span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">True</span>)</span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>    plt.xlim(<span class="dv">0</span>, <span class="bu">max</span>(freqs))</span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>analyze_vowel(<span class="st">&#39;a&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Processing vowel: a
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/6a77a3c037488e446ae47a4d982d8228c09e3191.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/f6cd65d0a13c218f094cdcbf83b5b08516a9d1d1.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/b050954ac2fc54198634337616534afc7371f85e.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Significant frequencies for &#39;a&#39; (≥1% energy):
+[110. 112. 114. 116. 118. 120. 122.]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>analyze_vowel(<span class="st">&#39;i&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Processing vowel: i
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/c078c03324990e93f3249977ac3f7cb2f3a54ec8.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/13b6b6a1c10802f33277ba6b34db05de0b085463.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/9114d1638da815ab5be7c44f9ecb0e10019baea2.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Significant frequencies for &#39;i&#39; (≥1% energy):
+[106. 108. 110. 112. 114. 116. 216. 218. 220. 326. 328. 330. 338. 340.]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>analyze_vowel(<span class="st">&#39;o&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Processing vowel: o
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/203e1a1bcbb4cc300e740dbadb94ce402c55036a.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/2620b6d5b82e4afd80d297ecc71b96eeadb49961.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/71788e072a68e5e0644921556bdea34cec99a50d.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Significant frequencies for &#39;o&#39; (≥1% energy):
+[106. 108. 110. 112. 114. 118. 120. 122. 124. 128. 130. 132. 514.]
+</code></pre>
+</div>
+</div>
+<section
+id="1-ali-lahko-frekvenčno-sliko-signala-nedvoumno-določimo-preko-skalarnega-produkta-med-posnetim-signalom-in-izbrano-realno-sinusoido-zakaj"
+class="cell markdown">
+<h3>1. Ali lahko frekvenčno sliko signala nedvoumno določimo preko
+skalarnega produkta med posnetim signalom in izbrano realno sinusoido?
+Zakaj?</h3>
+<p>Ne, frekvenčne slike ne moremo nedvoumno določiti z realno sinusoido,
+saj ta ne loči med pozitivnimi in negativnimi frekvencami. Poleg tega
+zajame le realni del frekvenčne komponente, zato izgubimo informacijo o
+fazi in lahko podcenimo energijo. Za popolno frekvenčno sliko
+potrebujemo projekcijo na kompleksne eksponente, kot pri Fourierjevi
+transformaciji.</p>
+</section>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>vowel <span class="op">=</span> <span class="st">&#39;a&#39;</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>duration <span class="op">=</span> <span class="fl">0.5</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> <span class="dv">2000</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>rate, signal <span class="op">=</span> load_audio(<span class="ss">f&quot;audio_data/</span><span class="sc">{</span>vowel<span class="sc">}</span><span class="ss">_2_trimmed.wav&quot;</span>)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>signal <span class="op">=</span> trim_signal(signal, rate, duration)</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>freq_resolution <span class="op">=</span> <span class="dv">1</span> <span class="op">/</span> duration</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>freqs <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="bu">min</span>(N, rate <span class="op">/</span> <span class="dv">2</span>) <span class="op">+</span> freq_resolution, freq_resolution)</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>real_mag <span class="op">=</span> real_scalar_product(signal, rate, freqs)</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>complex_mag <span class="op">=</span> complex_scalar_product(signal, rate, freqs)</span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">5</span>))</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>plt.plot(freqs, real_mag, label<span class="op">=</span><span class="st">&#39;Real scalar product&#39;</span>)</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>plt.plot(freqs, complex_mag, label<span class="op">=</span><span class="st">&#39;Complex scalar product&#39;</span>, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;Primerjava realnih in kompleksnih skalarskih produktov za &#39;</span><span class="sc">{</span>vowel<span class="sc">}</span><span class="ss">&#39;&quot;</span>)</span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Frekvenca (Hz)&quot;</span>)</span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Magnituda&quot;</span>)</span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>plt.xlim(<span class="dv">0</span>, N)</span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/389a449fbb430b0b2eb9a292a153f87623181ec6.png" /></p>
+</div>
+</div>
+<section
+id="2-ali-lahko-frekvenčno-sliko-signala-nedvoumno-določimo-preko-skalarnega-produkta-med-posnetim-signalom-in-izbrano-kompleksno-sinusoido-kako-na-to-vpliva-dolžina-opazovanega-intervala-signala-zakaj"
+class="cell markdown">
+<h3>2. Ali lahko frekvenčno sliko signala nedvoumno določimo preko
+skalarnega produkta med posnetim signalom in izbrano kompleksno
+sinusoido? Kako na to vpliva dolžina opazovanega intervala signala?
+Zakaj?</h3>
+<p>Da, preko kompleksnih sinusoid lahko določimo nedvoumno frekvenčno
+sliko, saj kompleksne sinusoide vsebujejo fazno informacijo, ki loči
+pozitivne od negativnih frekvenc.</p>
+<p>Dolžina opazovanega intervala signala vpliva na frekvenčno
+resolucijo: daljši interval omogoča boljšo ločljivost frekvenc (manjši
+frekvenčni korak), medtem ko krajši interval povzroči širjenje spektra
+zaradi efektov diskretizacije in omejene resolucije (<em>spectral
+leakage</em>).</p>
+<p>To lahko opazujemo na primerjavi rezultatov za različna trajanja
+signala.</p>
+</section>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>vowel <span class="op">=</span> <span class="st">&#39;a&#39;</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>durations <span class="op">=</span> [<span class="fl">0.2</span>, <span class="fl">0.5</span>]</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> <span class="dv">2000</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">14</span>,<span class="dv">6</span>))</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, duration <span class="kw">in</span> <span class="bu">enumerate</span>(durations):</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>    rate, signal <span class="op">=</span> load_audio(<span class="ss">f&quot;audio_data/</span><span class="sc">{</span>vowel<span class="sc">}</span><span class="ss">_2_trimmed.wav&quot;</span>)</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    signal <span class="op">=</span> trim_signal(signal, rate, duration)</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    freq_resolution <span class="op">=</span> <span class="dv">1</span> <span class="op">/</span> duration</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>    freqs <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="bu">min</span>(N, rate <span class="op">/</span> <span class="dv">2</span>) <span class="op">+</span> freq_resolution, freq_resolution)</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>    complex_mag <span class="op">=</span> complex_scalar_product(signal, rate, freqs)</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, i<span class="op">+</span><span class="dv">1</span>)</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>    plt.plot(freqs, complex_mag)</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&quot;Kompleksni skalarski produkt</span><span class="ch">\n</span><span class="ss">Trajanje: </span><span class="sc">{</span>duration<span class="sc">}</span><span class="ss">s&quot;</span>)</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&quot;Frekvenca (Hz)&quot;</span>)</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&quot;Magnituda&quot;</span>)</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">True</span>)</span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>    plt.xlim(<span class="dv">0</span>, N)</span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/6139d30cd00283e527d4fe63062fc9d8538afdc5.png" /></p>
+</div>
+</div>
+<section
+id="3-katere-vse-frekvence-so-prisotne-v-izgovorjavi-samoglasnikov-a-i-in-o-osredotočite-se-na-frekvence-ki-predstavljajo-vsaj-1--celotne-energije-signala"
+class="cell markdown">
+<h3>3. Katere vse frekvence so prisotne v izgovorjavi samoglasnikov »a«,
+»i« in »o« (osredotočite se na frekvence, ki predstavljajo vsaj 1 %
+celotne energije signala)?</h3>
+<p>Pomembne frekvence so tiste, katerih kvadrat magnitude skalarskega
+produkta (energija) predstavlja vsaj 1 % celotne energije signala.<br />
+To so t.i. formanti samoglasnikov in osnovni toni, ki karakterizirajo
+njihovo zvočno barvo.</p>
+<p>Spodaj izpišemo pomembne frekvence za vse tri samoglasnike.</p>
+</section>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_significant_freqs(vowel, duration<span class="op">=</span><span class="fl">0.5</span>, N<span class="op">=</span><span class="dv">2000</span>, energy_threshold<span class="op">=</span><span class="fl">0.01</span>):</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    rate, signal <span class="op">=</span> load_audio(<span class="ss">f&quot;audio_data/</span><span class="sc">{</span>vowel<span class="sc">}</span><span class="ss">_2_trimmed.wav&quot;</span>)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>    signal <span class="op">=</span> trim_signal(signal, rate, duration)</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>    freq_resolution <span class="op">=</span> <span class="dv">1</span> <span class="op">/</span> duration</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>    freqs <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="bu">min</span>(N, rate <span class="op">/</span> <span class="dv">2</span>) <span class="op">+</span> freq_resolution, freq_resolution)</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>    complex_mag <span class="op">=</span> complex_scalar_product(signal, rate, freqs)</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>    total_energy <span class="op">=</span> np.<span class="bu">sum</span>(complex_mag <span class="op">**</span> <span class="dv">2</span>)</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>    threshold <span class="op">=</span> energy_threshold <span class="op">*</span> total_energy</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>    mask <span class="op">=</span> complex_mag <span class="op">**</span> <span class="dv">2</span> <span class="op">&gt;=</span> threshold</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>    significant_freqs <span class="op">=</span> freqs[mask]</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>    significant_mags <span class="op">=</span> complex_mag[mask]</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">5</span>))</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>    plt.stem(significant_freqs, significant_mags)  <span class="co"># Removed use_line_collection argument</span></span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&quot;Significant Frequencies for vowel &#39;</span><span class="sc">{</span>vowel<span class="sc">}</span><span class="ss">&#39; (≥</span><span class="sc">{</span>energy_threshold<span class="op">*</span><span class="dv">100</span><span class="sc">}</span><span class="ss">% energy)&quot;</span>)</span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&quot;Frequency (Hz)&quot;</span>)</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&quot;Magnitude&quot;</span>)</span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">True</span>)</span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> vowel <span class="kw">in</span> [<span class="st">&#39;a&#39;</span>, <span class="st">&#39;i&#39;</span>, <span class="st">&#39;o&#39;</span>]:</span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>    plot_significant_freqs(vowel)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/ee9fbe8d2adf2d3d6310056b09101a22dd5bb58c.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/27712a48d4f20aa2488e2d3896870ace900f71af.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/5e662fcdcf5acee659c48a724cd7a1abdb7436c9.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<h3
+id="4-kako-so-frekvence-ki-so-prisotne-v-izgovorjavi-samoglasnikov-a-i-in-o-odvisne-od-višine-tona-izgovorjave">4.
+Kako so frekvence, ki so prisotne v izgovorjavi samoglasnikov »a«, »i«
+in »o«, odvisne od višine tona izgovorjave?</h3>
+<p>Višina tona vpliva na osnovno frekvenco (fundamental), ki se kaže kot
+najnižji vrh v frekvenčni sliki.<br />
+Višji toni pomenijo višjo osnovno frekvenco, ki premika tudi višje
+harmonike.<br />
+Frekvence formantov pa so predvsem odvisne od fizioloških značilnosti
+govorca in samoglasnika.</p>
+<h3
+id="5-kako-se-z-višino-tona-izgovorjave-spremeni-pojav-višjih-harmonikov-v-frekvenčni-sliki">5.
+Kako se z višino tona izgovorjave spremeni pojav višjih harmonikov v
+frekvenčni sliki?</h3>
+<p>Z višjo višino tona se osnovna frekvenca in s tem višji harmoniki
+premaknejo proti višjim frekvencam.<br />
+To pomeni, da se v frekvenčni sliki pojavijo vrhovi na višjih
+frekvencah, ki so večkratniki osnovne frekvence.<br />
+Pri analizi več posnetkov z različnimi višinskimi toni lahko opazimo te
+premike harmonikov.</p>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> analyze_recording(filename, duration<span class="op">=</span><span class="fl">0.5</span>, plot<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>    signal, fs <span class="op">=</span> sf.read(filename)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    N <span class="op">=</span> <span class="bu">len</span>(signal)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>    fft_result <span class="op">=</span> np.fft.rfft(signal)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>    mag <span class="op">=</span> np.<span class="bu">abs</span>(fft_result)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>    freqs <span class="op">=</span> np.fft.rfftfreq(N, <span class="dv">1</span><span class="op">/</span>fs)</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>    peaks, properties <span class="op">=</span> find_peaks(mag, height<span class="op">=</span>np.<span class="bu">max</span>(mag)<span class="op">*</span><span class="fl">0.1</span>, distance<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>    fundamental_freq <span class="op">=</span> freqs[peaks[<span class="dv">0</span>]] <span class="cf">if</span> <span class="bu">len</span>(peaks) <span class="op">&gt;</span> <span class="dv">0</span> <span class="cf">else</span> <span class="va">None</span></span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> plot:</span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>        plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">4</span>))</span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>        plt.plot(freqs, mag, label<span class="op">=</span><span class="st">&#39;Magnitude Spectrum&#39;</span>)</span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>        plt.plot(freqs[peaks], mag[peaks], <span class="st">&quot;x&quot;</span>, label<span class="op">=</span><span class="st">&#39;Peaks&#39;</span>)</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>        plt.title(<span class="ss">f&quot;Frequency Spectrum for </span><span class="sc">{</span>os<span class="sc">.</span>path<span class="sc">.</span>basename(filename)<span class="sc">}</span><span class="ch">\n</span><span class="ss">Fundamental: </span><span class="sc">{</span>fundamental_freq<span class="sc">:.1f}</span><span class="ss"> Hz&quot;</span>)</span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>        plt.xlabel(<span class="st">&quot;Frequency (Hz)&quot;</span>)</span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>        plt.ylabel(<span class="st">&quot;Magnitude&quot;</span>)</span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>        plt.grid(<span class="va">True</span>)</span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>        plt.legend()</span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>        plt.show()</span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> fundamental_freq, freqs[peaks], mag[peaks]</span>
+<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a>vowels <span class="op">=</span> [<span class="st">&#39;a&#39;</span>, <span class="st">&#39;i&#39;</span>, <span class="st">&#39;o&#39;</span>]</span>
+<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a>pitch_labels <span class="op">=</span> [<span class="st">&#39;low&#39;</span>, <span class="st">&#39;mid&#39;</span>, <span class="st">&#39;high&#39;</span>]</span>
+<span id="cb15-29"><a href="#cb15-29" aria-hidden="true" tabindex="-1"></a>base_dir <span class="op">=</span> <span class="st">&#39;recordings&#39;</span></span>
+<span id="cb15-30"><a href="#cb15-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-31"><a href="#cb15-31" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> {}</span>
+<span id="cb15-32"><a href="#cb15-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-33"><a href="#cb15-33" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> vowel <span class="kw">in</span> vowels:</span>
+<span id="cb15-34"><a href="#cb15-34" aria-hidden="true" tabindex="-1"></a>    results[vowel] <span class="op">=</span> {}</span>
+<span id="cb15-35"><a href="#cb15-35" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> pitch <span class="kw">in</span> pitch_labels:</span>
+<span id="cb15-36"><a href="#cb15-36" aria-hidden="true" tabindex="-1"></a>        filepath <span class="op">=</span> os.path.join(base_dir, vowel, <span class="ss">f&quot;</span><span class="sc">{</span>vowel<span class="sc">}</span><span class="ss">_</span><span class="sc">{</span>pitch<span class="sc">}</span><span class="ss">.wav&quot;</span>)</span>
+<span id="cb15-37"><a href="#cb15-37" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> os.path.isfile(filepath):</span>
+<span id="cb15-38"><a href="#cb15-38" aria-hidden="true" tabindex="-1"></a>            fundamental, peak_freqs, peak_mags <span class="op">=</span> analyze_recording(filepath)</span>
+<span id="cb15-39"><a href="#cb15-39" aria-hidden="true" tabindex="-1"></a>            results[vowel][pitch] <span class="op">=</span> {</span>
+<span id="cb15-40"><a href="#cb15-40" aria-hidden="true" tabindex="-1"></a>                <span class="st">&#39;fundamental_freq&#39;</span>: fundamental,</span>
+<span id="cb15-41"><a href="#cb15-41" aria-hidden="true" tabindex="-1"></a>                <span class="st">&#39;peak_freqs&#39;</span>: peak_freqs,</span>
+<span id="cb15-42"><a href="#cb15-42" aria-hidden="true" tabindex="-1"></a>                <span class="st">&#39;peak_mags&#39;</span>: peak_mags</span>
+<span id="cb15-43"><a href="#cb15-43" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb15-44"><a href="#cb15-44" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&quot;Vowel &#39;</span><span class="sc">{</span>vowel<span class="sc">}</span><span class="ss">&#39;, pitch &#39;</span><span class="sc">{</span>pitch<span class="sc">}</span><span class="ss">&#39;: Fundamental frequency ≈ </span><span class="sc">{</span>fundamental<span class="sc">:.1f}</span><span class="ss"> Hz&quot;</span>)</span>
+<span id="cb15-45"><a href="#cb15-45" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb15-46"><a href="#cb15-46" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&quot;File not found: </span><span class="sc">{</span>filepath<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/2e3c355501c7598358a756ad5637bf8bc56b649a.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Vowel &#39;a&#39;, pitch &#39;low&#39;: Fundamental frequency ≈ 104.0 Hz
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/c6ec57970867ad86f1be10f2eafb32f7f94615fb.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Vowel &#39;a&#39;, pitch &#39;mid&#39;: Fundamental frequency ≈ 122.0 Hz
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/8ea2cb70feb3bff5adde79deaa35342e7bf9b711.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Vowel &#39;a&#39;, pitch &#39;high&#39;: Fundamental frequency ≈ 192.0 Hz
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/338d49bbc637273dee005298a647553d70bae50a.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Vowel &#39;i&#39;, pitch &#39;low&#39;: Fundamental frequency ≈ 94.0 Hz
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/d0d53ae84b25b862c489fecc1ceadb98b4c0fa08.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Vowel &#39;i&#39;, pitch &#39;mid&#39;: Fundamental frequency ≈ 118.0 Hz
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/c5b68a222d0d2c0a5deaad3415feefe56cfe5f45.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Vowel &#39;i&#39;, pitch &#39;high&#39;: Fundamental frequency ≈ 210.0 Hz
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/b675851e6d31de47fe94a2bc338f6904e660149f.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Vowel &#39;o&#39;, pitch &#39;low&#39;: Fundamental frequency ≈ 102.0 Hz
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/58a3d61ae84daad58bc1c15e1f3f6b290d8fd821.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Vowel &#39;o&#39;, pitch &#39;mid&#39;: Fundamental frequency ≈ 138.0 Hz
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_43b6df53849b4b90b6ec707deddf41ba/6defcb68e9ee4daa01e7e5f6935f3d379fa089ac.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Vowel &#39;o&#39;, pitch &#39;high&#39;: Fundamental frequency ≈ 212.0 Hz
+</code></pre>
+</div>
+</div>
+</body>
+</html>
