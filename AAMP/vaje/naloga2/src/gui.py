@@ -1,8 +1,7 @@
 import sys
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, 
                             QHBoxLayout, QComboBox, QPushButton, QLabel, 
-                            QLineEdit, QGroupBox, QTabWidget, QTableWidget,
-                            QTableWidgetItem, QHeaderView, QSpinBox)
+                            QLineEdit, QGroupBox, QTabWidget, QSpinBox)
 from PyQt5.QtCore import Qt
 import numpy as np
 import matplotlib.pyplot as plt

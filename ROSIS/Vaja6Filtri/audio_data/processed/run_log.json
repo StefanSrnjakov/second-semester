@@ -1,0 +1,134 @@
+{
+  "a_2_trimmed": {
+    "f0_hz": 114.84375,
+    "harmonics": [
+      2,
+      3,
+      6,
+      8,
+      10
+    ],
+    "comb_bw_hz": 100.0,
+    "iir_family": "ellip",
+    "iir_order": 4,
+    "iir_half_bw_hz": 10.0,
+    "iir_rp": 0.5,
+    "iir_rs": 50.0,
+    "fs": 44100,
+    "paths": {
+      "in": "audio_data/a_2_trimmed.wav",
+      "out_comb": "audio_data/processed/a_2_trimmed_combYW.wav",
+      "out_iir": "audio_data/processed/a_2_trimmed_iir_ellip_N4.wav"
+    }
+  },
+  "o_1_trimmed": {
+    "f0_hz": 103.76470588235294,
+    "harmonics": [
+      2,
+      3,
+      6,
+      8,
+      10
+    ],
+    "comb_bw_hz": 100.0,
+    "iir_family": "ellip",
+    "iir_order": 4,
+    "iir_half_bw_hz": 10.0,
+    "iir_rp": 0.5,
+    "iir_rs": 50.0,
+    "fs": 44100,
+    "paths": {
+      "in": "audio_data/o_1_trimmed.wav",
+      "out_comb": "audio_data/processed/o_1_trimmed_combYW.wav",
+      "out_iir": "audio_data/processed/o_1_trimmed_iir_ellip_N4.wav"
+    }
+  },
+  "o_2_trimmed": {
+    "f0_hz": 127.08933717579251,
+    "harmonics": [
+      2,
+      3,
+      6,
+      8,
+      10
+    ],
+    "comb_bw_hz": 100.0,
+    "iir_family": "ellip",
+    "iir_order": 4,
+    "iir_half_bw_hz": 10.0,
+    "iir_rp": 0.5,
+    "iir_rs": 50.0,
+    "fs": 44100,
+    "paths": {
+      "in": "audio_data/o_2_trimmed.wav",
+      "out_comb": "audio_data/processed/o_2_trimmed_combYW.wav",
+      "out_iir": "audio_data/processed/o_2_trimmed_iir_ellip_N4.wav"
+    }
+  },
+  "a_1_trimmed": {
+    "f0_hz": 97.78270509977827,
+    "harmonics": [
+      2,
+      3,
+      6,
+      8,
+      10
+    ],
+    "comb_bw_hz": 100.0,
+    "iir_family": "ellip",
+    "iir_order": 4,
+    "iir_half_bw_hz": 10.0,
+    "iir_rp": 0.5,
+    "iir_rs": 50.0,
+    "fs": 44100,
+    "paths": {
+      "in": "audio_data/a_1_trimmed.wav",
+      "out_comb": "audio_data/processed/a_1_trimmed_combYW.wav",
+      "out_iir": "audio_data/processed/a_1_trimmed_iir_ellip_N4.wav"
+    }
+  },
+  "i_2_trimmed": {
+    "f0_hz": 110.25,
+    "harmonics": [
+      2,
+      3,
+      6,
+      8,
+      10
+    ],
+    "comb_bw_hz": 100.0,
+    "iir_family": "ellip",
+    "iir_order": 4,
+    "iir_half_bw_hz": 10.0,
+    "iir_rp": 0.5,
+    "iir_rs": 50.0,
+    "fs": 44100,
+    "paths": {
+      "in": "audio_data/i_2_trimmed.wav",
+      "out_comb": "audio_data/processed/i_2_trimmed_combYW.wav",
+      "out_iir": "audio_data/processed/i_2_trimmed_iir_ellip_N4.wav"
+    }
+  },
+  "i_1_trimmed": {
+    "f0_hz": 97.78270509977827,
+    "harmonics": [
+      2,
+      3,
+      6,
+      8,
+      10
+    ],
+    "comb_bw_hz": 100.0,
+    "iir_family": "ellip",
+    "iir_order": 4,
+    "iir_half_bw_hz": 10.0,
+    "iir_rp": 0.5,
+    "iir_rs": 50.0,
+    "fs": 44100,
+    "paths": {
+      "in": "audio_data/i_1_trimmed.wav",
+      "out_comb": "audio_data/processed/i_1_trimmed_combYW.wav",
+      "out_iir": "audio_data/processed/i_1_trimmed_iir_ellip_N4.wav"
+    }
+  }
+}

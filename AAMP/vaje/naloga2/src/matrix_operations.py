@@ -4,16 +4,7 @@ Matrix operations for linear regression.
 import numpy as np
 
 def matrix_multiply(A, B):
-    """
-    Multiply two matrices.
-    
-    Args:
-        A (numpy.ndarray): First matrix
-        B (numpy.ndarray): Second matrix
-        
-    Returns:
-        numpy.ndarray: Result of matrix multiplication
-    """
+
     # Convert to numpy arrays if they aren't already
     A = np.array(A)
     B = np.array(B)
@@ -27,15 +18,7 @@ def matrix_multiply(A, B):
     return np.dot(A, B)
 
 def matrix_transpose(A):
-    """
-    Transpose a matrix.
-    
-    Args:
-        A (numpy.ndarray): Input matrix
-        
-    Returns:
-        numpy.ndarray: Transposed matrix
-    """
+
     return np.array(A).T
 
 def matrix_inverse(A):

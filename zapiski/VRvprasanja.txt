@@ -1,0 +1,17 @@
+pitanja su bila
+Koji je zadatak osobe sa master diplomom (sa prvog predavanja)
+Asimovi zakoni robotike i kako bi se mogli upotrebiti na primeru društvene mreže.
+5 vrsta smart interakcije i po primer za svaku.
+Šta je QoS u MQTT i napisati 5 primera tema za smart ključavnicu
+
+Vseprisotno:
+Bilo je 7 pitanja po 10 bodova + po 10 bodova za kolokvijumske vaje (sa predavanja) ako si radio
+
+1. Zapornikova dilema - bila je matrica sa vrednostima i onda pita sta A da radi ako B izda npr. i koja je dominantna strategija za A
+2. Sta je stanje propada i primer stanja propada u AI
+3. Tovarna vcasih vs Tovarna 4.0 sta je koja, koje su razlike
+4. Sta je bistveni element u Kiber-fizicnem sistemu
+5. Efekt: prekomirnega oz. negativne motivacije i primer
+6. Sta je Politika vzdrževanja podatkov (RETENTION POLICY) u kontekstu bazi casovnih vrst
+7. Sta je platno poslovnega modela i zasto je dobro
+8. Koliko si kolokvijumskih vaja uradio? (10p 10p 10p)

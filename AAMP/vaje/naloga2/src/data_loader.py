@@ -1,19 +1,6 @@
-"""
-Data loading functionality for regression analysis.
-"""
 import numpy as np
 
 def load_data(filepath):
-    """
-    Load data from file.
-    
-    Args:
-        filepath (str): Path to the data file
-        
-    Returns:
-        tuple: (X, y) feature matrix and target vector
-    """
-    # Skip the header row and load the data
     data = np.loadtxt(filepath, skiprows=1)
     
     # For multilinear data, all columns except the last one are features

@@ -7,7 +7,6 @@ from .data_preprocessing import sort_data, center_data, create_polynomial_featur
 
 class LinearRegression:
     def __init__(self):
-        """Initialize the LinearRegression model."""
         self.coefficients = None
         self.b0 = None
         self.X_mean = None
